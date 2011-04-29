@@ -1,0 +1,28 @@
+ngcp-templates (2.2.0) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * Added monitoring-tools and removed collective-check from depends.
+  * Added www templates to depends.
+  * Improved package descriptions.
+  * Added rate-o-mat templates to depends.
+  * Added cleanup tools to depends.
+  * Added lsb templates to depends.
+  * Removed heartbeat and monit from depends.
+
+  [ Andreas Granig ]
+  * Added mediaproxy-ng templates to depends.
+
+ -- Michael Prokop <mprokop@sipwise.com>  Fri, 29 Apr 2011 01:53:58 +0200
+
+ngcp-templates (2.1.1) unstable; urgency=low
+
+  * Reminder added to dependency list
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Sun, 10 Oct 2010 12:09:08 +0200
+
+ngcp-templates (2.1.0-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Thu, 30 Sep 2010 12:09:08 +0200
+

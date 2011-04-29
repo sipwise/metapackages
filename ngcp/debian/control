@@ -1,0 +1,21 @@
+Source: ngcp-ngcp
+Section: utils
+Priority: extra
+Maintainer: Jon Bonilla <jbonilla@sipwise.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.9.1
+Homepage: http://sipwise.com/
+
+Package: ngcp-ngcp-pro
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-config-pro, ngcp-services-pro, ngcp-nth-pro, ngcp-keyring
+Conflicts: ngcp-ngcp-ce
+Description: Metapackage for Sipwise's NGCP platform
+ This metapackage installs all the packages needed in a NGCP sip:provider PRO platform environment.
+
+Package: ngcp-ngcp-ce
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-config-ce, ngcp-services-ce, ngcp-nth-ce, ngcp-keyring
+Conflicts: ngcp-ngcp-pro
+Description: Metapackage for Sipwise's NGCP platform
+ This metapackage installs all the packages needed in a NGCP sip:provider CE platform environment.

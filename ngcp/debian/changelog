@@ -1,0 +1,14 @@
+ngcp-ngcp (2.2.0) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * Improve package description.
+  * Added ngcp-keyring to ngcp metapackage dependencies.
+
+ -- Michael Prokop <mprokop@sipwise.com>  Fri, 29 Apr 2011 01:36:57 +0200
+
+ngcp-ngcp (2.1.0) unstable; urgency=low
+
+  * Initial release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Sun, 10 Oct 2010 12:09:08 +0200
+

@@ -1,0 +1,21 @@
+Source: ngcp-config
+Section: utils
+Priority: extra
+Maintainer: Jon Bonilla <jbonilla@sipwise.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.9.1
+Homepage: http://sipwise.com/
+
+Package: ngcp-config-pro
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-pro, ngcp-ngcpcfg, ngcp-ngcpcfg-ha, ngcp-templates-pro-config
+Conflicts: ngcp-config-ce
+Description: Metapackage for NGCP platform configuration system
+ This metapackage installs the ngcp configuration system for the NGCP sip:provider PRO platform.
+
+Package: ngcp-config-ce
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-ce, ngcp-ngcpcfg, ngcp-templates-ce-config
+Conflicts: ngcp-config-pro
+Description: Metapackage for NGCP platform configuration system
+ This metapackage installs the ngcp configuration system for the NGCP sip:provider CE platform.
