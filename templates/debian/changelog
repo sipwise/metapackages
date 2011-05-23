@@ -1,3 +1,10 @@
+ngcp-templates (2.2.1) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * Remove legacy rtpproxy templates from dependencies
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 23 May 2011 12:09:08 +0200
+
 ngcp-templates (2.2.0) unstable; urgency=low
 
   [ Jon Bonilla ]
