@@ -8,7 +8,7 @@ Homepage: http://sipwise.com/
 
 Package: ngcp-templates-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-pro-asterisk, ngcp-templates-pro-glusterfs, ngcp-templates-pro-ha, ngcp-templates-pro-kamailio, ngcp-templates-pro-mediator, ngcp-templates-pro-monitoring-tools, ngcp-templates-pro-check-tools, ngcp-templates-pro-mysql, ngcp-templates-pro-odbc, ngcp-templates-pro-ossbss, ngcp-templates-pro-sems, ngcp-templates-pro-system, ngcp-templates-pro-reminder, ngcp-templates-pro-cdr-exporter, ngcp-templates-pro-vmnotify, ngcp-templates-pro-www-admin, ngcp-templates-pro-www-csc, ngcp-templates-pro-rate-o-mat, ngcp-templates-pro-cleanup-tools, ngcp-templates-pro-lsb, ngcp-templates-pro-mediaproxy-ng
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-pro-asterisk, ngcp-templates-pro-glusterfs, ngcp-templates-pro-ha, ngcp-templates-pro-kamailio, ngcp-templates-pro-mediator, ngcp-templates-pro-monitoring-tools, ngcp-templates-pro-check-tools, ngcp-templates-pro-mysql, ngcp-templates-pro-odbc, ngcp-templates-pro-ossbss, ngcp-templates-pro-sems, ngcp-templates-pro-system, ngcp-templates-pro-reminder, ngcp-templates-pro-cdr-exporter, ngcp-templates-pro-vmnotify, ngcp-templates-pro-www-admin, ngcp-templates-pro-www-csc, ngcp-templates-pro-rate-o-mat, ngcp-templates-pro-cleanup-tools, ngcp-templates-pro-lsb, ngcp-templates-pro-mediaproxy-ng, ngcp-templates-pro-redis
 Conflicts: ngcp-templates-ce
 Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates for the NGCP sip:provider PRO platform's configuration framework.
