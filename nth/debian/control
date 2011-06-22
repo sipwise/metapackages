@@ -8,12 +8,12 @@ Homepage: http://sipwise.com/
 
 Package: ngcp-nth-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ifenslave, vlan, ngrep-sip, screen, strace, vim, tcpdump, perl-doc, iftop, ifrename, rsync, libtemplate-perl, host, mytop, less, irqbalance
+Depends: ${shlibs:Depends}, ${misc:Depends}, ifenslave, vlan, ngrep-sip, screen, strace, vim, tcpdump, perl-doc, iftop, ifrename, rsync, libtemplate-perl, host, mytop, less, irqbalance, lsof
 Description: Metapackage for Nice To Have tools in NGCP platforms
  This metapackage installs several nice to have tools in a NGCP sip:provider PRO platform.
 
 Package: ngcp-nth-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ifenslave, vlan, ngrep-sip, screen, strace, vim, tcpdump, perl-doc, iftop, ifrename, rsync, libtemplate-perl, host, mytop, less, irqbalance
+Depends: ${shlibs:Depends}, ${misc:Depends}, ifenslave, vlan, ngrep-sip, screen, strace, vim, tcpdump, perl-doc, iftop, ifrename, rsync, libtemplate-perl, host, mytop, less, irqbalance, lsof
 Description: Metapackage for Nice To Have tools in NGCP platforms
  This metapackage installs several nice to have tools in a NGCP sip:provider CE platform.
