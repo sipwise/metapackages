@@ -1,3 +1,9 @@
+ngcp-templates (2.3.0) unstable; urgency=low
+
+  * Align version with release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 04 Jul 2011 12:09:08 +0200
+
 ngcp-templates (2.2.1) unstable; urgency=low
 
   [ Jon Bonilla ]

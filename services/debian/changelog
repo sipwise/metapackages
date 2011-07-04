@@ -1,3 +1,9 @@
+ngcp-services (2.3.0) unstable; urgency=low
+
+  * Align version with release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 04 Jul 2011 12:09:08 +0200
+
 ngcp-services (2.2.0) lucid; urgency=low
 
   * Replace kamailio-xmlrpc-module by kamailio-xml-module
