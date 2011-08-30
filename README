@@ -1,12 +1,12 @@
-Metapackage folders for ngcp2
+Metapackage folders for ngcp
 
 Installer depends on bash only. It will install ngcp metapackage that depends on:
 
-*ngcp-ngcp: Metapackage with all required packages
-   * ngcp-services : Metapackage for required services
+* ngcp-ngcp: Metapackage with all required packages
+   * ngcp-services: Metapackage for required services
    * ngcp-config: Metapackage for configuration framework. Depends on:
 	* ngcp-templates : Metapackage for template packages
-	* ngcp-snazzy: Config framwork magic
+	* ngcp-ngcpcfg: Config framework magic
 	* ngcp-config-main: Main config file
-   * ngcp-nth: Metapackage for usefull tools
+   * ngcp-nth: Metapackage for useful tools
    * ngcp-keyring: repository keys
