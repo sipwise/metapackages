@@ -1,0 +1,9 @@
+ngcp-metapackages (2.4.0~beta1) UNRELEASED; urgency=low
+
+  * Initial release of single-source multi-binary package.
+    This source package now provides all the platform packages
+    for ngcp-config, ngcp-ngcp, ngcp-nth, ngcp-services and
+    ngcp-templates.
+
+ -- Michael Prokop <mprokop@sipwise.com>  Tue, 30 Aug 2011 15:45:48 +0200
+
