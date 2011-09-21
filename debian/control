@@ -92,15 +92,3 @@ Conflicts: ngcp-templates-pro
 Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
  for the NGCP sip:provider CE platform's configuration framework.
-
-Package: ngcp-asterisk-sounds
-Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-asterisk-sounds-en, ngcp-asterisk-sounds-es, ngcp-asterisk-sounds-fr
-Description: Metapackage for ngcp-asterisk sound files
- This metapackage installs audio files needed by ngcp-asterisk package.
-
-Package: ngcp-sems-prompts
-Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-sems-prompts-en, ngcp-sems-prompts-es, ngcp-sems-prompts-fr
-Description: Metapackage for ngcp-sems sound files
- This metapackage installs audio files needed by ngcp-sems package.
