@@ -54,7 +54,7 @@ Description: Metapackage for Nice To Have tools in NGCP platforms
 
 Package: ngcp-services-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, rsyslog-mysql, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-check-tools, ngcp-system-tools-pro, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems-ha, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, glusterfs-server, glusterfs-client, mpt-status, ngcp-vmnotify, ngcp-monitoring-tools, ngcp-rsyslog-tools, ngcp-cleanup-tools, exim4, bzip2, ssh, python, snmpd, redis-server, monit, heartbeat-2
+Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-check-tools, ngcp-system-tools-pro, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems-ha, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, glusterfs-server, glusterfs-client, mpt-status, ngcp-vmnotify, ngcp-monitoring-tools, ngcp-rsyslog-tools, ngcp-cleanup-tools, exim4, bzip2, ssh, python, snmpd, redis-server, monit, heartbeat-2
 Conflicts: ngcp-services-ce
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
@@ -62,7 +62,7 @@ Description: Metapackage for NGCP platform services
 
 Package: ngcp-services-pro-ha-v3
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, rsyslog-mysql, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-check-tools, ngcp-system-tools-pro, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems-ha, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, glusterfs-server, glusterfs-client, mpt-status, ngcp-vmnotify, ngcp-monitoring-tools, ngcp-rsyslog-tools, ngcp-cleanup-tools, exim4, pacemaker, corosync, bzip2, ssh, python, snmpd, redis-server
+Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-check-tools, ngcp-system-tools-pro, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems-ha, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, glusterfs-server, glusterfs-client, mpt-status, ngcp-vmnotify, ngcp-monitoring-tools, ngcp-rsyslog-tools, ngcp-cleanup-tools, exim4, pacemaker, corosync, bzip2, ssh, python, snmpd, redis-server
 Conflicts: ngcp-services-ce
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
@@ -70,7 +70,7 @@ Description: Metapackage for NGCP platform services
 
 Package: ngcp-services-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, rsyslog-mysql, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, ngcp-vmnotify, ngcp-check-tools, ngcp-system-tools-ce, ngcp-rsyslog-tools, ngcp-cleanup-tools, bsd-mailx | mailx, ssh, bzip2, python
+Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, ngcp-vmnotify, ngcp-check-tools, ngcp-system-tools-ce, ngcp-rsyslog-tools, ngcp-cleanup-tools, bsd-mailx | mailx, ssh, bzip2, python
 Conflicts: ngcp-services-pro
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
@@ -92,3 +92,15 @@ Conflicts: ngcp-templates-pro
 Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
  for the NGCP sip:provider CE platform's configuration framework.
+
+Package: ngcp-asterisk-sounds
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-asterisk-sounds-en, ngcp-asterisk-sounds-es, ngcp-asterisk-sounds-fr
+Description: Metapackage for ngcp-asterisk sound files
+ This metapackage installs audio files needed by ngcp-asterisk package.
+
+Package: ngcp-sems-prompts
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-sems-prompts-en, ngcp-sems-prompts-es, ngcp-sems-prompts-fr
+Description: Metapackage for ngcp-sems sound files
+ This metapackage installs audio files needed by ngcp-sems package.
