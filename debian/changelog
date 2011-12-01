@@ -1,4 +1,18 @@
-ngcp-metapackages (2.4.0~beta1) UNRELEASED; urgency=low
+ngcp-metapackages (2.4.0) unstable; urgency=low
+
+   *  replace dependency on ngcp-cleanup-tools with ngcp-cleanup-tools-{ce,pro}
+   *  add dstat and sysstat to Depends of ngcp-nth-{pro,ce}
+   *  use team as entry in Maintainer field of debian/control
+   *  use telnet-ssl instead of telnet as dependency inside the ngcp-nth-* packages
+   *  install kamailio-tls-modules as dependency of ngcp-services-*
+   *  Add sharutils to NTH list Extend snmpd.conf template by community/source list and complete list of checks Update collectd list of monitored processes
+   *  Add "snmp" to nth-pro metapackage
+   *  Remove debian/ directory in all subprojects to finalize single-source multi-binary packaging
+   *  ngcp-services-ce: add alternative depends on bsd-mailx to make lintian happy
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Thu, 01 Dec 2011 12:09:08 +0200
+
+ngcp-metapackages (2.4.0~beta1) unstable; urgency=low
 
   * Initial release of single-source multi-binary package.
     This source package now provides all the platform packages
@@ -6,4 +20,136 @@ ngcp-metapackages (2.4.0~beta1) UNRELEASED; urgency=low
     ngcp-templates.
 
  -- Michael Prokop <mprokop@sipwise.com>  Tue, 30 Aug 2011 15:45:48 +0200
+
+ngcp-services (2.3.0) unstable; urgency=low
+
+  * Align version with release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 04 Jul 2011 12:09:08 +0200
+
+ngcp-services (2.2.0) lucid; urgency=low
+
+  * Replace kamailio-xmlrpc-module by kamailio-xml-module
+  * Replace rtpproxy by ngcp-mediaproxy-ng
+
+ -- Andreas Granig <agranig@sipwise.com>  Tue, 26 Apr 2011 18:24:07 +0200
+
+ngcp-services (2.1.0) unstable; urgency=low
+
+  * Initial release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Sun, 10 Oct 2010 12:09:08 +0200
+
+ngcp-templates (2.3.0) unstable; urgency=low
+
+  * Align version with release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 04 Jul 2011 12:09:08 +0200
+
+ngcp-templates (2.2.1) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * Remove legacy rtpproxy templates from dependencies
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 23 May 2011 12:09:08 +0200
+
+ngcp-templates (2.2.0) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * Added monitoring-tools and removed collective-check from depends.
+  * Added www templates to depends.
+  * Improved package descriptions.
+  * Added rate-o-mat templates to depends.
+  * Added cleanup tools to depends.
+  * Added lsb templates to depends.
+  * Removed heartbeat and monit from depends.
+
+  [ Andreas Granig ]
+  * Added mediaproxy-ng templates to depends.
+
+ -- Michael Prokop <mprokop@sipwise.com>  Fri, 29 Apr 2011 01:53:58 +0200
+
+ngcp-templates (2.1.1) unstable; urgency=low
+
+  * Reminder added to dependency list
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Sun, 10 Oct 2010 12:09:08 +0200
+
+ngcp-templates (2.1.0-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Thu, 30 Sep 2010 12:09:08 +0200
+
+ngcp-ngcp (2.3.0) unstable; urgency=low
+
+  * Align version with release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 04 Jul 2011 12:09:08 +0200
+
+ngcp-ngcp (2.2.0) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * Improve package description.
+  * Added ngcp-keyring to ngcp metapackage dependencies.
+
+ -- Michael Prokop <mprokop@sipwise.com>  Fri, 29 Apr 2011 01:36:57 +0200
+
+ngcp-ngcp (2.1.0) unstable; urgency=low
+
+  * Initial release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Sun, 10 Oct 2010 12:09:08 +0200
+
+ngcp-nth (2.3.0) unstable; urgency=low
+
+  * Align version with release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 04 Jul 2011 12:09:08 +0200
+
+ngcp-nth (0.2.0) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * Improved package description.
+  * Add "irqbalance" package to depends.
+  * Add "less" package to depends.
+  * Add "mytop" package to depends.
+  * Add "ssh" to depends.
+
+  [ Andreas Granig ]
+  * Add "host" package to depends.
+
+ -- Michael Prokop <mprokop@sipwise.com>  Fri, 29 Apr 2011 01:40:24 +0200
+
+ngcp-nth (0.1.1) unstable; urgency=low
+
+  * libtemplate-perl added as dependency
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Thu, 12 Oct 2010 12:09:08 +0200
+
+ngcp-nth (0.1.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Thu, 30 Sep 2010 12:09:08 +0200
+
+ngcp-config (2.3.0) unstable; urgency=low
+
+  * Align version with release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Mon, 04 Jul 2011 12:09:08 +0200
+
+ngcp-config (2.2.0) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * Add ngcp-ngcpcfg to dependencies.
+  * Improve package descriptions.
+
+ -- Michael Prokop <mprokop@sipwise.com>  Fri, 29 Apr 2011 01:33:28 +0200
+
+ngcp-config (2.1.0) unstable; urgency=low
+
+  * Initial release
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Sun, 10 Oct 2010 12:09:08 +0200
 
