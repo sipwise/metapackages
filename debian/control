@@ -54,7 +54,7 @@ Description: Metapackage for Nice To Have tools in NGCP platforms
 
 Package: ngcp-services-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-check-tools, ngcp-system-tools-pro, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems-ha, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, glusterfs-server, glusterfs-client, mpt-status, ngcp-vmnotify, ngcp-monitoring-tools, ngcp-rsyslog-tools, ngcp-cleanup-tools-pro, exim4, bzip2, ssh, python, snmpd, redis-server, monit, heartbeat-2
+Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-check-tools, ngcp-system-tools-pro, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems-ha, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, glusterfs-server, glusterfs-client, mpt-status, ngcp-vmnotify, ngcp-monitoring-tools, ngcp-rsyslog-tools, ngcp-cleanup-tools-pro, exim4, bzip2, ssh, python, snmpd, redis-server, monit, heartbeat-2, ngcp-voisniff-ng
 Conflicts: ngcp-services-ce
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
@@ -70,7 +70,7 @@ Description: Metapackage for NGCP platform services
 
 Package: ngcp-services-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, ngcp-vmnotify, ngcp-check-tools, ngcp-system-tools-ce, ngcp-rsyslog-tools, ngcp-cleanup-tools-ce, ngcp-voisniff-ng, bsd-mailx | mailx, ssh, bzip2, python
+Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, ngcp-vmnotify, ngcp-check-tools, ngcp-system-tools-ce, ngcp-rsyslog-tools, ngcp-cleanup-tools-ce, bsd-mailx | mailx, ssh, bzip2, python
 Conflicts: ngcp-services-pro
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
@@ -87,7 +87,7 @@ Description: Metapackage for NGCP platform config templates
 
 Package: ngcp-templates-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-ce-asterisk, ngcp-templates-ce-kamailio, ngcp-templates-ce-mediator, ngcp-templates-ce-check-tools, ngcp-templates-ce-mysql, ngcp-templates-ce-odbc, ngcp-templates-ce-ossbss, ngcp-templates-ce-sems, ngcp-templates-ce-system, ngcp-templates-ce-reminder, ngcp-templates-ce-cdr-exporter, ngcp-templates-ce-vmnotify, ngcp-templates-ce-www-admin, ngcp-templates-ce-www-csc, ngcp-templates-ce-rate-o-mat, ngcp-templates-ce-cleanup-tools, ngcp-templates-ce-lsb, ngcp-templates-ce-mediaproxy-ng, ngcp-templates-ce-voisniff-ng
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-ce-asterisk, ngcp-templates-ce-kamailio, ngcp-templates-ce-mediator, ngcp-templates-ce-check-tools, ngcp-templates-ce-mysql, ngcp-templates-ce-odbc, ngcp-templates-ce-ossbss, ngcp-templates-ce-sems, ngcp-templates-ce-system, ngcp-templates-ce-reminder, ngcp-templates-ce-cdr-exporter, ngcp-templates-ce-vmnotify, ngcp-templates-ce-www-admin, ngcp-templates-ce-www-csc, ngcp-templates-ce-rate-o-mat, ngcp-templates-ce-cleanup-tools, ngcp-templates-ce-lsb, ngcp-templates-ce-mediaproxy-ng
 Conflicts: ngcp-templates-pro
 Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
