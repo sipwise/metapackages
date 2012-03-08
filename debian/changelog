@@ -1,3 +1,10 @@
+ngcp-metapackages (2.5.2) unstable; urgency=low
+
+  * Add voisniff-ng to services.
+  * Remove voisniff from CE.
+
+ -- Andrew Pogrebennyk <apogrebennyk@sipwise.com>  Thu, 08 Mar 2012 17:48:21 +0100
+
 ngcp-metapackages (2.4.0) unstable; urgency=low
 
    *  replace dependency on ngcp-cleanup-tools with ngcp-cleanup-tools-{ce,pro}
