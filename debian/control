@@ -24,7 +24,7 @@ Description: Metapackage for NGCP platform configuration system
 
 Package: ngcp-ngcp-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-config-pro, ngcp-services-pro, ngcp-nth-pro, ngcp-keyring, ngcp-db-schema
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-config-pro, ngcp-services-pro, ngcp-nth-pro, ngcp-keyring, ngcp-db-schema, ngcp-cfg-schema
 Conflicts: ngcp-ngcp-ce
 Description: Metapackage for Sipwise's NGCP platform
  This metapackage installs all the packages needed in a NGCP
@@ -32,7 +32,7 @@ Description: Metapackage for Sipwise's NGCP platform
 
 Package: ngcp-ngcp-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-config-ce, ngcp-services-ce, ngcp-nth-ce, ngcp-keyring, ngcp-db-schema
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-config-ce, ngcp-services-ce, ngcp-nth-ce, ngcp-keyring, ngcp-db-schema, ngcp-cfg-schema
 Conflicts: ngcp-ngcp-pro
 Description: Metapackage for Sipwise's NGCP platform
  This metapackage installs all the packages needed in a NGCP
