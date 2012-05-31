@@ -1,3 +1,9 @@
+ngcp-metapackages (2.5.4) unstable; urgency=low
+
+  * Add nginx to services and templates
+
+ -- Andreas Granig <agranig@sipwise.com>  Thu, 31 May 2012 16:53:18 +0200
+
 ngcp-metapackages (2.5.3) unstable; urgency=low
 
   * Add ngcp-db-schema as dependency to ngcp-ngcp-{ce,pro} 
