@@ -8,7 +8,7 @@ Homepage: http://sipwise.com/
 
 Package: ngcp-config-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-pro, ngcp-ngcpcfg, ngcp-ngcpcfg-ha, ngcp-db-schema, ngcp-cfg-schema
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-pro, ngcp-ngcpcfg, ngcp-ngcpcfg-ha, ngcp-cfg-schema, ngcp-db-schema, ngcp-cfg-schema
 Conflicts: ngcp-config-ce
 Description: Metapackage for NGCP platform configuration system
  This metapackage installs the ngcp configuration system for the
@@ -16,7 +16,7 @@ Description: Metapackage for NGCP platform configuration system
 
 Package: ngcp-config-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-ce, ngcp-ngcpcfg, ngcp-db-schema, ngcp-cfg-schema
+Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-ce, ngcp-ngcpcfg, ngcp-cfg-schema, ngcp-db-schema, ngcp-cfg-schema
 Conflicts: ngcp-config-pro
 Description: Metapackage for NGCP platform configuration system
  This metapackage installs the ngcp configuration system for the
