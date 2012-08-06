@@ -8,7 +8,13 @@ Homepage: http://sipwise.com/
 
 Package: ngcp-config-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-pro, ngcp-ngcpcfg, ngcp-ngcpcfg-ha, ngcp-cfg-schema, ngcp-db-schema
+Depends: ngcp-cfg-schema,
+         ngcp-db-schema,
+         ngcp-ngcpcfg,
+         ngcp-ngcpcfg-ha,
+         ngcp-templates-pro,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-config-ce
 Description: Metapackage for NGCP platform configuration system
  This metapackage installs the ngcp configuration system for the
@@ -16,7 +22,12 @@ Description: Metapackage for NGCP platform configuration system
 
 Package: ngcp-config-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-ce, ngcp-ngcpcfg, ngcp-cfg-schema, ngcp-db-schema
+Depends: ngcp-cfg-schema,
+         ngcp-db-schema,
+         ngcp-ngcpcfg,
+         ngcp-templates-ce,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-config-pro
 Description: Metapackage for NGCP platform configuration system
  This metapackage installs the ngcp configuration system for the
@@ -24,7 +35,12 @@ Description: Metapackage for NGCP platform configuration system
 
 Package: ngcp-ngcp-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-config-pro, ngcp-services-pro, ngcp-nth-pro, ngcp-keyring
+Depends: ngcp-config-pro,
+         ngcp-keyring,
+         ngcp-nth-pro,
+         ngcp-services-pro,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-ngcp-ce
 Description: Metapackage for Sipwise's NGCP platform
  This metapackage installs all the packages needed in a NGCP
@@ -32,7 +48,12 @@ Description: Metapackage for Sipwise's NGCP platform
 
 Package: ngcp-ngcp-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-config-ce, ngcp-services-ce, ngcp-nth-ce, ngcp-keyring
+Depends: ngcp-config-ce,
+         ngcp-keyring,
+         ngcp-nth-ce,
+         ngcp-services-ce,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-ngcp-pro
 Description: Metapackage for Sipwise's NGCP platform
  This metapackage installs all the packages needed in a NGCP
@@ -40,21 +61,110 @@ Description: Metapackage for Sipwise's NGCP platform
 
 Package: ngcp-nth-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ifenslave, vlan, ngrep-sip, screen, strace, vim, tcpdump, perl-doc, iftop, ifrename, rsync, libtemplate-perl, host, mytop, less, irqbalance, lsof, telnet-ssl, snmp, sharutils, dstat, sysstat, ngcp-ossbss-clients-perl
+Depends: dstat,
+         host,
+         ifenslave,
+         ifrename,
+         iftop,
+         irqbalance,
+         less,
+         libtemplate-perl,
+         lsof,
+         mytop,
+         ngcp-ossbss-clients-perl,
+         ngrep-sip,
+         perl-doc,
+         rsync,
+         screen,
+         sharutils,
+         snmp,
+         strace,
+         sysstat,
+         tcpdump,
+         telnet-ssl,
+         vim,
+         vlan,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Metapackage for Nice To Have tools in NGCP platforms
  This metapackage installs several nice to have tools in a NGCP
  sip:provider PRO platform.
 
 Package: ngcp-nth-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ifenslave, vlan, ngrep-sip, screen, strace, vim, tcpdump, perl-doc, iftop, ifrename, rsync, libtemplate-perl, host, mytop, less, irqbalance, lsof, telnet-ssl, sharutils, dstat, sysstat, ngcp-ossbss-clients-perl
+Depends: dstat,
+         host,
+         ifenslave,
+         ifrename,
+         iftop,
+         irqbalance,
+         less,
+         libtemplate-perl,
+         lsof,
+         mytop,
+         ngcp-ossbss-clients-perl,
+         ngrep-sip,
+         perl-doc,
+         rsync,
+         screen,
+         sharutils,
+         strace,
+         sysstat,
+         tcpdump,
+         telnet-ssl,
+         vim,
+         vlan,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Metapackage for Nice To Have tools in NGCP platforms
  This metapackage installs several nice to have tools in a NGCP
  sip:provider CE platform.
 
 Package: ngcp-services-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, kamailio-presence-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-check-tools, ngcp-system-tools-pro, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems-ha, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, glusterfs-server, glusterfs-client, ngcp-vmnotify, ngcp-monitoring-tools, ngcp-rsyslog-tools, ngcp-cleanup-tools-pro, exim4, bzip2, ssh, python, snmpd, redis-server, monit, heartbeat-2, ngcp-voisniff-ng, nginx-light
+Depends: bzip2,
+         exim4,
+         glusterfs-client,
+         glusterfs-server,
+         heartbeat-2,
+         kamailio,
+         kamailio-mysql-modules,
+         kamailio-presence-modules,
+         kamailio-tls-modules,
+         kamailio-xml-modules,
+         monit,
+         ngcp-asterisk,
+         ngcp-cdr-exporter,
+         ngcp-check-tools,
+         ngcp-cleanup-tools-pro,
+         ngcp-mediaproxy-ng,
+         ngcp-mediator,
+         ngcp-monitoring-tools,
+         ngcp-ossbss-apache,
+         ngcp-ossbss-billing,
+         ngcp-ossbss-common,
+         ngcp-ossbss-system,
+         ngcp-ossbss-voip,
+         ngcp-ossbss-xmldispatcher,
+         ngcp-rate-o-mat,
+         ngcp-reminder,
+         ngcp-rsyslog-tools,
+         ngcp-sems-ha,
+         ngcp-system-tools-pro,
+         ngcp-vmnotify,
+         ngcp-voisniff-ng,
+         ngcp-www-admin,
+         ngcp-www-csc,
+         nginx-light,
+         ntp,
+         percona-server-client-5.1,
+         percona-server-server-5.1,
+         python,
+         redis-server,
+         snmpd,
+         ssh,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-services-ce
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
@@ -62,7 +172,49 @@ Description: Metapackage for NGCP platform services
 
 Package: ngcp-services-pro-ha-v3
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, kamailio-presence-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-check-tools, ngcp-system-tools-pro, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems-ha, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, glusterfs-server, glusterfs-client, ngcp-vmnotify, ngcp-monitoring-tools, ngcp-rsyslog-tools, ngcp-cleanup-tools-pro, exim4, pacemaker, corosync, bzip2, ssh, python, snmpd, redis-server, ngcp-voisniff-ng, nginx-light
+Depends: bzip2,
+         corosync,
+         exim4,
+         glusterfs-client,
+         glusterfs-server,
+         kamailio,
+         kamailio-mysql-modules,
+         kamailio-presence-modules,
+         kamailio-tls-modules,
+         kamailio-xml-modules,
+         ngcp-asterisk,
+         ngcp-cdr-exporter,
+         ngcp-check-tools,
+         ngcp-cleanup-tools-pro,
+         ngcp-mediaproxy-ng,
+         ngcp-mediator,
+         ngcp-monitoring-tools,
+         ngcp-ossbss-apache,
+         ngcp-ossbss-billing,
+         ngcp-ossbss-common,
+         ngcp-ossbss-system,
+         ngcp-ossbss-voip,
+         ngcp-ossbss-xmldispatcher,
+         ngcp-rate-o-mat,
+         ngcp-reminder,
+         ngcp-rsyslog-tools,
+         ngcp-sems-ha,
+         ngcp-system-tools-pro,
+         ngcp-vmnotify,
+         ngcp-voisniff-ng,
+         ngcp-www-admin,
+         ngcp-www-csc,
+         nginx-light,
+         ntp,
+         pacemaker,
+         percona-server-client-5.1,
+         percona-server-server-5.1,
+         python,
+         redis-server,
+         snmpd,
+         ssh,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-services-ce
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
@@ -70,7 +222,41 @@ Description: Metapackage for NGCP platform services
 
 Package: ngcp-services-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, kamailio, kamailio-mysql-modules, kamailio-tls-modules, kamailio-xml-modules, kamailio-presence-modules, percona-server-client-5.1, percona-server-server-5.1, ntp, ngcp-mediaproxy-ng, ngcp-asterisk, ngcp-cdr-exporter, ngcp-mediator, ngcp-ossbss-apache, ngcp-ossbss-billing, ngcp-ossbss-common, ngcp-ossbss-voip, ngcp-ossbss-system, ngcp-ossbss-xmldispatcher, ngcp-reminder, ngcp-sems, ngcp-www-admin, ngcp-www-csc, ngcp-rate-o-mat, ngcp-vmnotify, ngcp-check-tools, ngcp-system-tools-ce, ngcp-rsyslog-tools, ngcp-cleanup-tools-ce, bsd-mailx | mailx, ssh, bzip2, python, nginx-light
+Depends: bsd-mailx | mailx,
+         bzip2,
+         kamailio,
+         kamailio-mysql-modules,
+         kamailio-presence-modules,
+         kamailio-tls-modules,
+         kamailio-xml-modules,
+         ngcp-asterisk,
+         ngcp-cdr-exporter,
+         ngcp-check-tools,
+         ngcp-cleanup-tools-ce,
+         ngcp-mediaproxy-ng,
+         ngcp-mediator,
+         ngcp-ossbss-apache,
+         ngcp-ossbss-billing,
+         ngcp-ossbss-common,
+         ngcp-ossbss-system,
+         ngcp-ossbss-voip,
+         ngcp-ossbss-xmldispatcher,
+         ngcp-rate-o-mat,
+         ngcp-reminder,
+         ngcp-rsyslog-tools,
+         ngcp-sems,
+         ngcp-system-tools-ce,
+         ngcp-vmnotify,
+         ngcp-www-admin,
+         ngcp-www-csc,
+         nginx-light,
+         ntp,
+         percona-server-client-5.1,
+         percona-server-server-5.1,
+         python,
+         ssh,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-services-pro
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
@@ -78,7 +264,33 @@ Description: Metapackage for NGCP platform services
 
 Package: ngcp-templates-pro
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-pro-asterisk, ngcp-templates-pro-glusterfs, ngcp-templates-pro-kamailio, ngcp-templates-pro-mediator, ngcp-templates-pro-monitoring-tools, ngcp-templates-pro-check-tools, ngcp-templates-pro-mysql, ngcp-templates-pro-odbc, ngcp-templates-pro-ossbss, ngcp-templates-pro-sems, ngcp-templates-pro-system, ngcp-templates-pro-reminder, ngcp-templates-pro-cdr-exporter, ngcp-templates-pro-vmnotify, ngcp-templates-pro-www-admin, ngcp-templates-pro-www-csc, ngcp-templates-pro-rate-o-mat, ngcp-templates-pro-cleanup-tools, ngcp-templates-pro-lsb, ngcp-templates-pro-mediaproxy-ng, ngcp-templates-pro-redis, ngcp-templates-pro-monit, ngcp-templates-pro-heartbeat2, ngcp-templates-pro-voisniff-ng, ngcp-templates-pro-nginx
+Depends: ngcp-templates-pro-asterisk,
+         ngcp-templates-pro-cdr-exporter,
+         ngcp-templates-pro-check-tools,
+         ngcp-templates-pro-cleanup-tools,
+         ngcp-templates-pro-glusterfs,
+         ngcp-templates-pro-heartbeat2,
+         ngcp-templates-pro-kamailio,
+         ngcp-templates-pro-lsb,
+         ngcp-templates-pro-mediaproxy-ng,
+         ngcp-templates-pro-mediator,
+         ngcp-templates-pro-monit,
+         ngcp-templates-pro-monitoring-tools,
+         ngcp-templates-pro-mysql,
+         ngcp-templates-pro-nginx,
+         ngcp-templates-pro-odbc,
+         ngcp-templates-pro-ossbss,
+         ngcp-templates-pro-rate-o-mat,
+         ngcp-templates-pro-redis,
+         ngcp-templates-pro-reminder,
+         ngcp-templates-pro-sems,
+         ngcp-templates-pro-system,
+         ngcp-templates-pro-vmnotify,
+         ngcp-templates-pro-voisniff-ng,
+         ngcp-templates-pro-www-admin,
+         ngcp-templates-pro-www-csc,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-templates-ce
 Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
@@ -87,7 +299,27 @@ Description: Metapackage for NGCP platform config templates
 
 Package: ngcp-templates-ce
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ngcp-templates-ce-asterisk, ngcp-templates-ce-kamailio, ngcp-templates-ce-mediator, ngcp-templates-ce-check-tools, ngcp-templates-ce-mysql, ngcp-templates-ce-odbc, ngcp-templates-ce-ossbss, ngcp-templates-ce-sems, ngcp-templates-ce-system, ngcp-templates-ce-reminder, ngcp-templates-ce-cdr-exporter, ngcp-templates-ce-vmnotify, ngcp-templates-ce-www-admin, ngcp-templates-ce-www-csc, ngcp-templates-ce-rate-o-mat, ngcp-templates-ce-cleanup-tools, ngcp-templates-ce-lsb, ngcp-templates-ce-mediaproxy-ng, ngcp-templates-ce-nginx
+Depends: ngcp-templates-ce-asterisk,
+         ngcp-templates-ce-cdr-exporter,
+         ngcp-templates-ce-check-tools,
+         ngcp-templates-ce-cleanup-tools,
+         ngcp-templates-ce-kamailio,
+         ngcp-templates-ce-lsb,
+         ngcp-templates-ce-mediaproxy-ng,
+         ngcp-templates-ce-mediator,
+         ngcp-templates-ce-mysql,
+         ngcp-templates-ce-nginx,
+         ngcp-templates-ce-odbc,
+         ngcp-templates-ce-ossbss,
+         ngcp-templates-ce-rate-o-mat,
+         ngcp-templates-ce-reminder,
+         ngcp-templates-ce-sems,
+         ngcp-templates-ce-system,
+         ngcp-templates-ce-vmnotify,
+         ngcp-templates-ce-www-admin,
+         ngcp-templates-ce-www-csc,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: ngcp-templates-pro
 Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
