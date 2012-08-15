@@ -1,3 +1,23 @@
+ngcp-metapackages (2.6.0) unstable; urgency=low
+
+  [ mprokop ]
+  * control: Bump Standards-Version to 3.9.3
+  * control: Add ngcp-cfg-schema to Depends of ngcp-config{ce,pro} meta package
+  * control: Drop duplicated ngcp-cfg-schema depends
+  * control: Add ngcp-ossbss-clients-perl to depends of ngcp-nth-{ce,pro}
+  * control: wrap and sort items in Debian packaging files
+
+  [ agranig ]
+  * control: Add kamailio presence module to services.
+
+  [ jbonilla ]
+  * control: Use backported nginx-light
+  * control: Remove mpt-status package from dependencies
+  * control: Remove deprecated dependencies
+  * Add ipcalc to nth dependencies
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Wed, 15 Aug 2012 21:06:27 +0200
+
 ngcp-metapackages (2.5.4) unstable; urgency=low
 
   * Add nginx to services and templates
