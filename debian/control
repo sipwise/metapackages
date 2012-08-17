@@ -62,6 +62,7 @@ Description: Metapackage for Sipwise's NGCP platform
 Package: ngcp-nth-pro
 Architecture: all
 Depends: dstat,
+         gdb,
          host,
          ifenslave,
          ifrename,
@@ -94,6 +95,7 @@ Description: Metapackage for Nice To Have tools in NGCP platforms
 Package: ngcp-nth-ce
 Architecture: all
 Depends: dstat,
+         gdb,
          host,
          ifenslave,
          ifrename,
