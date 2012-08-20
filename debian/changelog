@@ -16,6 +16,10 @@ ngcp-metapackages (2.6.0) unstable; urgency=low
   * control: Remove deprecated dependencies
   * Add ipcalc to nth dependencies
 
+  [ rfuchs ]
+  * add gdb to nth list
+  * add tshark to nth list
+
  -- Jon Bonilla <jbonilla@sipwise.com>  Wed, 15 Aug 2012 21:06:27 +0200
 
 ngcp-metapackages (2.5.4) unstable; urgency=low
