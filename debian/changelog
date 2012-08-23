@@ -1,3 +1,13 @@
+ngcp-metapackages (2.6.1) unstable; urgency=low
+
+  [ Michael Prokop ]
+  * Replace dependency of ngcp-ossbss-common with according ce/pro/carrier packages
+
+  [ jbonilla ]
+  * remove rsyslog-tools dependencies 
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Thu, 23 Aug 2012 18:28:04 +0200
+
 ngcp-metapackages (2.6.0) unstable; urgency=low
 
   [ mprokop ]
