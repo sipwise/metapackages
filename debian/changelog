@@ -1,3 +1,16 @@
+ngcp-metapackages (2.7.0) unstable; urgency=low
+
+  * Adding ngcp-templates-pro-pushd to meta package
+  * Add pushd to metapackages
+  * Add linux 3.2 image and header packages as dependencies to ngcp-services-*
+  * Add kamailio-utils-modules to dependencies.
+  * Fix kamailio utils modules package name.
+  * Require at least heartbeat-2 2.1.3-7~sipwise2 (or greater)
+  * Let's avoid upgrading kernel on the CE systems
+  * Add bsd-mailx to services pro
+
+ -- Andrew Pogrebennyk <apogrebennyk@sipwise.com>  Fri, 21 Dec 2012 11:51:22 +0100
+
 ngcp-metapackages (2.6.3) unstable; urgency=low
 
   [jbonilla]
