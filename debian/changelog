@@ -1,3 +1,9 @@
+ngcp-metapackages (3.0.0) UNRELEASED; urgency=low
+
+  * Adding ngcp-kamailio packages
+
+ -- Victor Seva <vseva@sipwise.com>  Wed, 08 May 2013 11:00:28 +0200
+
 ngcp-metapackages (2.8.0) unstable; urgency=low
 
   * Branch and tag for 2.8 release.
