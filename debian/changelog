@@ -1,12 +1,26 @@
 ngcp-metapackages (3.0.0) unstable; urgency=low
 
+  [ Michael Prokop ]
+  * Replace percona packages with Debian's mysql packages
+  * ngcp-services-pro: support wheezy kernel as alternative to 3.2.0-0 from backports
+  * ngcp-services metapackage: support mysql + percona packages at the same time
+  * ngcp-services-*: switch order of depends on mysql<->percona packages
+  * Depend on ngcp-db-schema >= 3.0.0~ to satisfy trunk builds
+  * Remove dependency on ngcp-templates-pro-glusterfs from ngcp-templates-pro package
+  * Add ngcp-panel to ngcp-services-{ce,pro}
+  * Add ngcp-prosody-modules + prosody-0.9 to ngcp-services-*
+
   [ Victor Seva ]
+  * Merge changes from branch 3.0. Remove branch
+  * Added ngcp-kamailio-lua-modules package.
   * Adding ngcp-kamailio packages
 
   [ Andreas Granig ]
+  * Add ngcp-kamailio-websocket-modules to deps.
+  * Add prosody and ngcp-panel deps and mark unstable.
   * Add prosody and ngcp-panel templates.
 
- -- Andreas Granig <agranig@sipwise.com>  Wed, 07 Aug 2013 10:41:49 +0200
+ -- Andrew Pogrebennyk <apogrebennyk@sipwise.com>  Wed, 07 Aug 2013 17:05:32 +0200
 
 ngcp-metapackages (2.8.0) unstable; urgency=low
 
