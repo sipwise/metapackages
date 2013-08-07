@@ -1,8 +1,12 @@
-ngcp-metapackages (3.0.0) UNRELEASED; urgency=low
+ngcp-metapackages (3.0.0) unstable; urgency=low
 
+  [ Victor Seva ]
   * Adding ngcp-kamailio packages
 
- -- Victor Seva <vseva@sipwise.com>  Wed, 08 May 2013 11:00:28 +0200
+  [ Andreas Granig ]
+  * Add prosody and ngcp-panel templates.
+
+ -- Andreas Granig <agranig@sipwise.com>  Wed, 07 Aug 2013 10:41:49 +0200
 
 ngcp-metapackages (2.8.0) unstable; urgency=low
 

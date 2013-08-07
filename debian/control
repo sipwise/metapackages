@@ -325,6 +325,8 @@ Depends: ngcp-templates-pro-asterisk,
          ngcp-templates-pro-voisniff-ng,
          ngcp-templates-pro-www-admin,
          ngcp-templates-pro-www-csc,
+         ngcp-templates-pro-ngcp-panel,
+         ngcp-templates-pro-prosody,
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: ngcp-templates-ce
@@ -354,6 +356,8 @@ Depends: ngcp-templates-ce-asterisk,
          ngcp-templates-ce-vmnotify,
          ngcp-templates-ce-www-admin,
          ngcp-templates-ce-www-csc,
+         ngcp-templates-ce-ngcp-panel,
+         ngcp-templates-ce-prosody,
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: ngcp-templates-pro
