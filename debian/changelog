@@ -1,4 +1,4 @@
-ngcp-metapackages (2.8.1) UNRELEASED; urgency=low
+ngcp-metapackages (2.8.1) unstable; urgency=low
 
   * Add backup-tools as PRO dependency for backport
 
