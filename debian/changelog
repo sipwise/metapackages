@@ -1,3 +1,9 @@
+ngcp-metapackages (2.8.1) UNRELEASED; urgency=low
+
+  * Add backup-tools as PRO dependency for backport
+
+ -- Jon Bonilla <jbonilla@sipwise.com>  Tue, 20 Aug 2013 10:55:47 +0200
+
 ngcp-metapackages (2.8.0) unstable; urgency=low
 
   * Branch and tag for 2.8 release.
