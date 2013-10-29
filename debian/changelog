@@ -1,3 +1,9 @@
+ngcp-metapackages (3.1.1) unstable; urgency=low
+
+  * [7bc5160] MT#301 revert 9f4cba974 6457665d1
+
+ -- Victor Seva <vseva@sipwise.com>  Tue, 29 Oct 2013 15:50:58 +0100
+
 ngcp-metapackages (3.1.0) unstable; urgency=low
 
   [ Jon Bonilla ]
