@@ -1,3 +1,21 @@
+ngcp-metapackages (3.1.0) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * [c7ad351] Add handbook as ngcp-config dependency
+  * [9f4cba9] MT#301 Add security-tools to template dependencies
+  * [6457665] MT#301 Add fail2ban to services metapackage
+
+  [ Michael Prokop ]
+  * [4f57310] Drop unused percona packages from alternate depends
+
+  [ Andrew Pogrebennyk ]
+  * [9cb4512] Install iotop among other diagnostic tools.
+
+  [ Victor Seva ]
+  * [f3d2ea5] MT#4039 install klish tool
+
+ -- Victor Seva <vseva@sipwise.com>  Tue, 29 Oct 2013 14:28:20 +0100
+
 ngcp-metapackages (3.0.1) unstable; urgency=low
 
   * Add ngcp-backup-tools dependencies to PRO
