@@ -1,3 +1,9 @@
+ngcp-metapackages (3.1.2) unstable; urgency=low
+
+  * [62992a7] Remove www-admin
+
+ -- Victor Seva <vseva@sipwise.com>  Wed, 30 Oct 2013 12:59:13 +0100
+
 ngcp-metapackages (3.1.1) unstable; urgency=low
 
   * [7bc5160] MT#301 revert 9f4cba974 6457665d1
