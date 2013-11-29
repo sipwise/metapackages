@@ -1,3 +1,13 @@
+ngcp-metapackages (2.8.2) unstable; urgency=low
+
+  [ Jon Bonilla ]
+  * [4356081] Add handbook as dependency to metapackage
+
+  [ Victor Seva ]
+  * [9816e31] MT#4219 use new ngcp-kamailio names and lcrrate package
+
+ -- Victor Seva <vseva@sipwise.com>  Fri, 29 Nov 2013 10:49:53 +0100
+
 ngcp-metapackages (2.8.1) unstable; urgency=low
 
   * Add backup-tools as PRO dependency for backport
