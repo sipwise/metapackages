@@ -1,3 +1,15 @@
+ngcp-metapackages (3.3.0.1+0~mr3.3.0.1) unstable; urgency=medium
+
+  [ Victor Seva ]
+  * [83a57f6] MT#6501 Add ngcp-templates-pro-hylafaxplus-iax to default pro install.
+  * [21410b1] MT#6423 renaming mediaproxy to rtpengine
+
+  [ Michael Prokop ]
+  * [5340c05] MT#6507 Ship bootlogd package by default via ngcp-nth-* packages
+  * [0e6c9ff] MT#6511 Bump Standards-Version to 3.9.5
+
+ -- Victor Seva <vseva@sipwise.com>  Mon, 07 Apr 2014 10:43:13 +0200
+
 ngcp-metapackages (3.2.0.0+0~mr3.3.0.0) unstable; urgency=low
 
   [ Michael Prokop ]
