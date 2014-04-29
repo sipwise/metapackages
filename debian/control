@@ -65,6 +65,7 @@ Package: ngcp-nth-pro
 Architecture: all
 Depends: bootlogd,
          dstat,
+         etckeeper,
          gdb,
          host,
          ifenslave,
@@ -102,6 +103,7 @@ Package: ngcp-nth-ce
 Architecture: all
 Depends: bootlogd,
          dstat,
+         etckeeper,
          gdb,
          host,
          ifenslave,
