@@ -1,3 +1,9 @@
+ngcp-metapackages (3.0.3) unstable; urgency=medium
+
+  * [be32c6b] MT#6265 Update NGCP dependency on new kernel 3.13-0.bpo.1-amd64
+
+ -- Alexander Lutay <alutay@sipwise.com>  Fri, 02 May 2014 16:04:53 +0200
+
 ngcp-metapackages (3.0.2) unstable; urgency=low
 
   [ Jon Bonilla ]
