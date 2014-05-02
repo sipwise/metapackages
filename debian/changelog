@@ -1,3 +1,9 @@
+ngcp-metapackages (3.1.4) unstable; urgency=medium
+
+  * [3e9b35a] MT#6265 Update NGCP dependency on new kernel 3.13-0.bpo.1-amd64
+
+ -- Alexander Lutay <alutay@sipwise.com>  Fri, 02 May 2014 16:09:59 +0200
+
 ngcp-metapackages (3.1.3) unstable; urgency=low
 
   * [f1cffd1] Removing missing www-admin from ngcp-services-ce
