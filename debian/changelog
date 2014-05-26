@@ -1,3 +1,19 @@
+ngcp-metapackages (3.4.0.0+0~mr3.4.0.0) unstable; urgency=low
+
+  [ Michael Prokop ]
+  * [5610944] MT#6829 Add etckeeper to ngcp-nth-* packages
+
+  [ Alexander Lutay ]
+  * [d79fca3] MT#6265 Update NGCP dependency on new kernel 3.13-0.bpo.1-amd64
+
+  [ Victor Seva ]
+  * [0801cda] MT#6285 replace prosody-0.9 with prosody
+  * [d876d9b] MT#7141 upgrade packaging style
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 26 May 2014 15:49:40 +0200
+
 ngcp-metapackages (3.3.0.1+0~mr3.3.0.1) unstable; urgency=medium
 
   [ Victor Seva ]
