@@ -16,7 +16,9 @@ Depends: ngcp-cfg-schema,
          ngcp-templates-pro,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-config-ce
+Provides: ngcp-config
+Conflicts: ngcp-config
+Replaces: ngcp-config
 Description: Metapackage for NGCP platform configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider PRO platform.
@@ -30,10 +32,29 @@ Depends: ngcp-cfg-schema,
          ngcp-templates-ce,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-config-pro
+Provides: ngcp-config
+Conflicts: ngcp-config
+Replaces: ngcp-config
 Description: Metapackage for NGCP platform configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider CE platform.
+
+Package: ngcp-config-carrier
+Architecture: all
+Depends: ngcp-cfg-schema,
+         ngcp-db-schema (>= 3.0.0~),
+         ngcp-handbook-pro,
+         ngcp-ngcpcfg,
+         ngcp-ngcpcfg-ha,
+         ngcp-templates-carrier,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: ngcp-config
+Conflicts: ngcp-config
+Replaces: ngcp-config
+Description: Metapackage for NGCP platform configuration system
+ This metapackage installs the ngcp configuration system for the
+ NGCP sip:provider CARRIER platform.
 
 Package: ngcp-ngcp-pro
 Architecture: all
@@ -43,7 +64,9 @@ Depends: ngcp-config-pro,
          ngcp-services-pro,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-ngcp-ce
+Provides: ngcp-ngcp
+Conflicts: ngcp-ngcp
+Replaces: ngcp-ngcp
 Description: Metapackage for Sipwise's NGCP platform
  This metapackage installs all the packages needed in a NGCP
  sip:provider PRO platform environment.
@@ -56,10 +79,27 @@ Depends: ngcp-config-ce,
          ngcp-services-ce,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-ngcp-pro
+Provides: ngcp-ngcp
+Conflicts: ngcp-ngcp
+Replaces: ngcp-ngcp
 Description: Metapackage for Sipwise's NGCP platform
  This metapackage installs all the packages needed in a NGCP
  sip:provider CE platform environment.
+
+Package: ngcp-ngcp-carrier
+Architecture: all
+Depends: ngcp-config-carrier,
+         ngcp-keyring,
+         ngcp-nth-pro,
+         ngcp-services-carrier,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: ngcp-ngcp
+Conflicts: ngcp-ngcp
+Replaces: ngcp-ngcp
+Description: Metapackage for Sipwise's NGCP platform
+ This metapackage installs all the packages needed in a NGCP
+ sip:provider CARRIER platform environment.
 
 Package: ngcp-nth-pro
 Architecture: all
@@ -193,7 +233,9 @@ Depends: bsd-mailx | mailx,
          ssh,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-services-ce
+Provides: ngcp-services
+Conflicts: ngcp-services
+Replaces: ngcp-services
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
  sip:provider PRO platform.
@@ -255,7 +297,9 @@ Depends: bsd-mailx | mailx,
          ssh,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-services-ce
+Provides: ngcp-services
+Conflicts: ngcp-services
+Replaces: ngcp-services
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
  sip:provider PRO platform, using Linux HA v3.
@@ -304,10 +348,118 @@ Depends: bsd-mailx | mailx,
          ssh,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-services-pro
+Provides: ngcp-services
+Conflicts: ngcp-services
+Replaces: ngcp-services
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
  sip:provider CE platform.
+
+Package: ngcp-services-carrier
+Architecture: all
+Depends: bsd-mailx | mailx,
+         bzip2,
+         exim4,
+         glusterfs-client,
+         glusterfs-server,
+         heartbeat-2 (>= 2.1.3-7~sipwise2),
+         linux-headers-3.13-0.bpo.1-amd64,
+         linux-image-3.13-0.bpo.1-amd64,
+         monit,
+         mysql-client,
+         mysql-server,
+         ngcp-backup-tools,
+         ngcp-check-tools,
+         ngcp-monitoring-tools,
+         ngcp-system-tools-pro,
+         ntp,
+         python,
+         rsyslog,
+         snmpd,
+         ssh,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: ngcp-services
+Conflicts: ngcp-services
+Replaces: ngcp-services
+Description: Metapackage for NGCP platform services
+ This metapackage installs the required services in a NGCP
+ sip:provider CARRIER platform.
+
+Package: ngcp-services-carrier-db
+Architecture: all
+Depends: ngcp-cdr-exporter,
+         ngcp-services-carrier,
+         redis-server,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform services
+ This metapackage installs the required services in a NGCP
+ sip:provider CARRIER platform with role db.
+
+Package: ngcp-services-carrier-lb
+Architecture: all
+Depends: ngcp-kamailio,
+         ngcp-kamailio-tls-modules,
+         ngcp-kamailio-utils-modules,
+         ngcp-kamailio-websocket-modules,
+         ngcp-kamailio-xml-modules,
+         ngcp-pushd,
+         ngcp-services-carrier,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform services
+ This metapackage installs the required services in a NGCP
+ sip:provider CARRIER platform with role lb.
+
+Package: ngcp-services-carrier-proxy
+Architecture: all
+Depends: ngcp-asterisk,
+         ngcp-cleanup-tools-pro,
+         ngcp-kamailio,
+         ngcp-kamailio-lcrrate-modules,
+         ngcp-kamailio-lua-modules,
+         ngcp-kamailio-mysql-modules,
+         ngcp-kamailio-presence-modules,
+         ngcp-kamailio-utils-modules,
+         ngcp-kamailio-xml-modules,
+         ngcp-mediator,
+         ngcp-prosody-modules,
+         ngcp-rate-o-mat,
+         ngcp-reminder,
+         ngcp-rtpengine,
+         ngcp-rtpengine-redis1,
+         ngcp-sems-ha,
+         ngcp-services-carrier,
+         ngcp-vmnotify,
+         ngcp-voisniff-ng,
+         nginx-light,
+         prosody (>= 0.9.4~),
+         redis-server,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform services
+ This metapackage installs the required services in a NGCP
+ sip:provider CARRIER platform with role proxy.
+
+Package: ngcp-services-carrier-mgmt
+Architecture: all
+Depends: ngcp-cdr-exporter,
+         ngcp-ossbss-apache,
+         ngcp-ossbss-billing,
+         ngcp-ossbss-common-pro,
+         ngcp-ossbss-system,
+         ngcp-ossbss-voip,
+         ngcp-ossbss-xmldispatcher,
+         ngcp-panel,
+         ngcp-services-carrier,
+         ngcp-www-csc,
+         nginx-light,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform services
+ This metapackage installs the required services in a NGCP
+ sip:provider CARRIER platform with role mgmt.
 
 Package: ngcp-templates-pro
 Architecture: all
@@ -341,7 +493,9 @@ Depends: ngcp-templates-pro-asterisk,
          ngcp-templates-pro-www-csc,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-templates-ce
+Provides: ngcp-templates
+Conflicts: ngcp-templates
+Replaces: ngcp-templates
 Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
  for the NGCP sip:provider PRO platform's configuration
@@ -372,7 +526,93 @@ Depends: ngcp-templates-ce-asterisk,
          ngcp-templates-ce-www-csc,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: ngcp-templates-pro
+Provides: ngcp-templates
+Conflicts: ngcp-templates
+Replaces: ngcp-templates
 Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
  for the NGCP sip:provider CE platform's configuration framework.
+
+Package: ngcp-templates-carrier
+Architecture: all
+Depends: ngcp-templates-carrier-mysql,
+         ngcp-templates-pro-backup-tools,
+         ngcp-templates-pro-check-tools,
+         ngcp-templates-pro-heartbeat2,
+         ngcp-templates-pro-lsb,
+         ngcp-templates-pro-monit,
+         ngcp-templates-pro-monitoring-tools,
+         ngcp-templates-pro-system,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: ngcp-templates
+Conflicts: ngcp-templates
+Replaces: ngcp-templates
+Description: Metapackage for NGCP platform config templates
+ This metapackage installs the required configuration templates
+ for the NGCP sip:provider CARRIER platform's configuration
+ framework.
+
+Package: ngcp-templates-carrier-db
+Architecture: all
+Depends: ngcp-templates-carrier,
+         ngcp-templates-pro-cdr-exporter,
+         ngcp-templates-pro-redis,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform config templates
+ This metapackage installs the required configuration templates
+ for the NGCP sip:provider CARRIER platform's configuration
+ framework with role db.
+
+Package: ngcp-templates-carrier-lb
+Architecture: all
+Depends: ngcp-templates-carrier,
+         ngcp-templates-pro-kamailio,
+         ngcp-templates-pro-pushd,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform config templates
+ This metapackage installs the required configuration templates
+ for the NGCP sip:provider CARRIER platform's configuration
+ framework with role lb.
+
+Package: ngcp-templates-carrier-proxy
+Architecture: all
+Depends: ngcp-templates-carrier,
+         ngcp-templates-pro-asterisk,
+         ngcp-templates-pro-cleanup-tools,
+         ngcp-templates-pro-kamailio,
+         ngcp-templates-pro-mediator,
+         ngcp-templates-pro-nginx,
+         ngcp-templates-pro-odbc,
+         ngcp-templates-pro-ossbss,
+         ngcp-templates-pro-prosody,
+         ngcp-templates-pro-rate-o-mat,
+         ngcp-templates-pro-redis,
+         ngcp-templates-pro-reminder,
+         ngcp-templates-pro-rtpengine,
+         ngcp-templates-pro-sems,
+         ngcp-templates-pro-vmnotify,
+         ngcp-templates-pro-voisniff-ng,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform config templates
+ This metapackage installs the required configuration templates
+ for the NGCP sip:provider CARRIER platform's configuration
+ framework with role proxy.
+
+Package: ngcp-templates-carrier-mgmt
+Architecture: all
+Depends: ngcp-templates-carrier,
+         ngcp-templates-pro-cdr-exporter,
+         ngcp-templates-pro-ngcp-panel,
+         ngcp-templates-pro-nginx,
+         ngcp-templates-pro-ossbss,
+         ngcp-templates-pro-www-csc,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform config templates
+ This metapackage installs the required configuration templates
+ for the NGCP sip:provider CARRIER platform's configuration
+ framework with role mgmt.
