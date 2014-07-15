@@ -399,7 +399,8 @@ Description: Metapackage for NGCP platform services
 
 Package: ngcp-services-carrier-lb
 Architecture: all
-Depends: ngcp-kamailio,
+Depends: haproxy,
+         ngcp-kamailio,
          ngcp-kamailio-tls-modules,
          ngcp-kamailio-utils-modules,
          ngcp-kamailio-websocket-modules,
@@ -568,6 +569,7 @@ Description: Metapackage for NGCP platform config templates
 Package: ngcp-templates-carrier-lb
 Architecture: all
 Depends: ngcp-templates-carrier,
+         ngcp-templates-carrier-haproxy,
          ngcp-templates-pro-kamailio,
          ngcp-templates-pro-pushd,
          ${misc:Depends},
