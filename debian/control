@@ -388,8 +388,7 @@ Description: Metapackage for NGCP platform services
 
 Package: ngcp-services-carrier-db
 Architecture: all
-Depends: ngcp-cdr-exporter,
-         ngcp-services-carrier,
+Depends: ngcp-services-carrier,
          redis-server,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -537,6 +536,7 @@ Description: Metapackage for NGCP platform config templates
 Package: ngcp-templates-carrier
 Architecture: all
 Depends: ngcp-templates-carrier-mysql,
+         ngcp-templates-carrier-ossbss,
          ngcp-templates-pro-backup-tools,
          ngcp-templates-pro-check-tools,
          ngcp-templates-pro-heartbeat2,
@@ -557,7 +557,6 @@ Description: Metapackage for NGCP platform config templates
 Package: ngcp-templates-carrier-db
 Architecture: all
 Depends: ngcp-templates-carrier,
-         ngcp-templates-pro-cdr-exporter,
          ngcp-templates-pro-redis,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -609,7 +608,6 @@ Depends: ngcp-templates-carrier,
          ngcp-templates-pro-cdr-exporter,
          ngcp-templates-pro-ngcp-panel,
          ngcp-templates-pro-nginx,
-         ngcp-templates-carrier-ossbss,
          ngcp-templates-pro-www-csc,
          ${misc:Depends},
          ${shlibs:Depends}
