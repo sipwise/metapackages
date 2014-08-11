@@ -45,7 +45,7 @@ Depends: ngcp-cfg-schema,
          ngcp-db-schema (>= 3.0.0~),
          ngcp-handbook-pro,
          ngcp-ngcpcfg,
-         ngcp-ngcpcfg-ha,
+         ngcp-ngcpcfg-carrier,
          ngcp-templates-carrier,
          ${misc:Depends},
          ${shlibs:Depends}
