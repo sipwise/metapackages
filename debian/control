@@ -442,6 +442,18 @@ Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
  sip:provider CARRIER platform with role proxy.
 
+Package: ngcp-services-carrier-rtp
+Architecture: all
+Depends: ngcp-rtpengine,
+         ngcp-rtpengine-redis1,
+         ngcp-services-carrier,
+         redis-server,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform services
+ This metapackage installs the required services in a NGCP
+ sip:provider CARRIER platform with role rtp.
+
 Package: ngcp-services-carrier-mgmt
 Architecture: all
 Depends: ngcp-cdr-exporter,
@@ -601,6 +613,18 @@ Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
  for the NGCP sip:provider CARRIER platform's configuration
  framework with role proxy.
+
+Package: ngcp-templates-carrier-rtp
+Architecture: all
+Depends: ngcp-templates-carrier,
+         ngcp-templates-carrier-redis,
+         ngcp-templates-pro-rtpengine,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Metapackage for NGCP platform config templates
+ This metapackage installs the required configuration templates
+ for the NGCP sip:provider CARRIER platform's configuration
+ framework with role rtp.
 
 Package: ngcp-templates-carrier-mgmt
 Architecture: all
