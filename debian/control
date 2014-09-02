@@ -364,18 +364,52 @@ Depends: bsd-mailx | mailx,
          exim4,
          glusterfs-client,
          glusterfs-server,
+         haproxy,
          heartbeat-2 (>= 2.1.3-7~sipwise2) | heartbeat (>= 1:3.0.5+hg12629-1~),
-         linux-headers-3.13-0.bpo.1-amd64,
-         linux-image-3.13-0.bpo.1-amd64,
+         linux-headers-3.13-0.bpo.1-amd64 | linux-headers-amd64 (>= 3.14+59),
+         linux-image-3.13-0.bpo.1-amd64 | linux-image-amd64 (>= 3.14+59),
          monit,
          mysql-client,
          mysql-server,
+         ngcp-asterisk,
          ngcp-backup-tools,
+         ngcp-cdr-exporter,
          ngcp-check-tools,
+         ngcp-cleanup-tools-pro,
+         ngcp-kamailio,
+         ngcp-kamailio-lcrrate-modules,
+         ngcp-kamailio-lua-modules,
+         ngcp-kamailio-mysql-modules,
+         ngcp-kamailio-presence-modules,
+         ngcp-kamailio-tls-modules,
+         ngcp-kamailio-utils-modules,
+         ngcp-kamailio-websocket-modules,
+         ngcp-kamailio-xml-modules,
+         ngcp-mediator,
          ngcp-monitoring-tools,
+         ngcp-ossbss-apache,
+         ngcp-ossbss-billing,
+         ngcp-ossbss-common-pro,
+         ngcp-ossbss-system,
+         ngcp-ossbss-voip,
+         ngcp-ossbss-xmldispatcher,
+         ngcp-panel,
+         ngcp-prosody-modules,
+         ngcp-pushd,
+         ngcp-rate-o-mat,
+         ngcp-reminder,
+         ngcp-rtpengine,
+         ngcp-rtpengine-redis1,
+         ngcp-sems-ha,
          ngcp-system-tools-pro,
+         ngcp-vmnotify,
+         ngcp-voisniff-ng,
+         ngcp-www-csc,
+         nginx-light,
          ntp,
+         prosody (>= 0.9.4~),
          python,
+         redis-server,
          rsyslog,
          snmpd,
          ssh,
@@ -387,93 +421,6 @@ Replaces: ngcp-services
 Description: Metapackage for NGCP platform services
  This metapackage installs the required services in a NGCP
  sip:provider CARRIER platform.
-
-Package: ngcp-services-carrier-db
-Architecture: all
-Depends: ngcp-services-carrier,
-         redis-server,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform services
- This metapackage installs the required services in a NGCP
- sip:provider CARRIER platform with role db.
-
-Package: ngcp-services-carrier-lb
-Architecture: all
-Depends: haproxy,
-         ngcp-kamailio,
-         ngcp-kamailio-tls-modules,
-         ngcp-kamailio-utils-modules,
-         ngcp-kamailio-websocket-modules,
-         ngcp-kamailio-xml-modules,
-         ngcp-pushd,
-         ngcp-services-carrier,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform services
- This metapackage installs the required services in a NGCP
- sip:provider CARRIER platform with role lb.
-
-Package: ngcp-services-carrier-proxy
-Architecture: all
-Depends: ngcp-asterisk,
-         ngcp-cleanup-tools-pro,
-         ngcp-kamailio,
-         ngcp-kamailio-lcrrate-modules,
-         ngcp-kamailio-lua-modules,
-         ngcp-kamailio-mysql-modules,
-         ngcp-kamailio-presence-modules,
-         ngcp-kamailio-utils-modules,
-         ngcp-kamailio-xml-modules,
-         ngcp-mediator,
-         ngcp-prosody-modules,
-         ngcp-rate-o-mat,
-         ngcp-reminder,
-         ngcp-rtpengine,
-         ngcp-rtpengine-redis1,
-         ngcp-sems-ha,
-         ngcp-services-carrier,
-         ngcp-vmnotify,
-         ngcp-voisniff-ng,
-         nginx-light,
-         prosody (>= 0.9.4~),
-         redis-server,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform services
- This metapackage installs the required services in a NGCP
- sip:provider CARRIER platform with role proxy.
-
-Package: ngcp-services-carrier-rtp
-Architecture: all
-Depends: ngcp-rtpengine,
-         ngcp-rtpengine-redis1,
-         ngcp-services-carrier,
-         redis-server,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform services
- This metapackage installs the required services in a NGCP
- sip:provider CARRIER platform with role rtp.
-
-Package: ngcp-services-carrier-mgmt
-Architecture: all
-Depends: ngcp-cdr-exporter,
-         ngcp-ossbss-apache,
-         ngcp-ossbss-billing,
-         ngcp-ossbss-common-pro,
-         ngcp-ossbss-system,
-         ngcp-ossbss-voip,
-         ngcp-ossbss-xmldispatcher,
-         ngcp-panel,
-         ngcp-services-carrier,
-         ngcp-www-csc,
-         nginx-light,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform services
- This metapackage installs the required services in a NGCP
- sip:provider CARRIER platform with role mgmt.
 
 Package: ngcp-templates-pro
 Architecture: all
