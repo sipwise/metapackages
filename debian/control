@@ -549,15 +549,35 @@ Description: Metapackage for NGCP platform config templates
 
 Package: ngcp-templates-carrier
 Architecture: all
-Depends: ngcp-templates-carrier-mysql,
+Depends: ngcp-templates-carrier-haproxy,
+         ngcp-templates-carrier-mysql,
          ngcp-templates-carrier-ossbss,
+         ngcp-templates-carrier-redis,
+         ngcp-templates-pro-asterisk,
          ngcp-templates-pro-backup-tools,
+         ngcp-templates-pro-cdr-exporter,
          ngcp-templates-pro-check-tools,
+         ngcp-templates-pro-cleanup-tools,
          ngcp-templates-pro-heartbeat2,
+         ngcp-templates-pro-hylafaxplus-iax,
+         ngcp-templates-pro-kamailio,
          ngcp-templates-pro-lsb,
+         ngcp-templates-pro-mediator,
          ngcp-templates-pro-monit,
          ngcp-templates-pro-monitoring-tools,
+         ngcp-templates-pro-ngcp-panel,
+         ngcp-templates-pro-nginx,
+         ngcp-templates-pro-odbc,
+         ngcp-templates-pro-prosody,
+         ngcp-templates-pro-pushd,
+         ngcp-templates-pro-rate-o-mat,
+         ngcp-templates-pro-reminder,
+         ngcp-templates-pro-rtpengine,
+         ngcp-templates-pro-sems,
          ngcp-templates-pro-system,
+         ngcp-templates-pro-vmnotify,
+         ngcp-templates-pro-voisniff-ng,
+         ngcp-templates-pro-www-csc,
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: ngcp-templates
@@ -567,77 +587,3 @@ Description: Metapackage for NGCP platform config templates
  This metapackage installs the required configuration templates
  for the NGCP sip:provider CARRIER platform's configuration
  framework.
-
-Package: ngcp-templates-carrier-db
-Architecture: all
-Depends: ngcp-templates-carrier,
-         ngcp-templates-carrier-redis,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform config templates
- This metapackage installs the required configuration templates
- for the NGCP sip:provider CARRIER platform's configuration
- framework with role db.
-
-Package: ngcp-templates-carrier-lb
-Architecture: all
-Depends: ngcp-templates-carrier,
-         ngcp-templates-carrier-haproxy,
-         ngcp-templates-pro-kamailio,
-         ngcp-templates-pro-pushd,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform config templates
- This metapackage installs the required configuration templates
- for the NGCP sip:provider CARRIER platform's configuration
- framework with role lb.
-
-Package: ngcp-templates-carrier-proxy
-Architecture: all
-Depends: ngcp-templates-carrier,
-         ngcp-templates-carrier-redis,
-         ngcp-templates-pro-asterisk,
-         ngcp-templates-pro-cleanup-tools,
-         ngcp-templates-pro-kamailio,
-         ngcp-templates-pro-mediator,
-         ngcp-templates-pro-nginx,
-         ngcp-templates-pro-odbc,
-         ngcp-templates-pro-prosody,
-         ngcp-templates-pro-rate-o-mat,
-         ngcp-templates-pro-reminder,
-         ngcp-templates-pro-rtpengine,
-         ngcp-templates-pro-sems,
-         ngcp-templates-pro-vmnotify,
-         ngcp-templates-pro-voisniff-ng,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform config templates
- This metapackage installs the required configuration templates
- for the NGCP sip:provider CARRIER platform's configuration
- framework with role proxy.
-
-Package: ngcp-templates-carrier-rtp
-Architecture: all
-Depends: ngcp-templates-carrier,
-         ngcp-templates-carrier-redis,
-         ngcp-templates-pro-rtpengine,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform config templates
- This metapackage installs the required configuration templates
- for the NGCP sip:provider CARRIER platform's configuration
- framework with role rtp.
-
-Package: ngcp-templates-carrier-mgmt
-Architecture: all
-Depends: ngcp-templates-carrier,
-         ngcp-templates-pro-cdr-exporter,
-         ngcp-templates-pro-ngcp-panel,
-         ngcp-templates-pro-nginx,
-         ngcp-templates-pro-www-csc,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Metapackage for NGCP platform config templates
- This metapackage installs the required configuration templates
- for the NGCP sip:provider CARRIER platform's configuration
- framework with role mgmt.
