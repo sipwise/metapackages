@@ -411,6 +411,7 @@ Depends: bsd-mailx | mailx,
          python,
          redis-server,
          rsyslog,
+         rsyslog-elasticsearch,
          snmpd,
          ssh,
          ${misc:Depends},
@@ -496,7 +497,8 @@ Description: Metapackage for NGCP platform config templates
 
 Package: ngcp-templates-carrier
 Architecture: all
-Depends: ngcp-templates-carrier-haproxy,
+Depends: ngcp-templates-carrier-elasticsearch,
+         ngcp-templates-carrier-haproxy,
          ngcp-templates-carrier-mysql,
          ngcp-templates-carrier-ossbss,
          ngcp-templates-carrier-redis,
