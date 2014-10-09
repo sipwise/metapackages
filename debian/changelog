@@ -1,3 +1,36 @@
+ngcp-metapackages (3.5.1.0+0~mr3.5.1.0) unstable; urgency=low
+
+  [ Victor Seva ]
+  * [4aff4a9] MT#8409 add redis server to CE
+  * [e0ff362] MT#8125 add carrier node packages
+  * [31101aa] MT#8125 add haproxy to carrier lb role
+  * [c97f99d] MT#8125 use ngcp-templates-carrier-ossbss at ngcp-templates-carrier-mgmt.
+  * [93946f0] MT#8125 no ngcp-cdr-exporter at db node.
+  * [2ac31c2] MT#8125 use ngcp-templates-carrier-redis on carrier db and proxy
+  * [2c2f428] MT#8125 add ngcp-ngcpcfg-carrier as Depends of ngcp-config-carrier
+  * [6e15376] MT#8521 add CARRIER role rtp
+  * [a72440a] Add joe editor to nth packages
+  * [4aeb9e8] MT#9171 use monit 5.9
+
+  [ Michael Prokop ]
+  * [d2eb4e7] MT#7335 Accept Debian/jessie's heartbeat package as alternative to heartbeat-2
+  * [7e40677] MT#7335 Support heartbeat 3.* package also for ngcp-services-carrier
+  * [97d861c] MT#7327 Support Debian/jessie linux kernel packages in ngcp-services-pro
+  * [8024e7d] MT#8961 Ship locales for supporting /etc/default/locale file
+  * [0c87572] MT#8703 Add ngcp-status to ngcp-services-{ce,pro,carrier}
+
+  [ Alexander Lutay ]
+  * [8afc163] MT#7505 Add .gitreview file
+  * [2c411e2] MT#8911 Remove ngcp-templates-carrier-* packages (merged into ngcp-templates-carrier)
+  * [cf8b821] MT#8911 Remove ngcp-services-carrier-* packages (merged into ngcp-services-carrier)
+  * [6665d68] MT#8215 Add ngcp-templates-carrier-elasticsearch/rsyslog-elasticsearch to carriers metapackages
+  * [5ae6ecc] MT#8215 Install kibana on Carrier 3.x
+  * [4f4f597] MT#9365 Add elasticsearch and openjdk-7-jre-headless to ngcp-services-carrier
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Thu, 09 Oct 2014 16:36:06 +0200
+
 ngcp-metapackages (3.5.0.0+0~mr3.5.0.0) unstable; urgency=low
 
   * New release.
