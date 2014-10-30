@@ -1,3 +1,16 @@
+ngcp-metapackages (3.7.0.0+0~mr3.7.0.0) unstable; urgency=low
+
+  [ Michael Prokop ]
+  * [082593b] Revert "MT#8961 Ship locales for supporting /etc/default/locale file"
+
+  [ Victor Seva ]
+  * [549b97d] MT#9829 allow ngcp-templates-pro-hylafaxplus-diva too on ngcp-templates-[pro|carrier]
+  * [276924a] MT#9547 install ngcp-ossbss-fcgi by default
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Thu, 30 Oct 2014 17:23:43 +0100
+
 ngcp-metapackages (3.6.0.0+0~mr3.6.0.0) unstable; urgency=low
 
   [ Victor Seva ]
