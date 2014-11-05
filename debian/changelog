@@ -1,3 +1,12 @@
+ngcp-metapackages (3.5.1.2+0~mr3.5.1.2) unstable; urgency=low
+
+  [ Alexander Lutay ]
+  * [f0da132] MT#9937 Switch handbook&templates-system from PRO to CARRIER packages
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 05 Nov 2014 10:40:34 +0100
+
 ngcp-metapackages (3.5.1.1+0~mr3.5.1.1) unstable; urgency=low
 
   [ Michael Prokop ]
