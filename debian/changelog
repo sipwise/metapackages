@@ -1,3 +1,12 @@
+ngcp-metapackages (3.6.1.2+0~mr3.6.1.2) unstable; urgency=low
+
+  [ Victor Seva ]
+  * [734dcf3] MT#10065 add ethtool
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 18 Nov 2014 15:46:06 +0100
+
 ngcp-metapackages (3.6.1.1+0~mr3.6.1.1) unstable; urgency=low
 
   [ Alexander Lutay ]
