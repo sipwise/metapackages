@@ -1,3 +1,23 @@
+ngcp-metapackages (3.8.0.0+0~mr3.8.0.0) unstable; urgency=low
+
+  [ Alexander Lutay ]
+  * [5b4f510] MT#9937 Switch handbook&templates-system from PRO to CARRIER packages
+  * [a2cedd6] MT#10425 Add dependencies on ngcp-templates-[ce|pro]-klish
+
+  [ Michael Prokop ]
+  * [58eb6e9] MT#7999 Bump kernel version dependency from 3.13 kernel to the 3.16 one
+
+  [ Victor Seva ]
+  * [cc784bf] MT#9171 downgrade monit 5.9 to wheezy version (it produces zombies)
+  * [5800149] MT#10065 add ethtool
+  * [c3ceaac] MT#10093 MT#10379 [CARRIER] use ngcp-system-tools-carrier
+  * [4089060] MT#10093 [CARRIER] add ngcp-bootenv-carrier to ngcp-services-carrier
+  * [0aaaf54] MT#10531 add ngcp-prompts-[pro|ce] dependences on services
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 07 Jan 2015 21:30:43 +0100
+
 ngcp-metapackages (3.7.0.0+0~mr3.7.0.0) unstable; urgency=low
 
   [ Michael Prokop ]
