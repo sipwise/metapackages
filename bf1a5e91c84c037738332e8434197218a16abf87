@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_8772c7e3",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2015-03-17T12:35:45Z",
+      "side": 1,
+      "message": "ngcp-support-access | ngcp-support",
+      "revId": "bf1a5e91c84c037738332e8434197218a16abf87",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
