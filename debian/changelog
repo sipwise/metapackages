@@ -1,3 +1,23 @@
+ngcp-metapackages (3.9.0.0+0~mr4.0.0.0) unstable; urgency=low
+
+  [ Alexander Lutay ]
+  * [be33fbd] MT#10837 MT#7999 Bump Linux kernel dependencies to 3.16-0.bpo.3
+  * [2fc84b4] MT#11063 Add ngcp-templates-carrier-system for Carrier 3.x
+
+  [ Richard Fuchs ]
+  * [4aedcff] add locales-all to nth list
+
+  [ Victor Seva ]
+  * [44e7bea] MT#11387 Drop untested pro-ha-v3 package
+
+  [ Michael Prokop ]
+  * [3021914] MT#9127 Bump Standards-Version to 3.9.6
+  * [6bfb321] MT#6557 Add ngcp-support* to ngcp-config-{ce,pro,carrier}
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 18 Mar 2015 14:05:08 +0100
+
 ngcp-metapackages (3.8.0.0+0~mr3.8.0.0) unstable; urgency=low
 
   [ Alexander Lutay ]
