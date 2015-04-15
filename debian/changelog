@@ -1,3 +1,9 @@
+ngcp-metapackages (2.8.4) unstable; urgency=medium
+
+  * [e2263fc] MT#12519 add ngcp-rtpengine as alternative for next LTS upgrade
+
+ -- Victor Seva <vseva@sipwise.com>  Wed, 15 Apr 2015 10:57:32 +0200
+
 ngcp-metapackages (2.8.3) unstable; urgency=medium
 
   * [ad8177e] MT#8703 Add ngcp-status to ngcp-services-{ce,pro}
