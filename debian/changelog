@@ -1,3 +1,12 @@
+ngcp-metapackages (3.8.3.0+0~mr3.8.3.0) unstable; urgency=low
+
+  [ Victor Seva ]
+  * [50c7a69] MT#12507 ngcp-nth-*: add lsb-release
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 03 Jun 2015 16:34:11 +0200
+
 ngcp-metapackages (3.8.2.0+0~mr3.8.2.0) unstable; urgency=low
 
   * New release.
