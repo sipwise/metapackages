@@ -34,6 +34,24 @@
       "revId": "d4c47f51b077885359763253d994d52e13014e47",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_930fade1",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2015-07-16T15:34:53Z",
+      "side": 1,
+      "message": "bla-bla-bla\n  * item a\n  * item 1\n  * item",
+      "parentUuid": "fa5d592f_d30525c3",
+      "revId": "d4c47f51b077885359763253d994d52e13014e47",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
