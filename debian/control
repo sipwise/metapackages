@@ -9,6 +9,7 @@ Homepage: http://sipwise.com/
 Package: ngcp-config-pro
 Architecture: all
 Depends: ngcp-cfg-schema,
+         ngcp-cfg-validate-pro,
          ngcp-db-schema (>= 3.0.0~),
          ngcp-handbook-pro,
          ngcp-ngcpcfg,
@@ -27,6 +28,7 @@ Description: Metapackage for NGCP platform configuration system
 Package: ngcp-config-ce
 Architecture: all
 Depends: ngcp-cfg-schema,
+         ngcp-cfg-validate-ce,
          ngcp-db-schema (>= 3.0.0~),
          ngcp-handbook-ce,
          ngcp-ngcpcfg,
@@ -44,6 +46,7 @@ Description: Metapackage for NGCP platform configuration system
 Package: ngcp-config-carrier
 Architecture: all
 Depends: ngcp-cfg-schema,
+         ngcp-cfg-validate-carrier,
          ngcp-db-schema (>= 3.0.0~),
          ngcp-handbook-carrier,
          ngcp-ngcpcfg,
