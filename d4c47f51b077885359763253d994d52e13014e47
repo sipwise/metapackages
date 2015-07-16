@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_136cdd9b",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2015-07-16T15:34:01Z",
+      "side": 1,
+      "message": "test comment: paragraph starting\nwith a space\n  preserves\nformatting",
+      "revId": "d4c47f51b077885359763253d994d52e13014e47",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
