@@ -1,3 +1,16 @@
+ngcp-metapackages (4.2.0.0+0~mr4.2.0.0) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [78e64eb] MT#12977 Install sngrep by default
+  * [d4c47f5] MT#13669 Install ngcp-cfg-validate-ce/pro/carrier packages by default
+
+  [ Victor Seva ]
+  * [ac9d980] MT#15157 remove ngcp-rtpengine-redis1 obsolete package
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 12 Oct 2015 15:35:15 +0200
+
 ngcp-metapackages (4.1.0.0+0~mr4.1.0.0) unstable; urgency=low
 
   * New release.
