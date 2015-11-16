@@ -1,3 +1,12 @@
+ngcp-metapackages (3.8.5.0+0~mr3.8.5.0) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [193b9e6] MT#12977 Install sngrep by default
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 16 Nov 2015 17:19:04 +0100
+
 ngcp-metapackages (3.8.4.0+0~mr3.8.4.0) unstable; urgency=medium
 
   * New release.
