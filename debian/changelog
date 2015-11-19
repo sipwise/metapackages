@@ -1,3 +1,12 @@
+ngcp-metapackages (3.8.4.2+0~mr3.8.4.2) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [cbcd415] MT#9759 Install package ngcp-templates-[ce|pro]-ngcp-status by default
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Thu, 19 Nov 2015 17:34:14 +0100
+
 ngcp-metapackages (3.8.4.1+0~mr3.8.4.1) unstable; urgency=medium
 
   [ Alexander Lutay ]
