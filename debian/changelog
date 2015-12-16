@@ -1,3 +1,18 @@
+ngcp-metapackages (4.2.1.0+0~mr4.2.1.0) unstable; urgency=medium
+
+  [ Victor Seva ]
+  * [16d3d42] MT#16059 [CARRIER] ngcp-templates-carrier-prosody
+
+  [ Alexander Lutay ]
+  * [f517d46] MT#16199 Install ngcp-glusterfs-config on PRO/Carrier mr4.2+
+
+  [ Michael Prokop ]
+  * [c27082f] MT#16685 Use versionless kernel package dependencies
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 16 Dec 2015 09:19:04 +0100
+
 ngcp-metapackages (4.2.0.0+0~mr4.2.0.0) unstable; urgency=medium
 
   [ Alexander Lutay ]
