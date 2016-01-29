@@ -64,9 +64,23 @@ Description: Metapackage for NGCP platform configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider CARRIER platform.
 
+Package: ngcp-cloudpbx-pro
+Architecture: all
+Depends: ngcp-cloudpbx-devices,
+         ngcp-sems-pbx,
+         ngcp-templates-pro-pbx,
+         ${misc:Depends}
+Provides: ngcp-cloudpbx
+Conflicts: ngcp-cloudpbx
+Replaces: ngcp-cloudpbx
+Description: Metapackage for Sipwise's NGCP CloudPBX platform
+ This metapackage installs all the packages needed in a NGCP
+ sip:provider CloudPBX PRO platform environment.
+
 Package: ngcp-ngcp-pro
 Architecture: all
-Depends: ngcp-config-pro,
+Depends: ngcp-cloudpbx,
+         ngcp-config-pro,
          ngcp-keyring,
          ngcp-nth-pro,
          ngcp-services-pro,
@@ -96,7 +110,8 @@ Description: Metapackage for Sipwise's NGCP platform
 
 Package: ngcp-ngcp-carrier
 Architecture: all
-Depends: ngcp-config-carrier,
+Depends: ngcp-cloudpbx,
+         ngcp-config-carrier,
          ngcp-keyring,
          ngcp-nth-pro,
          ngcp-services-carrier,
