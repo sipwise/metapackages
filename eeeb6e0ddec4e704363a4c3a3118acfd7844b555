@@ -16,6 +16,24 @@
       "revId": "eeeb6e0ddec4e704363a4c3a3118acfd7844b555",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_34231c07",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2016-03-01T15:36:20Z",
+      "side": 1,
+      "message": "Actually I have both installed on my personal servers,  I do not like needrestart popups sceen... and once he claimed to me restart service which has been restarted second ago, and repeat and repeat until I reboot node... so I am not sure about needrestart here honestly.",
+      "parentUuid": "1a76adc5_d49e6863",
+      "revId": "eeeb6e0ddec4e704363a4c3a3118acfd7844b555",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
