@@ -128,6 +128,7 @@ Package: ngcp-nth-pro
 Architecture: all
 Depends: apt-transport-https,
          bootlogd,
+         debian-goodies,
          dstat,
          etckeeper,
          gdb,
@@ -171,6 +172,7 @@ Package: ngcp-nth-ce
 Architecture: all
 Depends: apt-transport-https,
          bootlogd,
+         debian-goodies,
          dstat,
          etckeeper,
          gdb,
