@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_d49e6863",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2016-03-01T15:07:50Z",
+      "side": 1,
+      "message": "There is also needrestart, and I think there was another package I cannot recall right now. Might worth checking if it\u0027s better or not.",
+      "revId": "eeeb6e0ddec4e704363a4c3a3118acfd7844b555",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
