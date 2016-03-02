@@ -34,6 +34,24 @@
       "revId": "eeeb6e0ddec4e704363a4c3a3118acfd7844b555",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_bf65c546",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2016-03-02T11:06:07Z",
+      "side": 1,
+      "message": "Ah right, the other one is the package whatmaps.",
+      "parentUuid": "1a76adc5_d49e6863",
+      "revId": "eeeb6e0ddec4e704363a4c3a3118acfd7844b555",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
