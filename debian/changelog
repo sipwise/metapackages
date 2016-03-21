@@ -1,3 +1,31 @@
+ngcp-metapackages (4.4.0.0+0~mr4.4.0.0) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [abedba8] MT#16473 Convert debian/copyright to machine-readable format
+
+  [ Victor Seva ]
+  * [9372142] MT#16811 replace ngcp-asterisk for ngcp-asterisk-voicemail-odbcstorage
+  * [44cf609] MT#17625 ngcp-cloudpbx-pro metapackage
+  * [7f4515f] MT#18059 kamailio: LNP support needs:
+  * [5a26d81] MT#17967 add rtcengine services and templates
+  * [98503b9] MT#17967 add fileshare service
+
+  [ Kirill Solomko ]
+  * [e10be05] MT#16017 changed hylafax to faxserver,added faxserver to ngcp-services
+  * [8686cd0] MT#14675 ossbss removal
+
+  [ Michael Prokop ]
+  * [82923e6] MT#17699 Bump Standards-Version to 3.9.7
+
+  [ Alexander Lutay ]
+  * [aff0bde] MT#17673 Install ngcp-pxe-boot-[fs|images] packages on Carrier by default
+  * [2e8ae40] MT#17673 Revert "Install ngcp-pxe-boot-[fs|images] packages on Carrier by default"
+  * [eeeb6e0] MT#18305 Install debian-goodies on NGCP by default (mainly for checkrestart tool)
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 21 Mar 2016 22:20:24 +0100
+
 ngcp-metapackages (4.3.0.0+0~mr4.3.0.0) unstable; urgency=medium
 
   [ Victor Seva ]
