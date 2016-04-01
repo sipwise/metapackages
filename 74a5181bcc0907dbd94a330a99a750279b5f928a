@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dad5f5cf_4b02c63f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2016-04-01T12:47:24Z",
+      "side": 1,
+      "message": "Motivation and context please!? :)",
+      "revId": "74a5181bcc0907dbd94a330a99a750279b5f928a",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
