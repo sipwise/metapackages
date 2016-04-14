@@ -1,3 +1,12 @@
+ngcp-metapackages (4.3.1.2+0~mr4.3.1.2) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [2a79e58] MT#18419 Fix dependency on ngcp-templates-carrier for Carrier mr4.2->mr4.3 upgrade
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Thu, 14 Apr 2016 12:53:39 +0200
+
 ngcp-metapackages (4.3.1.1+0~mr4.3.1.1) unstable; urgency=medium
 
   * New release.
