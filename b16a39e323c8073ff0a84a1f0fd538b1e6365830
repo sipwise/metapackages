@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bada0100_c5946e39",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000019
+      },
+      "writtenOn": "2016-04-19T13:37:29Z",
+      "side": 1,
+      "message": "should also be ngcp-rtcengine-pro or?",
+      "revId": "b16a39e323c8073ff0a84a1f0fd538b1e6365830",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
