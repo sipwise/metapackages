@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bada0100_65b4a2f2",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2016-04-19T13:31:16Z",
+      "side": 1,
+      "message": "what about to use ngcp-rtcengine-pro as a package name as we have a lot of tests which check PRO packages on CE, so we will not publish it by mistake.\n\nLike a ngcp-faxserver-pro",
+      "range": {
+        "startLine": 261,
+        "startChar": 9,
+        "endLine": 261,
+        "endChar": 24
+      },
+      "revId": "b99a330e83431e312ffc116e3f2ba2c0df549349",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
