@@ -214,6 +214,7 @@ Package: ngcp-services-pro
 Architecture: all
 Depends: bsd-mailx | mailx,
          bzip2,
+         captagent,
          elasticsearch,
          ethtool,
          exim4,
@@ -341,6 +342,7 @@ Package: ngcp-services-carrier
 Architecture: all
 Depends: bsd-mailx | mailx,
          bzip2,
+         captagent,
          elasticsearch,
          ethtool,
          exim4,
