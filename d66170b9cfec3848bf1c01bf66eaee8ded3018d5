@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_2b965a95",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2016-05-17T18:07:56Z",
+      "side": 1,
+      "message": "the package is ngcp-lnpd-pro AFAIK.",
+      "range": {
+        "startLine": 253,
+        "startChar": 9,
+        "endLine": 253,
+        "endChar": 19
+      },
+      "revId": "d66170b9cfec3848bf1c01bf66eaee8ded3018d5",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
