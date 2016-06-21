@@ -63,13 +63,18 @@ Description: Metapackage for NGCP platform configuration system
 
 Package: ngcp-cloudpbx-pro
 Architecture: all
-Depends: ngcp-cloudpbx-devices,
+Depends: ngcp-cloudpbx-devices-pro,
          ngcp-sems-pbx,
          ngcp-templates-pro | ngcp-templates,
          ${misc:Depends}
 Provides: ngcp-cloudpbx
 Conflicts: ngcp-cloudpbx
 Replaces: ngcp-cloudpbx
+Suggests:
+ ngcp-cloudpbx-firmwares-cisco-pro,
+ ngcp-cloudpbx-firmwares-innovaphone-pro,
+ ngcp-cloudpbx-firmwares-panasonic-pro,
+ ngcp-cloudpbx-firmwares-yealink-pro,
 Description: Metapackage for Sipwise's NGCP CloudPBX platform
  This metapackage installs all the packages needed in a NGCP
  sip:provider CloudPBX PRO platform environment.
