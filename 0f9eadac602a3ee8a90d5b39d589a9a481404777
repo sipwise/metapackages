@@ -22,6 +22,30 @@
       "revId": "0f9eadac602a3ee8a90d5b39d589a9a481404777",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab3e1c7_5131260a",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-06-21T13:37:27Z",
+      "side": 1,
+      "message": "Then you *have* to install all of them. Even if you don\u0027t have any phones of that provider.\n\nIf you want to go that way... fine for me.",
+      "parentUuid": "bab3e1c7_b17d02b4",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 37
+      },
+      "revId": "0f9eadac602a3ee8a90d5b39d589a9a481404777",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
