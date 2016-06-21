@@ -63,10 +63,15 @@ Description: Metapackage for NGCP platform configuration system
 
 Package: ngcp-cloudpbx-pro
 Architecture: all
-Depends: ngcp-cloudpbx-devices,
-         ngcp-sems-pbx,
-         ngcp-templates-pro | ngcp-templates,
-         ${misc:Depends}
+Depends:
+ ngcp-cloudpbx-devices-pro,
+ ngcp-sems-pbx,
+ ngcp-templates-pro | ngcp-templates,
+ ngcp-cloudpbx-firmwares-cisco-pro,
+ ngcp-cloudpbx-firmwares-innovaphone-pro,
+ ngcp-cloudpbx-firmwares-panasonic-pro,
+ ngcp-cloudpbx-firmwares-yealink-pro,
+ ${misc:Depends},
 Provides: ngcp-cloudpbx
 Conflicts: ngcp-cloudpbx
 Replaces: ngcp-cloudpbx
