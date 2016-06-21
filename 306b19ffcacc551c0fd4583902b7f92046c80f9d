@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab3e1c7_7ca681c3",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2016-06-21T17:42:09Z",
+      "side": 1,
+      "message": "Add them alphabetically sorted?",
+      "revId": "306b19ffcacc551c0fd4583902b7f92046c80f9d",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
