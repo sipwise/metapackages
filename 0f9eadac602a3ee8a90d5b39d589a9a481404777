@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab3e1c7_b17d02b4",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2016-06-21T13:12:37Z",
+      "side": 1,
+      "message": "AFAIK those packages should be dependencies of ngcp-cloudpbx-devices-pro, isn\u0027t it?",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 37
+      },
+      "revId": "0f9eadac602a3ee8a90d5b39d589a9a481404777",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
