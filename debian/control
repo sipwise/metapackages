@@ -395,6 +395,7 @@ Depends:
  linux-image-amd64,
  monit,
  mysql-client,
+ mysql-cluster,
  mysql-server,
  ngcp-api-tools,
  ngcp-asterisk-voicemail-odbcstorage,
