@@ -79,6 +79,8 @@ Description: Metapackage for NGCP platform configuration system
 
 Package: ngcp-cloudpbx-pro
 Architecture: all
+Pre-Depends:
+ ngcp-templates-pro | ngcp-templates,
 Depends:
  ngcp-cloudpbx-devices-pro,
  ngcp-cloudpbx-firmwares-cisco-pro,
@@ -86,7 +88,6 @@ Depends:
  ngcp-cloudpbx-firmwares-panasonic-pro,
  ngcp-cloudpbx-firmwares-yealink-pro,
  ngcp-sems-pbx,
- ngcp-templates-pro | ngcp-templates,
  ${misc:Depends},
 Provides:
  ngcp-cloudpbx,
