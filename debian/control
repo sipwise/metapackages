@@ -255,6 +255,7 @@ Depends:
  haproxy,
  heartbeat-2 (>= 2.1.3-7~sipwise2) | heartbeat (>= 1:3.0.5+hg12629-1~),
  influxdb-relay,
+ iptables-persistent,
  kannel,
  kibana,
  ldap-utils,
@@ -328,6 +329,7 @@ Architecture: all
 Depends:
  bsd-mailx | mailx,
  bzip2,
+ iptables-persistent,
  kannel,
  mariadb-client,
  mariadb-server,
@@ -391,6 +393,7 @@ Depends:
  haproxy,
  heartbeat-2 (>= 2.1.3-7~sipwise2) | heartbeat (>= 1:3.0.5+hg12629-1~),
  influxdb-relay,
+ iptables-persistent,
  kannel,
  kibana,
  ldap-utils,
