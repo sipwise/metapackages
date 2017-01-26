@@ -1,3 +1,23 @@
+ngcp-metapackages (5.1.0.0+0~mr5.1.0.0) unstable; urgency=medium
+
+  [ Kirill Solomko ]
+  * [7f18cb6] MT#22031 change from mysql to mariadb
+
+  [ Alexander Lutay ]
+  * [5adc424] TT#4910 Add ngcp-bulk-processor to ngcp-nth-ce/-pro
+
+  [ Guillem Jover ]
+  * [b0d35b0] TT#4630 Add influxdb-relay to PRO and CARRIER service Depends
+
+  [ Michael Prokop ]
+  * [d1a46f9] TT#6427 Depend on either telnet or telnet-ssl package
+  * [c86ff10] TT#6624 Drop elasticsearch + rsyslog-elasticsearch from ngcp-services-{pro,carrier}
+  * [93552bd] TT#6624 Drop unneeded dependency on openjdk-7-jre-headless
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Thu, 17 Nov 2016 23:15:45 +0100
+
 ngcp-metapackages (5.0.0.0+0~mr5.0.0.0) unstable; urgency=medium
 
   [ Andreas Granig ]
