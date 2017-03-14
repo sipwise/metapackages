@@ -34,6 +34,24 @@
       "revId": "bcd17a0e5eb297e6d11c00d71962394fc04e429c",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7af0899e_e42433c8",
+        "filename": "debian/control",
+        "patchSetId": 3
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-14T14:03:51Z",
+      "side": 1,
+      "message": "Right, I noticed the ngcp-conf-debs dependency in https://gerrit.mgm.sipwise.com/#/c/11846 - thanks\n\nI don\u0027t like mixing changes (no context/details in neither the commit message nor the ticket), it\u0027s also not mentioned in the commit message :-/",
+      "parentUuid": "7af0899e_8449ef8d",
+      "revId": "bcd17a0e5eb297e6d11c00d71962394fc04e429c",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
