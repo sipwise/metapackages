@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7af0899e_a49fcb02",
+        "filename": "debian/control",
+        "patchSetId": 3
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-14T13:58:33Z",
+      "side": 1,
+      "message": "why is janus addded here?\nand shouldn\u0027t we depend on ngcp-config-deps-{ce,pro,carrier} in metapackages instead?",
+      "revId": "bcd17a0e5eb297e6d11c00d71962394fc04e429c",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
