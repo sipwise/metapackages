@@ -1,3 +1,16 @@
+ngcp-metapackages (5.3.0.0+0~mr5.3.0.0) unstable; urgency=medium
+
+  [ Gernot Fuchs ]
+  * [6b85d9e] TT#9717 Added dependency for debian package "netfilter-persistent"
+
+  [ Michael Prokop ]
+  * [3ed7f87] TT#12300 Depend on net-tools in ngcp-services-* packages
+  * [ce7ac44] TT#12304 Add man-db as dependency to ngcp-nth-{ce,pro}
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 22 Mar 2017 10:56:00 +0100
+
 ngcp-metapackages (5.2.0.0+0~mr5.2.0.0) unstable; urgency=medium
 
   * New release.
