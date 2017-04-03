@@ -3,9 +3,9 @@ Section: utils
 Priority: extra
 Maintainer: Sipwise Development Team <support@sipwise.com>
 Build-Depends:
- debhelper (>= 8~),
-Standards-Version: 3.9.7
-Homepage: http://sipwise.com/
+ debhelper (>= 9),
+Standards-Version: 3.9.8
+Homepage: https://www.sipwise.com/
 
 Package: ngcp-config-pro
 Architecture: all
@@ -27,9 +27,9 @@ Conflicts:
  ngcp-config,
 Replaces:
  ngcp-config,
-Description: Metapackage for NGCP platform configuration system
+Description: Metapackage for NGCP configuration system
  This metapackage installs the ngcp configuration system for the
- NGCP sip:provider PRO platform.
+ NGCP sip:provider PRO.
 
 Package: ngcp-config-ce
 Architecture: all
@@ -49,9 +49,9 @@ Conflicts:
  ngcp-config,
 Replaces:
  ngcp-config,
-Description: Metapackage for NGCP platform configuration system
+Description: Metapackage for NGCP configuration system
  This metapackage installs the ngcp configuration system for the
- NGCP sip:provider CE platform.
+ NGCP sip:provider CE.
 
 Package: ngcp-config-carrier
 Architecture: all
@@ -73,9 +73,9 @@ Conflicts:
  ngcp-config,
 Replaces:
  ngcp-config,
-Description: Metapackage for NGCP platform configuration system
+Description: Metapackage for NGCP configuration system
  This metapackage installs the ngcp configuration system for the
- NGCP sip:provider CARRIER platform.
+ NGCP sip:provider CARRIER.
 
 Package: ngcp-cloudpbx-pro
 Architecture: all
@@ -95,9 +95,9 @@ Conflicts:
  ngcp-cloudpbx,
 Replaces:
  ngcp-cloudpbx,
-Description: Metapackage for Sipwise's NGCP CloudPBX platform
+Description: Metapackage for Sipwise's NGCP CloudPBX
  This metapackage installs all the packages needed in a NGCP
- sip:provider CloudPBX PRO platform environment.
+ sip:provider CloudPBX PRO environment.
 
 Package: ngcp-ngcp-pro
 Architecture: all
@@ -114,9 +114,9 @@ Conflicts:
  ngcp-ngcp,
 Replaces:
  ngcp-ngcp,
-Description: Metapackage for Sipwise's NGCP platform
+Description: Metapackage for Sipwise's NGCP
  This metapackage installs all the packages needed in a NGCP
- sip:provider PRO platform environment.
+ sip:provider PRO environment.
 
 Package: ngcp-ngcp-ce
 Architecture: all
@@ -132,9 +132,9 @@ Conflicts:
  ngcp-ngcp,
 Replaces:
  ngcp-ngcp,
-Description: Metapackage for Sipwise's NGCP platform
+Description: Metapackage for Sipwise's NGCP
  This metapackage installs all the packages needed in a NGCP
- sip:provider CE platform environment.
+ sip:provider CE environment.
 
 Package: ngcp-ngcp-carrier
 Architecture: all
@@ -151,9 +151,9 @@ Conflicts:
  ngcp-ngcp,
 Replaces:
  ngcp-ngcp,
-Description: Metapackage for Sipwise's NGCP platform
+Description: Metapackage for Sipwise's NGCP
  This metapackage installs all the packages needed in a NGCP
- sip:provider CARRIER platform environment.
+ sip:provider CARRIER environment.
 
 Package: ngcp-nth-pro
 Architecture: all
@@ -197,9 +197,9 @@ Depends:
  vim,
  vlan,
  ${misc:Depends},
-Description: Metapackage for Nice To Have tools in NGCP platforms
+Description: Metapackage for Nice To Have tools in NGCP
  This metapackage installs several nice to have tools in a NGCP
- sip:provider PRO platform.
+ sip:provider PRO.
 
 Package: ngcp-nth-ce
 Architecture: all
@@ -241,9 +241,9 @@ Depends:
  vim,
  vlan,
  ${misc:Depends},
-Description: Metapackage for Nice To Have tools in NGCP platforms
+Description: Metapackage for Nice To Have tools in NGCP
  This metapackage installs several nice to have tools in a NGCP
- sip:provider CE platform.
+ sip:provider CE.
 
 Package: ngcp-services-pro
 Architecture: all
@@ -324,9 +324,9 @@ Conflicts:
  ngcp-services,
 Replaces:
  ngcp-services,
-Description: Metapackage for NGCP platform services
+Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
- sip:provider PRO platform.
+ sip:provider PRO.
 
 Package: ngcp-services-ce
 Architecture: all
@@ -381,9 +381,9 @@ Conflicts:
  ngcp-services,
 Replaces:
  ngcp-services,
-Description: Metapackage for NGCP platform services
+Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
- sip:provider CE platform.
+ sip:provider CE.
 
 Package: ngcp-services-carrier
 Architecture: all
@@ -464,6 +464,6 @@ Conflicts:
  ngcp-services,
 Replaces:
  ngcp-services,
-Description: Metapackage for NGCP platform services
+Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
- sip:provider CARRIER platform.
+ sip:provider CARRIER.

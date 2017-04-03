@@ -1,0 +1,16 @@
+*.log
+*.substvars
+/debhelper-build-stamp
+/files
+/ngcp-cloudpbx-pro/
+/ngcp-config-carrier/
+/ngcp-config-ce/
+/ngcp-config-pro/
+/ngcp-ngcp-carrier/
+/ngcp-ngcp-ce/
+/ngcp-ngcp-pro/
+/ngcp-nth-ce/
+/ngcp-nth-pro/
+/ngcp-services-carrier/
+/ngcp-services-ce/
+/ngcp-services-pro/
