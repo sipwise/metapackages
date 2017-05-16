@@ -1,3 +1,15 @@
+ngcp-metapackages (5.3.1.0+0~mr5.3.1.0) unstable; urgency=medium
+
+  [ Victor Seva ]
+  * [b3b87a5] TT#13750 ngcp-cloudpbx: add grandstream package
+
+  [ Guillem Jover ]
+  * [98eca0b] TT#5420 Update packaging
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 16 May 2017 21:38:00 +0200
+
 ngcp-metapackages (5.3.0.0+0~mr5.3.0.0) unstable; urgency=medium
 
   [ Gernot Fuchs ]
