@@ -1,3 +1,16 @@
+ngcp-metapackages (5.4.1.0+0~mr5.4.1.0) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [4899747] TT#5432 Drop mytop from Depends, provided by mariadb-client-10.1
+  * [ef1b7b8] TT#5432 Ensure we have either mytop (jessie) or mariadb-client-10.1 (stretch)
+
+  [ Alexander Lutay ]
+  * [deb14b2] TT#17902 Install ngcp-panel-csc for CE/PRO/Carrier by default
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 17 Jul 2017 22:44:18 +0200
+
 ngcp-metapackages (5.4.0.0+0~mr5.4.0.0) unstable; urgency=medium
 
   [ Victor Seva ]
