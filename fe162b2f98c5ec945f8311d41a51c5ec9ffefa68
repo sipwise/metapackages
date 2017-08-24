@@ -22,6 +22,30 @@
       "revId": "fe162b2f98c5ec945f8311d41a51c5ec9ffefa68",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fab399f4_4e045315",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2017-08-24T12:12:40Z",
+      "side": 1,
+      "message": "Fixed myself",
+      "parentUuid": "5adbc538_89581cfc",
+      "range": {
+        "startLine": 426,
+        "startChar": 0,
+        "endLine": 427,
+        "endChar": 18
+      },
+      "revId": "fe162b2f98c5ec945f8311d41a51c5ec9ffefa68",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
