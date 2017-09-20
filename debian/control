@@ -248,7 +248,6 @@ Architecture: all
 Depends:
  bsd-mailx | mailx,
  bzip2,
- captagent,
  ethtool,
  exim4,
  glusterfs-client,
@@ -272,6 +271,7 @@ Depends:
  ngcp-backup-tools,
  ngcp-billing-tools,
  ngcp-bootenv-pro,
+ ngcp-captagent,
  ngcp-cdr-exporter,
  ngcp-check-tools,
  ngcp-cleanup-tools-pro,
@@ -393,7 +393,6 @@ Architecture: all
 Depends:
  bsd-mailx | mailx,
  bzip2,
- captagent,
  ethtool,
  exim4,
  glusterfs-client,
@@ -417,6 +416,7 @@ Depends:
  ngcp-backup-tools,
  ngcp-billing-tools,
  ngcp-bootenv-pro,
+ ngcp-captagent,
  ngcp-cdr-exporter,
  ngcp-check-tools,
  ngcp-cleanup-tools-pro,
