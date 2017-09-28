@@ -158,12 +158,16 @@ Description: Metapackage for Sipwise's NGCP
 Package: ngcp-nth-pro
 Architecture: all
 Depends:
+ acpi,
  apt-transport-https,
  aptitude,
  bind9-host | host,
  bootlogd,
+ bridge-utils,
  debian-goodies,
+ dmidecode,
  dstat,
+ eject,
  etckeeper,
  gdb,
  ifenslave,
@@ -183,6 +187,7 @@ Depends:
  ngcp-inventory,
  ngcp-klish-config,
  ngrep-sip,
+ pciutils,
  perl-doc,
  rsync,
  screen,
@@ -205,12 +210,15 @@ Description: Metapackage for Nice To Have tools in NGCP
 Package: ngcp-nth-ce
 Architecture: all
 Depends:
+ acpi,
  apt-transport-https,
  aptitude,
  bind9-host | host,
  bootlogd,
  debian-goodies,
+ dmidecode,
  dstat,
+ eject,
  etckeeper,
  gdb,
  ifenslave,
@@ -229,6 +237,7 @@ Depends:
  ngcp-bulk-processor,
  ngcp-klish-config,
  ngrep-sip,
+ pciutils,
  perl-doc,
  rsync,
  screen,
@@ -250,6 +259,7 @@ Description: Metapackage for Nice To Have tools in NGCP
 Package: ngcp-services-pro
 Architecture: all
 Depends:
+ acpid,
  bsd-mailx | mailx,
  bzip2,
  dbus,
@@ -257,6 +267,7 @@ Depends:
  exim4,
  glusterfs-client,
  glusterfs-server,
+ grub-pc,
  haproxy,
  haveged,
  heartbeat-2 (>= 2.1.3-7~sipwise2),
@@ -270,6 +281,7 @@ Depends:
  libpam-systemd,
  linux-headers-amd64,
  linux-image-amd64,
+ lvm2,
  mariadb-client,
  mariadb-server,
  monit,
@@ -353,15 +365,18 @@ Description: Metapackage for NGCP services
 Package: ngcp-services-ce
 Architecture: all
 Depends:
+ acpid,
  bsd-mailx | mailx,
  bzip2,
  dbus,
+ grub-pc,
  haveged,
  iptables-persistent,
  kannel,
  libavcodec-extra,
  liblz4-tool,
  libpam-systemd,
+ lvm2,
  mariadb-client,
  mariadb-server,
  mytop | mariadb-client-10.1,
@@ -431,6 +446,7 @@ Description: Metapackage for NGCP services
 Package: ngcp-services-carrier
 Architecture: all
 Depends:
+ acpid,
  bsd-mailx | mailx,
  bzip2,
  dbus,
@@ -438,6 +454,7 @@ Depends:
  exim4,
  glusterfs-client,
  glusterfs-server,
+ grub-pc,
  haproxy,
  haveged,
  heartbeat-2 (>= 2.1.3-7~sipwise2),
@@ -451,6 +468,7 @@ Depends:
  libpam-systemd,
  linux-headers-amd64,
  linux-image-amd64,
+ lvm2,
  mariadb-client,
  mariadb-server,
  monit,
