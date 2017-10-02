@@ -408,6 +408,7 @@ Depends:
  mariadb-server,
  monit,
  mytop | mariadb-client-10.1,
+ mysql-cluster,
  net-tools,
  ngcp-api-tools,
  ngcp-asterisk-voicemail-odbcstorage,
