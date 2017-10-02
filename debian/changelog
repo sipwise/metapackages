@@ -1,3 +1,26 @@
+ngcp-metapackages (6.0.0.0+0~mr6.0.0.0) unstable; urgency=medium
+
+  [ Richard Fuchs ]
+  * [488ca35] TT#19563 add license-client to metapackages
+
+  [ Gernot Fuchs ]
+  * [1b2397b] TT#12921 NGCP file audit daemon
+
+  [ Roman Romanchenko ]
+  * [befef26] TT#21894 ngcp-sems-ha package no longer need to be installed
+
+  [ Alexander Lutay ]
+  * [7fdd017] TT#22069 Discontinue sems-app since mr5.5 (do not install ngcp-sems-app)
+  * [2ff692b] TT#22755 Revert "TT#17902 Install ngcp-panel-csc for CE/PRO/Carrier by default"
+
+  [ Guillem Jover ]
+  * [543ed1e] TT#11771 Rename captagent to ngcp-captagent
+  * [70984df] TT#22805 Switch to bind9-host from the transitional host package
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 02 Oct 2017 23:40:32 +0200
+
 ngcp-metapackages (5.5.0.0+0~mr5.5.0.0) unstable; urgency=medium
 
   [ Michael Prokop ]
