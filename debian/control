@@ -83,6 +83,7 @@ Depends:
  ngcp-cloudpbx-firmwares-grandstream-pro,
  ngcp-cloudpbx-firmwares-innovaphone-pro,
  ngcp-cloudpbx-firmwares-panasonic-pro,
+ ngcp-cloudpbx-firmwares-polycom-pro,
  ngcp-cloudpbx-firmwares-yealink-pro,
  ngcp-sems-pbx,
  ngcp-sems-modules,
