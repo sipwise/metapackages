@@ -471,3 +471,13 @@ Replaces:
 Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
  sip:provider CARRIER.
+
+Package: ngcp-sipsak
+Architecture: all
+Section: oldlibs
+Depends:
+ sipsak,
+Description: Transitional package from ngcp-sipsak to sipsak
+ This is a transitional package to migrate from ngcp-sipsak to sipsak
+ on upgrade from mr4.5 to mr5.5 NGCP releases. It is necessar in mr5.5*
+ branch only. It can be safetely remove if nothing else depends on it.
