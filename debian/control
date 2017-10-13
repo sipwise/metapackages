@@ -85,6 +85,7 @@ Depends:
  ngcp-cloudpbx-firmwares-panasonic-pro,
  ngcp-cloudpbx-firmwares-yealink-pro,
  ngcp-sems-pbx,
+ ngcp-sems-modules,
  ngcp-templates-pro | ngcp-templates,
  ${misc:Depends},
 Provides:
