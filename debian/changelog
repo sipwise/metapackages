@@ -1,3 +1,17 @@
+ngcp-metapackages (5.5.2.0+0~mr5.5.2.0) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [5bf10eb] TT#16450 Install libngcp-rating-inew-perl on PRO and CARRIER
+
+  [ Alexander Lutay ]
+  * [05e3708] TT#23412 Provide transitional package ngcp-sipsak for mr5.5* (to migrate on package 'sipsak')
+  * [882857b] TT#23433 Deprecate glusterfs-config.git repository since mr5.5+
+  * [625d4f8] TT#22760 Install ngcp-cloudpbx-firmwares-polycom-pro by default
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Fri, 20 Oct 2017 18:18:36 +0200
+
 ngcp-metapackages (5.5.1.0+0~mr5.5.1.0) unstable; urgency=medium
 
   [ Richard Fuchs ]
