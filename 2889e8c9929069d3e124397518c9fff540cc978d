@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "dab895d6_68f2c29b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2017-11-10T10:40:51Z",
+      "side": 1,
+      "message": "Maybe ngcp-nth-* is better place for such packages, but\nI have to add them into ngcp-service-*\nas ngcp-nth-carrier doesn\u0027t exist and packages are different for PRO/Carrier.",
+      "parentUuid": "dab895d6_88d8f61e",
+      "revId": "2889e8c9929069d3e124397518c9fff540cc978d",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dab895d6_a804da7e",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2017-11-10T10:09:39Z",
       "side": 1,
       "message": "I\u0027d like to see the *reason* for this change not just in the ticket but also in the commit message :)",
+      "revId": "2889e8c9929069d3e124397518c9fff540cc978d",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab895d6_a82bfae9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2017-11-10T10:40:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dab895d6_a804da7e",
       "revId": "2889e8c9929069d3e124397518c9fff540cc978d",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
