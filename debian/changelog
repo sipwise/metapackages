@@ -1,3 +1,24 @@
+ngcp-metapackages (6.0.1.0+0~mr6.0.1.0) unstable; urgency=medium
+
+  [ Andreas Granig ]
+  * [2796f84] TT#22828 Install mysql-cluster on carrier
+
+  [ Guillem Jover ]
+  * [d3c86b6] TT#16450 Install libngcp-rating-inew-perl on PRO and CARRIER
+  * [fe2aff9] TT#22072 Update packaging
+
+  [ Alexander Lutay ]
+  * [f321899] TT#23433 Deprecate glusterfs-config.git repository since mr5.5+
+  * [767059b] TT#22760 Install ngcp-cloudpbx-firmwares-polycom-pro by default
+  * [aeca696] TT#24405 Install ngcp-installer and ngcp-upgrade on CE/PRO/Carrier by default
+
+  [ Roman Romanchenko ]
+  * [dc7eb41] TT#23428 move sipwise SEMS modules from sems-pbx to sems-modules repo  - sems-modules added as dependency to cloudpbx-pro
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 06 Dec 2017 00:06:40 +0100
+
 ngcp-metapackages (6.0.0.0+0~mr6.0.0.0) unstable; urgency=medium
 
   [ Richard Fuchs ]
