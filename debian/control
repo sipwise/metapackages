@@ -478,3 +478,16 @@ Replaces:
 Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
  sip:provider CARRIER.
+
+Package: ngcp-license-client-dummy
+Architecture: any
+Provides:
+ ngcp-license-client,
+Conflicts:
+ ngcp-license-client,
+ ngcp-license-module,
+Replaces:
+ ngcp-license-client,
+Description: license management daemon for the NGCP - dummy package
+ This is a dummy package that can be used to remove the NGCP
+ license daemon from the system.
