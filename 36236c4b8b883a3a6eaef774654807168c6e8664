@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab29df4_fda6bf52",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_1d63731b",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_3d6837f5",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_7d72afe6",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_9d76a3d7",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_fd7ddfb2",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_3d4f5794",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_5d440b74",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_dd573b25",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_1d31b30b",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_3d367704",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_5d3b2beb",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 282,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-12-07T13:19:41Z",
+      "side": 1,
+      "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
