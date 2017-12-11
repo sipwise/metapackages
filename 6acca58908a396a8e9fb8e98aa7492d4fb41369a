@@ -1,0 +1,9 @@
+Verified+1: Jenkins Jenkins
+Code-Review+1: Michael Prokop <mprokop@sipwise.com>
+Code-Review+2: Guillem Jover <gjover@sipwise.com>
+Code-Review+2: Alexander Lutay <alutay@sipwise.com>
+Submitted-by: Manuel Montecelo <mmontecelo@sipwise.com>
+Submitted-at: Mon, 11 Dec 2017 11:06:11 +0100
+Reviewed-on: http://gerrit.mgm.sipwise.com/17574
+Project: metapackages
+Branch: refs/heads/master
