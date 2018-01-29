@@ -1,3 +1,17 @@
+ngcp-metapackages (6.1.1.0+0~mr6.1.1.0) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [4fee2f7] TT#27052 Revert 7e40677f: it was test commit which can lead unexpected results in production
+  * [3065d3d] TT#29102 Add 'haveged' as CE/PRO/Carrier nice2have dependency (ngcp-installer installs it)
+  * [72c738f] TT#28463 Install ngcp-csc-ui (New self-care interface) for mr6.1+ on CE/PRO/Carrier
+
+  [ Manuel Montecelo ]
+  * [6acca58] TT#24919 kibana repository discontinued since mr6.1
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 29 Jan 2018 21:54:06 +0100
+
 ngcp-metapackages (6.1.0.0+0~mr6.1.0.0) unstable; urgency=medium
 
   [ Andreas Granig ]
