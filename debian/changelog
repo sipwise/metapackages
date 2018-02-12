@@ -1,3 +1,12 @@
+ngcp-metapackages (5.5.3.1+0~mr5.5.3.1) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [8484d70] TT#27052 Revert 7e40677f: it was test commit which can lead unexpected results in production
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 12 Feb 2018 12:41:40 +0100
+
 ngcp-metapackages (5.5.3.0+0~mr5.5.3.0) unstable; urgency=medium
 
   * New release.
