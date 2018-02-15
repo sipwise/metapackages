@@ -420,7 +420,6 @@ Depends:
  mariadb-client,
  mariadb-server,
  monit,
- mysql-cluster,
  mytop | mariadb-client-10.1,
  net-tools,
  ngcp-api-tools,
