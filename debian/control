@@ -159,6 +159,7 @@ Package: ngcp-nth-pro
 Architecture: all
 Depends:
  apt-transport-https,
+ bash-completion,
  bind9-host | host,
  bootlogd,
  debian-goodies,
@@ -205,6 +206,7 @@ Package: ngcp-nth-ce
 Architecture: all
 Depends:
  apt-transport-https,
+ bash-completion,
  bind9-host | host,
  bootlogd,
  debian-goodies,
