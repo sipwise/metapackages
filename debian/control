@@ -63,7 +63,7 @@ Depends:
  ngcp-ngcpcfg-carrier,
  ngcp-ngcpcfg-locker,
  ngcp-support-access | ngcp-support,
- ngcp-templates-carrier,
+ ngcp-templates-pro,
  ${misc:Depends},
 Provides:
  ngcp-config,
