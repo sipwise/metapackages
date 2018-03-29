@@ -56,7 +56,7 @@ Package: ngcp-config-carrier
 Architecture: all
 Depends:
  ngcp-cfg-schema,
- ngcp-cfg-validate-carrier,
+ ngcp-cfg-validate-pro,
  ngcp-db-schema (>= 3.0.0~),
  ngcp-handbook-carrier,
  ngcp-ngcpcfg,
