@@ -60,7 +60,7 @@ Depends:
  ngcp-db-schema (>= 3.0.0~),
  ngcp-handbook-carrier,
  ngcp-ngcpcfg,
- ngcp-ngcpcfg-carrier,
+ ngcp-ngcpcfg-ha,
  ngcp-ngcpcfg-locker,
  ngcp-support-access | ngcp-support,
  ngcp-templates-carrier,
