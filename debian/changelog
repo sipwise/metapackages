@@ -1,3 +1,18 @@
+ngcp-metapackages (6.3.0.0+0~mr6.3.0.0) unstable; urgency=medium
+
+  [ Richard Fuchs ]
+  * [5c695c3] TT#31400 add libavcodec-extra for AMR audio codec support
+
+  [ Andreas Granig ]
+  * [2a65da7] TT#32971 Enable db_redis for kamailio proxy
+
+  [ Alexander Lutay ]
+  * [da24554] TT#32985 Remove mysql-cluster from Carrier (we use Redis for locations)
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 03 Apr 2018 22:28:45 +0200
+
 ngcp-metapackages (6.2.0.0+0~mr6.2.0.0) unstable; urgency=medium
 
   [ Alexander Lutay ]
