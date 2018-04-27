@@ -262,6 +262,7 @@ Depends:
  ldap-utils,
  libavcodec-extra,
  libngcp-rating-inew-perl,
+ libpam-systemd,
  linux-headers-amd64,
  linux-image-amd64,
  mariadb-client,
@@ -323,6 +324,7 @@ Depends:
  slapd,
  snmpd,
  ssh,
+ systemd,
  ${misc:Depends},
 Provides:
  ngcp-services,
@@ -342,6 +344,7 @@ Depends:
  iptables-persistent,
  kannel,
  libavcodec-extra,
+ libpam-systemd,
  mariadb-client,
  mariadb-server,
  mytop | mariadb-client-10.1,
@@ -387,6 +390,7 @@ Depends:
  redis-server,
  rsyslog,
  ssh,
+ systemd,
  ${misc:Depends},
 Provides:
  ngcp-services,
