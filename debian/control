@@ -323,6 +323,7 @@ Depends:
  slapd,
  snmpd,
  ssh,
+ systemd-coredump,
  ${misc:Depends},
 Provides:
  ngcp-services,
@@ -387,6 +388,7 @@ Depends:
  redis-server,
  rsyslog,
  ssh,
+ systemd-coredump,
  ${misc:Depends},
 Provides:
  ngcp-services,
@@ -476,6 +478,7 @@ Depends:
  slapd,
  snmpd,
  ssh,
+ systemd-coredump,
  ${misc:Depends},
 Provides:
  ngcp-services,
