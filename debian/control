@@ -323,12 +323,20 @@ Depends:
  slapd,
  snmpd,
  ssh,
+ systemd,
  systemd-coredump,
+ systemd-sysv,
  ${misc:Depends},
 Provides:
  ngcp-services,
 Conflicts:
  ngcp-services,
+ initscripts,
+ insserv,
+ startpar,
+ systemd-shim,
+ sysv-rc,
+ sysvinit-core,
 Replaces:
  ngcp-services,
 Description: Metapackage for NGCP services
@@ -388,12 +396,20 @@ Depends:
  redis-server,
  rsyslog,
  ssh,
+ systemd,
  systemd-coredump,
+ systemd-sysv,
  ${misc:Depends},
 Provides:
  ngcp-services,
 Conflicts:
  ngcp-services,
+ initscripts,
+ insserv,
+ startpar,
+ systemd-shim,
+ sysv-rc,
+ sysvinit-core,
 Replaces:
  ngcp-services,
 Description: Metapackage for NGCP services
@@ -478,12 +494,20 @@ Depends:
  slapd,
  snmpd,
  ssh,
+ systemd,
  systemd-coredump,
+ systemd-sysv,
  ${misc:Depends},
 Provides:
  ngcp-services,
 Conflicts:
  ngcp-services,
+ initscripts,
+ insserv,
+ startpar,
+ systemd-shim,
+ sysv-rc,
+ sysvinit-core,
 Replaces:
  ngcp-services,
 Description: Metapackage for NGCP services
