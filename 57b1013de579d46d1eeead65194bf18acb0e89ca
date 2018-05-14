@@ -16,6 +16,24 @@
       "revId": "57b1013de579d46d1eeead65194bf18acb0e89ca",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fabf19d9_9aebedb0",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2018-05-14T13:34:32Z",
+      "side": 1,
+      "message": "\u003e Could we please not conflate the movement of dependencies from the\n \u003e installer to the metapackages with the introduction of the coredump\n \u003e component?\n\nI didn\u0027t add it initially, but alutay asked for it to be done in a comment in this change.\n\nNow I changed it to happen in another change related with another task/ticket.",
+      "parentUuid": "fabf19d9_1aaa3d71",
+      "revId": "57b1013de579d46d1eeead65194bf18acb0e89ca",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
