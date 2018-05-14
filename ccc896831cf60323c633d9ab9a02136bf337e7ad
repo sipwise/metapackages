@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fabf19d9_da93a54e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-05-14T13:04:51Z",
+      "side": 1,
+      "message": "why not ngcp-installer-pro? Depending on a virtual package provided by multiple packages introduces uncertainty as the frontend will pick pretty much at random. Or is there now only one installer package (did not check sorry)?",
+      "range": {
+        "startLine": 10,
+        "startChar": 20,
+        "endLine": 10,
+        "endChar": 68
+      },
+      "revId": "ccc896831cf60323c633d9ab9a02136bf337e7ad",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
