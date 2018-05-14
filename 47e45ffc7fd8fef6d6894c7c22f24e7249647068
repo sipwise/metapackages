@@ -16,6 +16,24 @@
       "revId": "47e45ffc7fd8fef6d6894c7c22f24e7249647068",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fabf19d9_facf89b1",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2018-05-14T08:46:57Z",
+      "side": 1,
+      "message": "\u003e can you please also add dependency on \"systemd\" itself here. as\n \u003e Currently it is missing :-(\n\nOK.  We want a Depends on systemd-sysvinit, I suppose.",
+      "parentUuid": "3ab451fb_45f2209c",
+      "revId": "47e45ffc7fd8fef6d6894c7c22f24e7249647068",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
