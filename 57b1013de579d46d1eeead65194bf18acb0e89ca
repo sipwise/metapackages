@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fabf19d9_1aaa3d71",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-05-14T13:07:24Z",
+      "side": 1,
+      "message": "Could we please not conflate the movement of dependencies from the installer to the metapackages with the introduction of the coredump component?",
+      "revId": "57b1013de579d46d1eeead65194bf18acb0e89ca",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
