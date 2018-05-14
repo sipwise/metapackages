@@ -22,6 +22,30 @@
       "revId": "ccc896831cf60323c633d9ab9a02136bf337e7ad",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fabf19d9_3adbc11d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2018-05-14T13:27:55Z",
+      "side": 1,
+      "message": "We need to tell somehow if we want pro or carrier version to installer. It can be done in deployment.sh but there is another scenario with installation in amazon machine where we already have debian and we can just install installer package. So that\u0027s why we need separate installer packages for ce/pro/carrier.\n\nAbout dependency:\n\n* if we install from cd, deployment.sh installs installer firstly.\n\n* if we install the package on existent system - we start from some defined installer package.",
+      "parentUuid": "fabf19d9_da93a54e",
+      "range": {
+        "startLine": 10,
+        "startChar": 20,
+        "endLine": 10,
+        "endChar": 68
+      },
+      "revId": "ccc896831cf60323c633d9ab9a02136bf337e7ad",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
