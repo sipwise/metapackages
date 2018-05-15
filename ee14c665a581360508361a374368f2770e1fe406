@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fabf19d9_9d452719",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-05-15T11:38:39Z",
+      "side": 1,
+      "message": "If whatever is pulling in the services files is having issues with ntp and chrony conflicting with each other, is a new Conflicts here going to solve that?\n\nAs an interim solution it might be safest to force the removal from the installer itself probably.",
+      "revId": "ee14c665a581360508361a374368f2770e1fe406",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fabf19d9_5dc1cf7f",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 328,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-05-15T11:38:39Z",
+      "side": 1,
+      "message": "Did you mean to put this in Conflicts instead?",
+      "revId": "ee14c665a581360508361a374368f2770e1fe406",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
