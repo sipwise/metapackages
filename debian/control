@@ -330,6 +330,7 @@ Depends:
 Provides:
  ngcp-services,
 Conflicts:
+ chrony,
  ngcp-services,
  initscripts,
  insserv,
@@ -403,6 +404,7 @@ Depends:
 Provides:
  ngcp-services,
 Conflicts:
+ chrony,
  ngcp-services,
  initscripts,
  insserv,
@@ -501,6 +503,7 @@ Depends:
 Provides:
  ngcp-services,
 Conflicts:
+ chrony,
  ngcp-services,
  initscripts,
  insserv,
