@@ -91,6 +91,24 @@
     },
     {
       "key": {
+        "uuid": "fabf19d9_205f0e10",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2018-05-15T16:47:37Z",
+      "side": 1,
+      "message": "\u003e Manuel/Guillem? I do not have the necessary level of knowledge\n \u003e here.\n\nI like the idea of handling these relationships (depends/conflicts) encoded in packages, in our case the ngcp metapackages.\n\nIn that way, we avoid extra steps in upgrades removing packages.",
+      "parentUuid": "fabf19d9_6010664f",
+      "revId": "ee14c665a581360508361a374368f2770e1fe406",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fabf19d9_5dc1cf7f",
         "filename": "debian/control",
         "patchSetId": 1
