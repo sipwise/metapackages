@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "fabf19d9_7d0c9342",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-05-15T15:12:11Z",
+      "side": 1,
+      "message": "Ok, then we need to check/verify how apt handles the Conflicts at this place in metapackages.",
+      "parentUuid": "fabf19d9_dd16ffa6",
+      "revId": "ee14c665a581360508361a374368f2770e1fe406",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fabf19d9_5dc1cf7f",
         "filename": "debian/control",
         "patchSetId": 1
