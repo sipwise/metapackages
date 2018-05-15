@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "fabf19d9_dd16ffa6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-05-15T13:33:04Z",
+      "side": 1,
+      "message": "I do not know the best way here, of \"Conflict: chrony\" is enough - fine for me.\n\nHonestly I do not like the hardcoded list of packages here:\nhttps://gerrit.mgm.sipwise.com/gitweb?p\u003dinstaller.git;a\u003dblob;f\u003dinstall/packages.inc;h\u003d698691cfd17da2136ad30d7064ae3cad04e52e33;hb\u003dHEAD#l145\n  \n 144   # systemd as init, make sure that the following packages are installed/removed\n 145   PRE_INSTALL_LIST+\u003d(systemd systemd-sysv sysvinit-core- initscripts- sysv-rc- insserv- startpar- systemd-shim-)\n\nI would like to move them to metapackages.git (maybe under separate metapackage which should be installed before ngcp-ngcp-ce/pro/carrier , in this case all such conflicts we should remove should be listed there including chrony and sysv-rc).\n\nI believe it is just very useful to have one place for all packages/dependencies graph and IMHO it is metapackages.git for NGCP. Installer should operate with some predefined NGCP objects (like metapackage ngcp-pre-ngcp-ce).",
+      "parentUuid": "fabf19d9_dd627fad",
+      "revId": "ee14c665a581360508361a374368f2770e1fe406",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fabf19d9_5dc1cf7f",
         "filename": "debian/control",
         "patchSetId": 1
