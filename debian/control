@@ -325,6 +325,7 @@ Depends:
  ssh,
  ${misc:Depends},
 Provides:
+ chrony,
  ngcp-services,
 Conflicts:
  ngcp-services,
@@ -391,6 +392,7 @@ Depends:
 Provides:
  ngcp-services,
 Conflicts:
+ chrony,
  ngcp-services,
 Replaces:
  ngcp-services,
@@ -480,6 +482,7 @@ Depends:
 Provides:
  ngcp-services,
 Conflicts:
+ chrony,
  ngcp-services,
 Replaces:
  ngcp-services,
