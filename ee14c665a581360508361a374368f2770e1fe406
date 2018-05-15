@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "fabf19d9_6010664f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-05-15T15:39:31Z",
+      "side": 1,
+      "message": "Manuel/Guillem? I do not have the necessary level of knowledge here.",
+      "parentUuid": "fabf19d9_7d0c9342",
+      "revId": "ee14c665a581360508361a374368f2770e1fe406",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fabf19d9_5dc1cf7f",
         "filename": "debian/control",
         "patchSetId": 1
