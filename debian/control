@@ -26,7 +26,7 @@ Conflicts:
  ngcp-config,
 Replaces:
  ngcp-config,
-Description: Metapackage for NGCP configuration system
+Description: metapackage for NGCP sip:provider PRO configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider PRO.
 
@@ -48,7 +48,7 @@ Conflicts:
  ngcp-config,
 Replaces:
  ngcp-config,
-Description: Metapackage for NGCP configuration system
+Description: metapackage for NGCP sip:provider CE configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider CE.
 
@@ -71,7 +71,7 @@ Conflicts:
  ngcp-config,
 Replaces:
  ngcp-config,
-Description: Metapackage for NGCP configuration system
+Description: metapackage for NGCP sip:provider CARRIER configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider CARRIER.
 
@@ -95,7 +95,7 @@ Conflicts:
  ngcp-cloudpbx,
 Replaces:
  ngcp-cloudpbx,
-Description: Metapackage for Sipwise's NGCP CloudPBX
+Description: metapackage for Sipwise's NGCP sip:provider CloudPBX PRO
  This metapackage installs all the packages needed in a NGCP
  sip:provider CloudPBX PRO environment.
 
@@ -114,7 +114,7 @@ Conflicts:
  ngcp-ngcp,
 Replaces:
  ngcp-ngcp,
-Description: Metapackage for Sipwise's NGCP
+Description: metapackage for Sipwise's NGCP sip:provider PRO
  This metapackage installs all the packages needed in a NGCP
  sip:provider PRO environment.
 
@@ -132,7 +132,7 @@ Conflicts:
  ngcp-ngcp,
 Replaces:
  ngcp-ngcp,
-Description: Metapackage for Sipwise's NGCP
+Description: metapackage for Sipwise's NGCP
  This metapackage installs all the packages needed in a NGCP
  sip:provider CE environment.
 
@@ -151,7 +151,7 @@ Conflicts:
  ngcp-ngcp,
 Replaces:
  ngcp-ngcp,
-Description: Metapackage for Sipwise's NGCP
+Description: metapackage for Sipwise's NGCP
  This metapackage installs all the packages needed in a NGCP
  sip:provider CARRIER environment.
 
@@ -197,7 +197,7 @@ Depends:
  vim,
  vlan,
  ${misc:Depends},
-Description: Metapackage for Nice To Have tools in NGCP
+Description: metapackage for Nice To Have tools in NGCP
  This metapackage installs several nice to have tools in a NGCP
  sip:provider PRO.
 
@@ -241,7 +241,7 @@ Depends:
  vim,
  vlan,
  ${misc:Depends},
-Description: Metapackage for Nice To Have tools in NGCP
+Description: metapackage for Nice To Have tools in NGCP
  This metapackage installs several nice to have tools in a NGCP
  sip:provider CE.
 
@@ -340,7 +340,7 @@ Conflicts:
  sysvinit-core,
 Replaces:
  ngcp-services,
-Description: Metapackage for NGCP services
+Description: metapackage for NGCP services
  This metapackage installs the required services in a NGCP
  sip:provider PRO.
 
@@ -414,7 +414,7 @@ Conflicts:
  sysvinit-core,
 Replaces:
  ngcp-services,
-Description: Metapackage for NGCP services
+Description: metapackage for NGCP services
  This metapackage installs the required services in a NGCP
  sip:provider CE.
 
@@ -513,6 +513,6 @@ Conflicts:
  sysvinit-core,
 Replaces:
  ngcp-services,
-Description: Metapackage for NGCP services
+Description: metapackage for NGCP services
  This metapackage installs the required services in a NGCP
  sip:provider CARRIER.
