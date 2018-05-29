@@ -1,3 +1,21 @@
+ngcp-metapackages (6.3.1.0+0~mr6.3.1.0) unstable; urgency=medium
+
+  [ Mykola Malkov ]
+  * [630e1f1] TT#34758 Use ngcp-cfg-validate-pro instead of ngcp-cfg-validate-carrier
+  * [d0145db] TT#34758  Use ngcp-ngcpcfg-ha instead of ngcp-ngcpcfg-carrier
+  * [b7a13e7] TT#34758 Use ngcp-templates-pro instead of ngcp-templates-carrier
+
+  [ Manuel Montecelo ]
+  * [d5ac806] TT#34311 Add systemd-coredump as dependency of ngcp-* meta packages
+  * [68764c1] TT#36612 Add systemd-related deps and conflicts to ngcp-* meta packages
+
+  [ Michael Prokop ]
+  * [5692e6a] TT#36817 Conflict with chrony in ngcp-services-*
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 29 May 2018 10:05:00 +0200
+
 ngcp-metapackages (6.3.0.0+0~mr6.3.0.0) unstable; urgency=medium
 
   [ Richard Fuchs ]
