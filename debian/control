@@ -250,6 +250,7 @@ Architecture: all
 Depends:
  bsd-mailx | mailx,
  bzip2,
+ dbus,
  ethtool,
  exim4,
  glusterfs-client,
@@ -262,6 +263,7 @@ Depends:
  ldap-utils,
  libavcodec-extra,
  libngcp-rating-inew-perl,
+ libpam-systemd,
  linux-headers-amd64,
  linux-image-amd64,
  mariadb-client,
@@ -349,9 +351,11 @@ Architecture: all
 Depends:
  bsd-mailx | mailx,
  bzip2,
+ dbus,
  iptables-persistent,
  kannel,
  libavcodec-extra,
+ libpam-systemd,
  mariadb-client,
  mariadb-server,
  mytop | mariadb-client-10.1,
@@ -423,6 +427,7 @@ Architecture: all
 Depends:
  bsd-mailx | mailx,
  bzip2,
+ dbus,
  ethtool,
  exim4,
  glusterfs-client,
@@ -435,6 +440,7 @@ Depends:
  ldap-utils,
  libavcodec-extra,
  libngcp-rating-inew-perl,
+ libpam-systemd,
  linux-headers-amd64,
  linux-image-amd64,
  mariadb-client,
