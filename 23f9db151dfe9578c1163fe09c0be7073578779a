@@ -46,6 +46,30 @@
       "revId": "23f9db151dfe9578c1163fe09c0be7073578779a",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_f462f1ac",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2018-06-14T08:40:42Z",
+      "side": 1,
+      "message": "Understand the point but \u0027sed\u0027 is used before package installation here https://gerrit.mgm.sipwise.com/gitweb?p\u003dinstaller.git;a\u003dblob;f\u003dinstall/packages.inc;h\u003d5b65099a8c9391cc4697eee33152ebf467f4e51f;hb\u003dHEAD#l99\n\nMaybe we can replace sed\u0027s usage with some existing tools?",
+      "parentUuid": "5ad0253b_d440150a",
+      "range": {
+        "startLine": 7,
+        "startChar": 36,
+        "endLine": 7,
+        "endChar": 51
+      },
+      "revId": "23f9db151dfe9578c1163fe09c0be7073578779a",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
