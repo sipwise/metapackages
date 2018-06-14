@@ -22,6 +22,30 @@
       "revId": "23f9db151dfe9578c1163fe09c0be7073578779a",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_d440150a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T08:32:01Z",
+      "side": 1,
+      "message": "Due to the current logic we have none of dependencies on ngcp-installer package level. Otherwise wget+dpkg -i ngcp-installer might fail due to lack of dependencies and at the moment all the code inside installer ensures necessary package is available before using it.\n\nSo far if you check the code, PRE_INSTALL_LIST is installed right before INSTALL_LIST, so we have just moved sed installed one line further...",
+      "parentUuid": "5ad0253b_f4d43148",
+      "range": {
+        "startLine": 7,
+        "startChar": 36,
+        "endLine": 7,
+        "endChar": 51
+      },
+      "revId": "23f9db151dfe9578c1163fe09c0be7073578779a",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
