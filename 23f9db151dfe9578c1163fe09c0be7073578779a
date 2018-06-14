@@ -94,6 +94,30 @@
       "revId": "23f9db151dfe9578c1163fe09c0be7073578779a",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_14dd6d14",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2018-06-14T13:13:07Z",
+      "side": 1,
+      "message": "\u003e I am strongly believe \u0027sed\u0027 is nowadays part of default debian\n \u003e debootstrap\n\nYes:\n\n  $ apt-cache show sed | grep ^Priority\n  Priority: required\n\n \u003e  and the review here can be just abandoned as \"not\n \u003e necessary\".\n\nYes.\n\n \u003e Probably lintian error is trying to tell us as well...\n\nYes again.",
+      "parentUuid": "5ad0253b_546c059c",
+      "range": {
+        "startLine": 7,
+        "startChar": 36,
+        "endLine": 7,
+        "endChar": 51
+      },
+      "revId": "23f9db151dfe9578c1163fe09c0be7073578779a",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
