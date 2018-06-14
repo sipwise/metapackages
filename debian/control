@@ -334,9 +334,9 @@ Provides:
  ngcp-services,
 Conflicts:
  chrony,
- ngcp-services,
  initscripts,
  insserv,
+ ngcp-services,
  startpar,
  systemd-shim,
  sysv-rc,
@@ -411,9 +411,9 @@ Provides:
  ngcp-services,
 Conflicts:
  chrony,
- ngcp-services,
  initscripts,
  insserv,
+ ngcp-services,
  startpar,
  systemd-shim,
  sysv-rc,
@@ -513,9 +513,9 @@ Provides:
  ngcp-services,
 Conflicts:
  chrony,
- ngcp-services,
  initscripts,
  insserv,
+ ngcp-services,
  startpar,
  systemd-shim,
  sysv-rc,
