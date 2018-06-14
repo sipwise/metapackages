@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "5ad0253b_17e9ef1a",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "added to metapackages https://gerrit.mgm.sipwise.com/#/c/21910/",
+      "parentUuid": "9ab29df4_1d63731b",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab29df4_3d6837f5",
         "filename": "debian/control",
         "patchSetId": 1
@@ -138,6 +156,149 @@
     },
     {
       "key": {
+        "uuid": "5ad0253b_d7f25706",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "installed by default already (c) Andreas Granig above",
+      "range": {
+        "startLine": 214,
+        "startChar": 1,
+        "endLine": 214,
+        "endChar": 5
+      },
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_b7f7dbf4",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "added to metapackages https://gerrit.mgm.sipwise.com/#/c/21910/",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_77da637a",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "root@web01a:~# aptitude why dmidecode\ni   tasksel-data  Recommends laptop-detect      \np   laptop-detect Depends    dmidecode (\u003e 2.8-2)\nroot@web01a:~#",
+      "range": {
+        "startLine": 220,
+        "startChar": 1,
+        "endLine": 220,
+        "endChar": 10
+      },
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_97ddff72",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "root@web01a:~# aptitude why eject\ni   ngcp-ngcp-carrier     Depends    ngcp-services-carrier \ni A ngcp-services-carrier Depends    ngcp-faxserver-pro    \ni A ngcp-faxserver-pro    Depends    nginx | httpd         \np   aolserver4-core       Provides   httpd                 \np   aolserver4-core       Recommends aolserver4-doc        \np   aolserver4-doc        Recommends www-browser           \np   konqueror             Provides   www-browser           \np   konqueror             Depends    kde-runtime (\u003e 4:4.10)\np   kde-runtime           Recommends udisks2               \np   udisks2               Recommends eject                 \nroot@web01a:~# \n\n\nMaybe we need direct dependency here, just in case.",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_57e76740",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "we have direct dependency here nowadays, no more joe\n\nroot@web01a:~# aptitude why nano\ni   ngcp-ngcp-carrier Depends ngcp-nth-pro\ni A ngcp-nth-pro      Depends nano        \nroot@web01a:~#",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_37e4eb39",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "Does direct dependency here necessary?\n\nroot@web01a:~# aptitude why pciutils\ni   ngcp-ngcp-carrier               Depends    ngcp-services-carrier                                                                             \ni A ngcp-services-carrier           Depends    ngcp-rtpengine                                                                                    \ni A ngcp-rtpengine                  Depends    ngcp-rtpengine-recording-daemon (\u003e\u003d 6.4.0.0+0~mr6.4.0.0+0~20180608141817.1818+stretch~1.gbpcbe7e5)\ni A ngcp-rtpengine-recording-daemon Depends    libavutil55 (\u003e\u003d 7:3.2.10)                                                                         \ni A libavutil55                     Depends    libvdpau1 (\u003e\u003d 0.2)                                                                                \ni A libvdpau1                       Recommends vdpau-driver-all | vdpau-driver                                                                   \np   nvidia-vdpau-driver             Provides   vdpau-driver                                                                                      \np   nvidia-vdpau-driver             PreDepends nvidia-legacy-check (\u003e\u003d 343)                                                                      \np   nvidia-legacy-check             PreDepends pciutils                                                                                          \nroot@web01a:~#",
+      "range": {
+        "startLine": 242,
+        "startChar": 1,
+        "endLine": 242,
+        "endChar": 9
+      },
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_17d0cf52",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "we have direct dependency now:\nroot@spce:~# aptitude why pwgen\ni   ngcp-ngcp-ce    Depends ngcp-config-ce \ni A ngcp-config-ce  Depends ngcp-cfg-schema\ni A ngcp-cfg-schema Depends pwgen          \nroot@spce:~#",
+      "range": {
+        "startLine": 244,
+        "startChar": 1,
+        "endLine": 244,
+        "endChar": 6
+      },
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab29df4_dd573b25",
         "filename": "debian/control",
         "patchSetId": 1
@@ -172,6 +333,29 @@
     },
     {
       "key": {
+        "uuid": "5ad0253b_f7d43348",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "root@spce:~# aptitude why grub-pc\ni   linux-image-amd64         Depends  linux-image-4.9.0-6-amd64          \ni A linux-image-4.9.0-6-amd64 Suggests grub-pc | grub-efi-amd64 | extlinux\nroot@spce:~# \n\n\n\ndo we need direct dependency here?",
+      "range": {
+        "startLine": 271,
+        "startChar": 1,
+        "endLine": 271,
+        "endChar": 9
+      },
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab29df4_3d367704",
         "filename": "debian/control",
         "patchSetId": 1
@@ -200,6 +384,58 @@
       "writtenOn": "2017-12-07T13:19:41Z",
       "side": 1,
       "message": "installed by default already",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_d7c937ae",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 282,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "root@spce:~# aptitude why lvm2\ni   linux-image-amd64         Depends    linux-image-4.9.0-6-amd64                               \ni A linux-image-4.9.0-6-amd64 Depends    initramfs-tools (\u003e\u003d 0.120+deb8u2) | linux-initramfs-tool\np   dracut                    Provides   linux-initramfs-tool                                    \np   dracut                    Depends    dracut-core (\u003c 044+241-3+b+~)                           \np   dracut-core               Recommends lvm2                                                    \nroot@spce:~#",
+      "parentUuid": "9ab29df4_5d3b2beb",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_57908795",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 357,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "already part of metapackages since commit 3065d3dd9807e4d432139f22c78b5671821ee459",
+      "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_378d0b7c",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 425,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:46:47Z",
+      "side": 1,
+      "message": "already part of metapackages since commit 3065d3dd9807e4d432139f22c78b5671821ee459",
       "revId": "36236c4b8b883a3a6eaef774654807168c6e8664",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
