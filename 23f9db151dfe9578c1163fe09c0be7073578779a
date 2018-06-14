@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ad0253b_f4d43148",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2018-06-14T08:28:02Z",
+      "side": 1,
+      "message": "I think it should be dep of installer - it is the first place where sed is used. Otherwise installer will fail on users\u0027 creation on the system without sed.",
+      "range": {
+        "startLine": 7,
+        "startChar": 36,
+        "endLine": 7,
+        "endChar": 51
+      },
+      "revId": "23f9db151dfe9578c1163fe09c0be7073578779a",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
