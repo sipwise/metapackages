@@ -159,6 +159,7 @@ Package: ngcp-nth-pro
 Architecture: all
 Depends:
  apt-transport-https,
+ aptitude,
  bind9-host | host,
  bootlogd,
  coreutils,
@@ -208,6 +209,7 @@ Package: ngcp-nth-ce
 Architecture: all
 Depends:
  apt-transport-https,
+ aptitude,
  bind9-host | host,
  bootlogd,
  coreutils,
