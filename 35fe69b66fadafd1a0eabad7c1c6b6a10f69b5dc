@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ad0253b_d740170a",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-14T15:53:55Z",
+      "side": 1,
+      "message": "already in ngcp-nth-ce, so maybe should be removed here?",
+      "revId": "35fe69b66fadafd1a0eabad7c1c6b6a10f69b5dc",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
