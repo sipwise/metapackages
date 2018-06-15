@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ad0253b_b25ec943",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-06-15T16:49:12Z",
+      "side": 1,
+      "message": "Perhaps this would be more useful as a comment before the actual dependencies?\n\nThe only problem with adding comments is that automatic sorters either discard them or mess them up. That\u0027s why I always sort \"manually\" with vim: v, select lines, :sort\n\n:)",
+      "revId": "6fbd19765ce2458b6977e2c66e8d8a6eb695b2da",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
