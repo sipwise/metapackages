@@ -16,6 +16,24 @@
       "revId": "35fe69b66fadafd1a0eabad7c1c6b6a10f69b5dc",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_5781a78e",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-15T11:33:35Z",
+      "side": 1,
+      "message": "Moved to https://gerrit.mgm.sipwise.com/#/c/21941/",
+      "parentUuid": "5ad0253b_d740170a",
+      "revId": "35fe69b66fadafd1a0eabad7c1c6b6a10f69b5dc",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
