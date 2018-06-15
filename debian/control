@@ -104,6 +104,7 @@ Architecture: all
 Depends:
  ngcp-cloudpbx-pro,
  ngcp-config-pro,
+ ngcp-hardware-support,
  ngcp-keyring,
  ngcp-nth-pro,
  ngcp-services-pro,
@@ -122,6 +123,7 @@ Package: ngcp-ngcp-ce
 Architecture: all
 Depends:
  ngcp-config-ce,
+ ngcp-hardware-support,
  ngcp-keyring,
  ngcp-nth-ce,
  ngcp-services-ce,
@@ -141,6 +143,7 @@ Architecture: all
 Depends:
  ngcp-cloudpbx-pro,
  ngcp-config-carrier,
+ ngcp-hardware-support,
  ngcp-keyring,
  ngcp-nth-pro,
  ngcp-services-carrier,
@@ -545,3 +548,13 @@ Replaces:
 Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
  sip:provider CARRIER.
+
+Package: ngcp-hardware-support
+Architecture: all
+Depends:
+ firmware-bnx2,
+ firmware-bnx2x,
+ ${misc:Depends},
+Description: Metapackage for NGCP HW drivers
+ This metapackage installs the firmwares and drivers
+ necessary for NGCP system.
