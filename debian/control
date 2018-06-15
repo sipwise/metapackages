@@ -365,6 +365,7 @@ Depends:
  bsd-mailx | mailx,
  bzip2,
  dbus,
+ ethtool,
  haveged,
  iptables-persistent,
  kannel,
