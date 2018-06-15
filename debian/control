@@ -157,6 +157,8 @@ Description: Metapackage for Sipwise's NGCP
 Package: ngcp-nth-pro
 Architecture: all
 Depends:
+ acpi,
+ acpi-support-base,
  apt-transport-https,
  bootlogd,
  debian-goodies,
@@ -202,6 +204,8 @@ Description: Metapackage for Nice To Have tools in NGCP
 Package: ngcp-nth-ce
 Architecture: all
 Depends:
+ acpi,
+ acpi-support-base,
  apt-transport-https,
  bootlogd,
  debian-goodies,
@@ -245,6 +249,7 @@ Description: Metapackage for Nice To Have tools in NGCP
 Package: ngcp-services-pro
 Architecture: all
 Depends:
+ acpid,
  bsd-mailx | mailx,
  bzip2,
  ethtool,
@@ -330,6 +335,7 @@ Description: Metapackage for NGCP services
 Package: ngcp-services-ce
 Architecture: all
 Depends:
+ acpid,
  bsd-mailx | mailx,
  bzip2,
  iptables-persistent,
@@ -389,6 +395,7 @@ Description: Metapackage for NGCP services
 Package: ngcp-services-carrier
 Architecture: all
 Depends:
+ acpid,
  bsd-mailx | mailx,
  bzip2,
  ethtool,
