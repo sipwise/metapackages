@@ -52,6 +52,24 @@
       "revId": "6fbd19765ce2458b6977e2c66e8d8a6eb695b2da",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_cdebe4af",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-18T11:14:20Z",
+      "side": 1,
+      "message": "I would really avoid this. Everyone to do \u0027git blame\u0027 to find why some line appears in the file. Otherwise we will not be able to perform here wrap-and-sort easily as it removed the comments. \n\nThe comment was in deployment.sh for 8 years and nobody cares and in one command I was able to recover it using git blame.\n\nI believe ability to have long metapackages.git in sorted way using \"wrap-and-sort\" is much more important then the comment inside the file there.",
+      "parentUuid": "5ad0253b_adce6881",
+      "revId": "6fbd19765ce2458b6977e2c66e8d8a6eb695b2da",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
