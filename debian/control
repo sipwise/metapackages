@@ -377,6 +377,8 @@ Depends:
  libavcodec-extra,
  liblz4-tool,
  libpam-systemd,
+ linux-headers-amd64,
+ linux-image-amd64,
  lvm2,
  mariadb-client,
  mariadb-server,
