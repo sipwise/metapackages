@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "5ad0253b_6df2909c",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-18T11:22:27Z",
+      "side": 1,
+      "message": "Removed. also moved dmidecode to proper repos.\n\nre: cleanup , this is the next task. Let\u0027s finish dependencies consolidation first to clean deployment.sh\n\n\nP.S. I am adding here eject and remove it in the next review to have good migration history, otherwise eject can be considered as missed on the fly.",
+      "parentUuid": "5ad0253b_8dce0c59",
+      "revId": "f65e98b5ef23c87c08121817783a5a4069fdc136",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ad0253b_2da138aa",
         "filename": "debian/control",
         "patchSetId": 6
