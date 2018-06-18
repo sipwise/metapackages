@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ad0253b_4dc59459",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-06-18T10:39:43Z",
+      "side": 1,
+      "message": "Why this one? This should be pulled in by whoever is using ucf, otherwise we should not have it in the system.",
+      "revId": "f65e98b5ef23c87c08121817783a5a4069fdc136",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_2da138aa",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-06-18T10:39:43Z",
+      "side": 1,
+      "message": "Ditto.",
+      "revId": "f65e98b5ef23c87c08121817783a5a4069fdc136",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
