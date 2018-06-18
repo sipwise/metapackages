@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "5ad0253b_8dce0c59",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-06-18T11:16:04Z",
+      "side": 1,
+      "message": "Yeah I noticed later. I think it should be removed yes. Eventually we should probably also cleanup the metapackages and move things that something else depends on to those packages depending on the functionality. And leave on the metapackages just the things that we want on the system for their services or because they extend other packages (with plugins or similar, or because they are just Recommends/Suggests) and would otherwise not be pulled in.",
+      "parentUuid": "5ad0253b_ad7c2821",
+      "revId": "f65e98b5ef23c87c08121817783a5a4069fdc136",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ad0253b_2da138aa",
         "filename": "debian/control",
         "patchSetId": 6
