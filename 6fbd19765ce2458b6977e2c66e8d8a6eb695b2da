@@ -34,6 +34,24 @@
       "revId": "6fbd19765ce2458b6977e2c66e8d8a6eb695b2da",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ad0253b_adce6881",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2018-06-18T10:36:26Z",
+      "side": 1,
+      "message": "Sorry I mean moving this into the actual debian/control file, such as:\n\nDepends:\n something,\n other,\n# Rationale for why the following are needed.\n more-deps-with-rationale,\n\n:)",
+      "parentUuid": "5ad0253b_4d1a3470",
+      "revId": "6fbd19765ce2458b6977e2c66e8d8a6eb695b2da",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
