@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5ad0253b_ad7c2821",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-06-18T11:04:11Z",
+      "side": 1,
+      "message": "Due to https://gerrit.mgm.sipwise.com/gitweb?p\u003ddeployment-iso.git;a\u003dblob;f\u003dtemplates/scripts/includes/deployment.sh;h\u003d43b5ba7905e922f2f8d5e62de9b61d24061e1e78;hb\u003dHEAD#l1230\n\n\nShould I just remove it?",
+      "parentUuid": "5ad0253b_4dc59459",
+      "revId": "f65e98b5ef23c87c08121817783a5a4069fdc136",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ad0253b_2da138aa",
         "filename": "debian/control",
         "patchSetId": 6
