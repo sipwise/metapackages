@@ -240,6 +240,7 @@ Depends:
  man-db,
  nano,
  ngcp-bulk-processor,
+ ngcp-deployment-scripts,
  ngcp-klish-config,
  ngrep-sip,
  pciutils,
