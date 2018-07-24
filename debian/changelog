@@ -1,3 +1,36 @@
+ngcp-metapackages (6.5.0.0+0~mr6.5.0.0) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [ffc7388] TT#36828 Replace joe editor package with nano in ngcp-nth-*
+  * [fbb9893] TT#36228 Depend on dbus + libpam-systemd
+
+  [ Manuel Montecelo ]
+  * [09d706c] TT#38075 Add dependency on liblz4-tool, needed to uncompress coredump files
+
+  [ Alexander Lutay ]
+  * [b36dadd] TT#38454 Perform 'wrap-and-sort -sat'
+  * [22dad58] TT#38454 Add 'sudo' as dependency to ngcp-nth-ce/pro
+  * [764e372] TT#38454 Add 'aptitude' as dependency to ngcp-nth-ce/pro
+  * [30e9f4d] TT#38454 Move 'haveged' from ngcp-nth-* to ngcp-services-*
+  * [d15bac4] TT#38454 Depends on 'lvm2' directly in ngcp-services-*
+  * [3989a78] TT#38454 Depends on 'bridge-utils' directly in ngcp-nth-*
+  * [0c573cd] TT#38454 Depends on 'acpi,acpid,acpi-support-base' in metapackages
+  * [b028bae] TT#38454 Depends on 'ethtool' in metapackages
+  * [e36d687] TT#38454 Add 'ca-certificates' as dependency to ngcp-nth-*
+  * [6fbd197] TT#38454 Move firmwares from deployment.sh to NGCP metapackage ngcp-hardware-support
+  * [be6d65b] TT#38454 Depends on linux-image-amd64/linux-headers-amd64 in ngcp-services-ce
+  * [74972a3] TT#38454 Remove 'eject' from NGCP dependencies
+
+  [ Guillem Jover ]
+  * [5db29a9] TT#22805 TT#38454 Add missing dependencies installed by deployment.sh
+
+  [ Mykola Malkov ]
+  * [787360f] TT#37257 Add ngcp-deployment-scripts as dependency to ngcp-nth-ce
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 24 Jul 2018 13:35:56 +0200
+
 ngcp-metapackages (6.4.0.0+0~mr6.4.0.0) unstable; urgency=medium
 
   [ Mykola Malkov ]
