@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fae47921_464eb2c2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2018-08-15T10:24:19Z",
+      "side": 1,
+      "message": "Actually we did. firmware-bnx2, firmware-bnx2x were added to /etc/debootstrap/packages so were installed during the debootstrap on all types on ngcp. Then this code was moved from deployment-iso to metapackages https://gerrit.mgm.sipwise.com/#/c/21970/",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 4
+      },
+      "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
