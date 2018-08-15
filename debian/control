@@ -123,7 +123,6 @@ Package: ngcp-ngcp-ce
 Architecture: all
 Depends:
  ngcp-config-ce,
- ngcp-hardware-support,
  ngcp-keyring,
  ngcp-nth-ce,
  ngcp-services-ce,
