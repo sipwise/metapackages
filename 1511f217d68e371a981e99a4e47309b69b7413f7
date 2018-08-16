@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fae47921_a1f788f4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-08-16T11:56:51Z",
+      "side": 1,
+      "message": "s/Accortingly/According/",
+      "revId": "1511f217d68e371a981e99a4e47309b69b7413f7",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_81dda472",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-08-16T11:56:51Z",
+      "side": 1,
+      "message": "Maybe mention that most of our systems use tg3 nowadays?",
+      "revId": "1511f217d68e371a981e99a4e47309b69b7413f7",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
