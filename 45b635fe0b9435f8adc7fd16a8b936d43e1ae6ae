@@ -214,6 +214,29 @@
       "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_0182d452",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 565,
+      "author": {
+        "id": 1000018
+      },
+      "writtenOn": "2018-08-16T11:12:55Z",
+      "side": 1,
+      "message": "Just 5cents all system that I saw have tg3 driver in use (except non supported UPCAT/UPCRO). So I think we do not need this package.",
+      "range": {
+        "startLine": 564,
+        "startChar": 0,
+        "endLine": 565,
+        "endChar": 16
+      },
+      "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
