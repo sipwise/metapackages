@@ -70,6 +70,78 @@
       "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_6609b631",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-08-16T10:00:45Z",
+      "side": 1,
+      "message": "\u003e For sure the second way here is to stop officially shipping\n \u003e firmware-bnx2, firmware-bnx2x on CE.\n\nIMO it\u0027s easier to just not ship it to CE users, we also didn\u0027t ship it CE users in the past.\n\nBreaking the problem down, the underlying question is, what environments are supposed to work out-of-the-box? There might be even further firmware packages needed, we cared only about firmware-bnx* because that\u0027s what is/was usually needed on our physical servers.\n\nRegarding hardware support we could look into something like https://packages.debian.org/stretch/isenkram-cli to identify packages that should be present/installed.\n\n \u003e OR ask users during the\n \u003e installation using InstallCD... more ideas?\n\nThat sucks IMO :) We could point them towards it, we could also ask them to enable non-free, though IMO it\u0027s for sure annoying to strictly depend on firmware-bnx* if it\u0027s not even needed.\n\n \u003e JFYI, mr6.4.1 release is currently blocked :-(\n\nACK",
+      "parentUuid": "fae47921_c63aa2e7",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 4
+      },
+      "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_262cceaa",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-08-16T10:00:45Z",
+      "side": 1,
+      "message": "\u003e Mika, can we add non-free to Amazon EC2 then?\n\nWe can do pretty much everything ;)\nBut users without non-free in their sources.list will also get failures since it\u0027s now a dependency in our packages (instead of installing it just ourselves where relevant for us), so I\u0027m not sure that\u0027s enough?\n\n \u003e P.S. we will improve installer to handle sources.lists internally\n \u003e before running apt commands, so far for mr6.4.1 I would go AS IS\n \u003e adding nonfree to CE on Amazon EC2.\n\nFine for me. We\u0027re fine with that it will fail for pretty much all users of plain debian-installer?",
+      "parentUuid": "fae47921_0631ca0b",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 4
+      },
+      "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_4606b221",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-08-16T10:00:45Z",
+      "side": 1,
+      "message": "\u003e Actually we did. firmware-bnx2, firmware-bnx2x were added to\n \u003e /etc/debootstrap/packages so were installed during the debootstrap\n \u003e on all types on ngcp. Then this code was moved from deployment-iso\n \u003e to metapackages https://gerrit.mgm.sipwise.com/#/c/21970/\n\nI\u0027m aware that this was handled via /etc/debootstrap/packages. Though AFAICT CE users newer  ran/run our deployment.sh and EC2 AMIs also don\u0027t (and didn\u0027t) run it either, so AFAICT it wasn\u0027t shipped to users (except for maybe Vagrant boxes, where it\u0027s not even relevant).",
+      "parentUuid": "fae47921_464eb2c2",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 4
+      },
+      "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
