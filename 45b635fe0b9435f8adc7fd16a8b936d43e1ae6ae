@@ -166,6 +166,30 @@
       "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_41345cdd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-08-16T10:17:03Z",
+      "side": 1,
+      "message": "Correct. So far from the spce@ reported experience, the most often case is to wget ngcp-installer \u0026\u0026 dpkg -i \u0026\u0026 ngcp-installer on pre-installed Debian.\n\nThis is one of the reason why I started moving all the installer related parts from deployment.sh to ngcp-installer.\n\nI would say some CE users will have firmware installed.\nWhile new one will not receive them.",
+      "parentUuid": "fae47921_6110804f",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 4
+      },
+      "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
