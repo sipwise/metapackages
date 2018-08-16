@@ -190,6 +190,30 @@
       "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fae47921_a15b082e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-08-16T10:24:43Z",
+      "side": 1,
+      "message": "ACK, I think it\u0027s an acceptable solution for the time being. The users might not have the relevant firmware anyway (since it\u0027s part of another firmware-* package), so IMO we should address this more globally. The release notes could mention a note about this change though (and clarify how to address this via enabling non-free and installing the according firmware-packages, esp. firmware-bnx*).",
+      "parentUuid": "fae47921_41345cdd",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 4
+      },
+      "revId": "45b635fe0b9435f8adc7fd16a8b936d43e1ae6ae",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
