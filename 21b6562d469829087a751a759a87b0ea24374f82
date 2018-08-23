@@ -16,6 +16,24 @@
       "revId": "21b6562d469829087a751a759a87b0ea24374f82",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_50f66cd8",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2018-08-23T13:57:52Z",
+      "side": 1,
+      "message": "\u003e we have a rule, PRO and Carrier are identical from package point of\n \u003e view (so PRO upgrade experience can be used to upgrade carrier).\n \u003e The same we are trying for CE, except licensing restrictions.\n \u003e \n \u003e So, IMHO we should add it to PRO as well... and maybe to CE while I\n \u003e do not mind to keep it PRO/Carrier only.\n\nWhile I understand the reasons and see the value in what you say, actually I am not sure if it\u0027s a good idea to start adding packages unneeded in many systems, even for Pro, and specially if they are more than a few of these needed.\n\nTrue, having inconsistencies between CE/Pro/Carrier is undesired, but OTOH installing drivers that are not needed also has its drawbacks and it\u0027s not without its problems.  If nothing else, installation, compilation (possibly with need to install extra packages) and regeneration of initramfs takes its time.\n\nThere might be even cases where the drivers that we install are incompatible with the hardware of a target hw system. In this case and in the case of megaraid-sas we have the problem that stock driver from the kernel from Debian doesn\u0027t work, even if support for the hardware is present in the Linux kernel upstream and stock from Debian, but we need a newer driver because of bugs or newer revisions of the hardware.  It might happen with some other hardware that systems that people installs with Pro or CE have the need of the same driver but a slightly different version (say, Dell vs Lenovo versions of megaraid-sas), or that a network card works with the kernel from Debian but not the latest upstream that we\u0027re packing for Carrier systems because it\u0027s too new, untested and possibly incompatible.\n\ntl;dr: some packages are inherently tied to the hardware where the systems are installed, and we cannot completely avoid the problem in some cases that some hardware needs a different set of packages, possibly incompatible with other hardware in which we install this software.\n\nSo:\n\n- Maybe we should make an exception to \"same packages everywhere\" for packages tied to hardware (e.g. Linux drivers, or UPS software, etc), and not install those on CE and possibly not on Pro?\n\n- Create metapackages like ngcp-carrier-hardware, etc, that can differ between CE/Carrier/Pro? (not sure if it\u0027s any advantage)\n\n- Maybe install ngcp-intel-i40e and ngcp-megaraid-sas only in the systems where it\u0027s really needed and not even in all Carrier?\n\nI am fine with doing what you say, but I think that this problem might hit us in one way or another sooner or later, thus highlighting it.",
+      "parentUuid": "baee8101_105224de",
+      "revId": "21b6562d469829087a751a759a87b0ea24374f82",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
