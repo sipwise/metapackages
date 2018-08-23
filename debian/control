@@ -141,6 +141,7 @@ Architecture: all
 Depends:
  ngcp-cloudpbx-pro,
  ngcp-config-carrier,
+ ngcp-intel-i40e,
  ngcp-keyring,
  ngcp-nth-pro,
  ngcp-services-carrier,
