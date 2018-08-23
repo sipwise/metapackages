@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baee8101_105224de",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-08-23T12:43:40Z",
+      "side": 1,
+      "message": "we have a rule, PRO and Carrier are identical from package point of view (so PRO upgrade experience can be used to upgrade carrier). The same we are trying for CE, except licensing restrictions.\n\nSo, IMHO we should add it to PRO as well... and maybe to CE while I do not mind to keep it PRO/Carrier only.",
+      "revId": "21b6562d469829087a751a759a87b0ea24374f82",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
