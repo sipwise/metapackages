@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baee8101_f08e8026",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-08-23T15:37:35Z",
+      "side": 1,
+      "message": "Hh... I miss it the first time.. ngcp-ngcp-* is kind of meta-package for meta-packages :-)\n\nI would add ngcp-intel-i40e into ngcp-nth-pro... not a good match while... \n\nMika?",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 17
+      },
+      "revId": "5f5c8df2838f7fa781f0ac4f22c95eafee6cc6e9",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
