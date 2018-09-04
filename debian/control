@@ -330,6 +330,7 @@ Description: Metapackage for NGCP services
 Package: ngcp-services-ce
 Architecture: all
 Depends:
+ acpid,
  bsd-mailx | mailx,
  bzip2,
  iptables-persistent,
