@@ -204,6 +204,7 @@ Depends:
  usbutils,
  vim,
  vlan,
+ wget,
  ${misc:Depends},
 Description: Metapackage for Nice To Have tools in NGCP
  This metapackage installs several nice to have tools in a NGCP
@@ -257,6 +258,7 @@ Depends:
  usbutils,
  vim,
  vlan,
+ wget,
  ${misc:Depends},
 Description: Metapackage for Nice To Have tools in NGCP
  This metapackage installs several nice to have tools in a NGCP
