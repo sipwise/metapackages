@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9af37de9_103c5092",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2018-09-19T13:44:53Z",
+      "side": 1,
+      "message": "Line widths of ~50?",
+      "revId": "8a920702a0df7c62da031963b1dbcbd7707ccd7e",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
