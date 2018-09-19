@@ -176,6 +176,7 @@ Depends:
  iotop,
  ipcalc,
  irqbalance,
+ ledmon,
  less,
  libtemplate-perl,
  locales-all,
