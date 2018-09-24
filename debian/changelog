@@ -1,3 +1,24 @@
+ngcp-metapackages (6.5.1.0+0~mr6.5.1.0) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [45b635f] TT#42672 Ship ngcp-hardware-support only on PRO/Carrier systems
+  * [3fc324e] TT#28953 Add wget to ngcp-nth-{ce,pro}, no longer present by default on Debian/buster
+  * [a7526b2] TT#28953 Do not depend on ngcp-intel-i40e-dkms if linux kernel is recent enough
+  * [ee355af] TT#11444 Depend on grub-pc *or* grub-efi-amd64 to support EFI systems
+
+  [ Alexander Lutay ]
+  * [9161d0f] TT#42672 Drop ngcp-hardware-support for mr6.5+ (firmware-bnx2/-bnx2x are no longer necessary)
+  * [b0632e2] TT#26456 Rename ngcp-backup-tools to ngcp-backup-tools-pro (available on PRO+ only)
+  * [5f6211c] TT#42456 Fix 2029c2c47: correct package name is ngcp-intel-i40e-dkms
+  * [8a92070] TT#44197 Install ledmon on PRO/Carrier by default
+
+  [ Manuel Montecelo ]
+  * [2029c2c] TT#42456 Install newer driver for Intel i40e ethernet card in Carrier
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 24 Sep 2018 18:54:51 +0200
+
 ngcp-metapackages (6.5.0.0+0~mr6.5.0.0) unstable; urgency=medium
 
   [ Michael Prokop ]
