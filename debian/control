@@ -160,6 +160,7 @@ Architecture: all
 Depends:
  acpi,
  acpi-support-base,
+ amd64-microcode,
  apt-transport-https,
  aptitude,
  bind9-host | host,
@@ -173,6 +174,7 @@ Depends:
  ifenslave,
  ifrename,
  iftop,
+ intel-microcode,
  iotop,
  ipcalc,
  irqbalance,
@@ -216,6 +218,7 @@ Architecture: all
 Depends:
  acpi,
  acpi-support-base,
+ amd64-microcode,
  apt-transport-https,
  aptitude,
  bind9-host | host,
@@ -229,6 +232,7 @@ Depends:
  ifenslave,
  ifrename,
  iftop,
+ intel-microcode,
  iotop,
  ipcalc,
  irqbalance,
