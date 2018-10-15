@@ -361,13 +361,7 @@ Provides:
  ngcp-services,
 Conflicts:
  chrony,
- initscripts,
- insserv,
  ngcp-services,
- startpar,
- systemd-shim,
- sysv-rc,
- sysvinit-core,
 Replaces:
  ngcp-services,
 Description: Metapackage for NGCP services
@@ -446,13 +440,7 @@ Provides:
  ngcp-services,
 Conflicts:
  chrony,
- initscripts,
- insserv,
  ngcp-services,
- startpar,
- systemd-shim,
- sysv-rc,
- sysvinit-core,
 Replaces:
  ngcp-services,
 Description: Metapackage for NGCP services
@@ -553,13 +541,7 @@ Provides:
  ngcp-services,
 Conflicts:
  chrony,
- initscripts,
- insserv,
  ngcp-services,
- startpar,
- systemd-shim,
- sysv-rc,
- sysvinit-core,
 Replaces:
  ngcp-services,
 Description: Metapackage for NGCP services
