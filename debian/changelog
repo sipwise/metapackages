@@ -1,3 +1,16 @@
+ngcp-metapackages (6.5.2.0+0~mr6.5.2.0) unstable; urgency=medium
+
+  [ Manuel Montecelo ]
+  * [2d54952] TT#45551 Install dependency for mytop missing in Debian "stretch"
+
+  [ Alexander Lutay ]
+  * [ac7efb6] TT#44508 Install gdisk on CE/PRO by default
+  * [ec9af13] TT#42869 Revert partially: 68764c109 in mr6.5: stop conflicting 'sysv-rc & Co'
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 15 Oct 2018 21:17:15 +0200
+
 ngcp-metapackages (6.5.1.0+0~mr6.5.1.0) unstable; urgency=medium
 
   [ Michael Prokop ]
