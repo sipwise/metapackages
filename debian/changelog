@@ -1,3 +1,15 @@
+ngcp-metapackages (6.4.2.1+0~mr6.4.2.1) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [3a40e0f] TT#42672 Ship ngcp-hardware-support only on PRO/Carrier systems
+
+  [ Manuel Montecelo ]
+  * [91c3818] TT#45551 Install dependency for mytop missing in Debian "stretch"
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 23 Oct 2018 14:15:44 +0200
+
 ngcp-metapackages (6.4.2.0+0~mr6.4.2.0) unstable; urgency=medium
 
   * New release.
