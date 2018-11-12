@@ -1,3 +1,15 @@
+ngcp-metapackages (7.0.1.0+0~mr7.0.1.0) unstable; urgency=medium
+
+  [ Manuel Montecelo ]
+  * [1adf58b] TT#45551 Install dependency for mytop missing in Debian "stretch"
+
+  [ Alexander Lutay ]
+  * [54d9426] TT#44508 Install gdisk on CE/PRO by default
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 12 Nov 2018 22:36:15 +0100
+
 ngcp-metapackages (7.0.0.0+0~mr7.0.0.0) unstable; urgency=medium
 
   [ Michael Prokop ]
