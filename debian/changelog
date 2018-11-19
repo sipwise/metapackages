@@ -1,3 +1,12 @@
+ngcp-metapackages (5.5.7.1+0~mr5.5.7.1) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [afb4b27] TT#38454 Depends on 'acpi,acpid,acpi-support-base' in metapackages
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 19 Nov 2018 17:57:53 +0100
+
 ngcp-metapackages (5.5.7.0+0~mr5.5.7.0) unstable; urgency=medium
 
   * New release.
