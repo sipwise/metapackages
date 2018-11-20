@@ -189,6 +189,7 @@ Depends:
  ngcp-intel-i40e-dkms | linux-image-amd64 (>= 4.17),
  ngcp-inventory,
  ngcp-klish-config,
+ ngcp-sudo-plugin,
  ngrep-sip,
  pciutils,
  perl-doc,
