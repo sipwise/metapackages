@@ -1,3 +1,12 @@
+ngcp-metapackages (5.5.7.2+0~mr5.5.7.2) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [5687df2] TT#47856 TT#36817 Conflict with chrony in ngcp-services-*
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 08 Jan 2019 14:32:12 +0100
+
 ngcp-metapackages (5.5.7.1+0~mr5.5.7.1) unstable; urgency=medium
 
   [ Alexander Lutay ]
