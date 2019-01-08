@@ -325,6 +325,7 @@ Depends:
 Provides:
  ngcp-services,
 Conflicts:
+ chrony,
  ngcp-services,
 Replaces:
  ngcp-services,
@@ -385,6 +386,7 @@ Depends:
 Provides:
  ngcp-services,
 Conflicts:
+ chrony,
  ngcp-services,
 Replaces:
  ngcp-services,
@@ -471,6 +473,7 @@ Depends:
 Provides:
  ngcp-services,
 Conflicts:
+ chrony,
  ngcp-services,
 Replaces:
  ngcp-services,
