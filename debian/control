@@ -79,6 +79,7 @@ Package: ngcp-cloudpbx-pro
 Architecture: all
 Depends:
  ngcp-cloudpbx-devices-pro,
+ ngcp-cloudpbx-firmwares-ale-pro,
  ngcp-cloudpbx-firmwares-cisco-pro,
  ngcp-cloudpbx-firmwares-grandstream-pro,
  ngcp-cloudpbx-firmwares-innovaphone-pro,
