@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a0c5dc1_e1d7ca21",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2019-03-04T16:46:42Z",
+      "side": 1,
+      "message": "slow",
+      "range": {
+        "startLine": 10,
+        "startChar": 41,
+        "endLine": 10,
+        "endChar": 46
+      },
+      "revId": "6c716ff6bc0bf8a0f6bc55187f93918cbffead16",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a0c5dc1_410336b9",
         "filename": "/COMMIT_MSG",
         "patchSetId": 1
@@ -13,6 +36,24 @@
       "writtenOn": "2019-03-04T16:23:45Z",
       "side": 1,
       "message": "Hmm I don\u0027t understand this comment, will it not slow it down or will it speed it up? O_o :)",
+      "revId": "6c716ff6bc0bf8a0f6bc55187f93918cbffead16",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a0c5dc1_01d3fe39",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2019-03-04T16:46:42Z",
+      "side": 1,
+      "message": "\u003e Hmm I don\u0027t understand this comment, will it not slow it down or\n \u003e will it speed it up? O_o :)\n\nMy reading is that it will not slow down -piuparts tests because mariadb-connector-odbc is implicitly installed in these metapackages; but it will save time when running the test of templates-piuparts because it would not be installed if not for the piuparts test.",
+      "parentUuid": "9a0c5dc1_410336b9",
       "revId": "6c716ff6bc0bf8a0f6bc55187f93918cbffead16",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
