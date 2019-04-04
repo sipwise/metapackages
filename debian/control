@@ -192,6 +192,7 @@ Depends:
  ngcp-klish-config,
  ngcp-sudo-plugin-pro,
  ngrep-sip,
+ openvpn,
  pciutils,
  perl-doc,
  rsync,
