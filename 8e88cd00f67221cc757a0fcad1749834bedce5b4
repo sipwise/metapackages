@@ -16,6 +16,24 @@
       "revId": "8e88cd00f67221cc757a0fcad1749834bedce5b4",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a016987_a872c17a",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2019-04-08T22:08:18Z",
+      "side": 1,
+      "message": "Whoops, good catch",
+      "parentUuid": "7a016987_48522ddf",
+      "revId": "8e88cd00f67221cc757a0fcad1749834bedce5b4",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
