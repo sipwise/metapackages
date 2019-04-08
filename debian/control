@@ -188,7 +188,7 @@ Depends:
  man-db,
  nano,
  ngcp-intel-i40e-dkms | linux-image-amd64 (>= 4.17),
- ngcp-inventory,
+ ngcp-inventory-pro,
  ngcp-klish-config,
  ngcp-sudo-plugin-pro,
  ngrep-sip,
