@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a016987_48522ddf",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-04-08T21:05:47Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be in carrier instead of CE?",
+      "revId": "8e88cd00f67221cc757a0fcad1749834bedce5b4",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
