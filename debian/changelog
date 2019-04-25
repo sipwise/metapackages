@@ -1,3 +1,26 @@
+ngcp-metapackages (7.4.0.0+0~mr7.4.0.0) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [a15dbba] TT#53701 Remove dependencies on perl modules only package
+  * [aed9eed] TT#49150 Rename ngcp-voisniff-ng to ngcp-voisniff-pro
+  * [af7d2a2] TT#53701 Rename ngcp-bulk-processor to libngcp-bulkprocessor-perl
+  * [6e064a7] TT#54413 Add janus dependency moved from templates
+
+  [ Alexander Lutay ]
+  * [14cd85a] TT#42767 Install ngcp-cloudpbx-firmwares-ale-pro by default
+  * [7990eed] TT#56521 New inventory scripts will be available/installed on PRO/Carrier only
+
+  [ Michael Prokop ]
+  * [02c09ae] TT#54853 Switch dependency on mariadb-client-10.1 towards mariadb-client
+
+  [ Richard Fuchs ]
+  * [85ad254] TT#45617 add ngcp-logfs-pro to metapackages
+  * [17fae96] TT#56433 add openvpn to nth packages
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Thu, 25 Apr 2019 14:28:38 +0200
+
 ngcp-metapackages (7.3.0.0+0~mr7.3.0.0) unstable; urgency=medium
 
   * New release.
