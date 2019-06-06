@@ -161,7 +161,6 @@ Architecture: all
 Depends:
  acpi,
  acpi-support-base,
- apt-transport-https,
  aptitude,
  bind9-host | host,
  bootlogd,
@@ -222,7 +221,6 @@ Architecture: all
 Depends:
  acpi,
  acpi-support-base,
- apt-transport-https,
  aptitude,
  bind9-host | host,
  bootlogd,
@@ -276,6 +274,7 @@ Package: ngcp-services-pro
 Architecture: all
 Depends:
  acpid,
+ apt-transport-https | apt (>= 1.5),
  bsd-mailx | mailx,
  bzip2,
  dbus,
@@ -385,6 +384,7 @@ Package: ngcp-services-ce
 Architecture: all
 Depends:
  acpid,
+ apt-transport-https | apt (>= 1.5),
  bsd-mailx | mailx,
  bzip2,
  dbus,
