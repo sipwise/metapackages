@@ -103,10 +103,10 @@ Description: Metapackage for Sipwise's NGCP CloudPBX
 Package: ngcp-ngcp-pro
 Architecture: all
 Depends:
+ ngcp-addons-pro,
  ngcp-cloudpbx-pro,
  ngcp-config-pro,
  ngcp-keyring,
- ngcp-nth-pro,
  ngcp-services-pro,
  ${misc:Depends},
 Provides:
@@ -122,9 +122,9 @@ Description: Metapackage for Sipwise's NGCP
 Package: ngcp-ngcp-ce
 Architecture: all
 Depends:
+ ngcp-addons-ce,
  ngcp-config-ce,
  ngcp-keyring,
- ngcp-nth-ce,
  ngcp-services-ce,
  ${misc:Depends},
 Provides:
@@ -140,10 +140,10 @@ Description: Metapackage for Sipwise's NGCP
 Package: ngcp-ngcp-carrier
 Architecture: all
 Depends:
+ ngcp-addons-pro,
  ngcp-cloudpbx-pro,
  ngcp-config-carrier,
  ngcp-keyring,
- ngcp-nth-pro,
  ngcp-services-carrier,
  ${misc:Depends},
 Provides:
@@ -158,6 +158,21 @@ Description: Metapackage for Sipwise's NGCP
 
 Package: ngcp-nth-pro
 Architecture: all
+Section: oldlibs
+Depends:
+ ngcp-addons-pro,
+Description: dummy transitional package
+ This packages is replaced by ngcp-addons-pro, and can be safely removed
+ once nothing depends on it.
+
+Package: ngcp-addons-pro
+Architecture: all
+Conflicts:
+ ngcp-nth-pro,
+Replaces:
+ ngcp-nth-pro,
+Provides:
+ ngcp-nth-pro,
 Depends:
  acpi,
  acpi-support-base,
@@ -210,12 +225,32 @@ Depends:
  vlan,
  wget,
  ${misc:Depends},
-Description: Metapackage for Nice To Have tools in NGCP
- This metapackage installs several nice to have tools in a NGCP
+Description: Metapackage for Add-Ons in NGCP
+ This metapackage installs several add-on packages that are not necessary as
+ part of normal operation, but which extend the functionality in a NGCP
  sip:provider PRO.
+ .
+ This is a separate package, so that in case of dependency problems during
+ upgrades, it might be removed without affecting the core functionality of
+ the NGCP system.
 
 Package: ngcp-nth-ce
 Architecture: all
+Section: oldlibs
+Depends:
+ ngcp-addons-ce,
+Description: dummy transitional package
+ This packages is replaced by ngcp-addons-pro, and can be safely removed
+ once nothing depends on it.
+
+Package: ngcp-addons-ce
+Architecture: all
+Conflicts:
+ ngcp-nth-ce,
+Replaces:
+ ngcp-nth-ce,
+Provides:
+ ngcp-nth-ce,
 Depends:
  acpi,
  acpi-support-base,
@@ -262,9 +297,14 @@ Depends:
  vlan,
  wget,
  ${misc:Depends},
-Description: Metapackage for Nice To Have tools in NGCP
- This metapackage installs several nice to have tools in a NGCP
+Description: Metapackage for Add-Ons in NGCP
+ This metapackage installs several add-on packages that are not necessary as
+ part of normal operation, but which extend the functionality in a NGCP
  sip:provider CE.
+ .
+ This is a separate package, so that in case of dependency problems during
+ upgrades, it might be removed without affecting the core functionality of
+ the NGCP system.
 
 Package: ngcp-services-pro
 Architecture: all
