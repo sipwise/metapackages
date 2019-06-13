@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a50d1a3_d1392e43",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-06-13T13:57:09Z",
+      "side": 1,
+      "message": "s/creatr/create/",
+      "revId": "dd68b8f8178057a5b2e7aa136062fefeb581a319",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a50d1a3_b134a24a",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-06-13T13:57:09Z",
+      "side": 1,
+      "message": "Sort with wrap-and-sort?",
+      "revId": "dd68b8f8178057a5b2e7aa136062fefeb581a319",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
