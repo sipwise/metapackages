@@ -1,3 +1,18 @@
+ngcp-metapackages (7.4.1.0+0~mr7.4.1.0) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [5ed10ec] TT#59361 Add impi dependencies to ngcp-nth-pro
+  * [02025b1] TT#60700 Move apt-transport-https from nth to services
+  * [d43d317] TT#60700 Remove non-optional depdendencies from nth packages
+
+  [ Michael Prokop ]
+  * [99d9068] TT#60115 Add iputils-ping to ngcp-nth-*
+  * [55b364a] TT#60115 Explicitly depend on logrotate
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 17 Jun 2019 14:36:35 +0200
+
 ngcp-metapackages (7.4.0.0+0~mr7.4.0.0) unstable; urgency=medium
 
   [ Guillem Jover ]
