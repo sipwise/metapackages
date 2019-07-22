@@ -1,5 +1,5 @@
 Source: ngcp-metapackages
-Section: utils
+Section: metapackages
 Priority: optional
 Maintainer: Sipwise Development Team <support@sipwise.com>
 Build-Depends:
