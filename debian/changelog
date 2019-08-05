@@ -1,3 +1,20 @@
+ngcp-metapackages (7.5.1.0+0~mr7.5.1.0) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [5059d14] TT#60700 Rename ngcp-nth-* to ngcp-addons-*
+  * [abfb3a8] TT#61101 Remove obsolete alternative dependencies
+  * [071420a] TT#61954 Update copyright years
+  * [3e7ef33] TT#60856 Place all metapackages into the metapackages section
+  * [f10467c] TT#61954 Set debhelper compat level in Build-Depends instead of debian/compat
+  * [6451248] TT#61954 Rename ngcp-keyring to ngcp-archive-keyring
+
+  [ Andreas Granig ]
+  * [e891ef3] TT#7570 Add support for pacemaker/corosync as an alternative to heartbeat
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 05 Aug 2019 20:55:42 +0200
+
 ngcp-metapackages (7.5.0.0+0~mr7.5.0.0) unstable; urgency=medium
 
   [ Guillem Jover ]
