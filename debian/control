@@ -512,6 +512,7 @@ Depends:
  libpam-systemd,
  linux-headers-amd64,
  linux-image-amd64,
+ logrotate,
  lvm2,
  mariadb-client,
  mariadb-server,
