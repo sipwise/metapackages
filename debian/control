@@ -104,9 +104,9 @@ Package: ngcp-ngcp-pro
 Architecture: all
 Depends:
  ngcp-addons-pro,
+ ngcp-archive-keyring | ngcp-keyring,
  ngcp-cloudpbx-pro,
  ngcp-config-pro,
- ngcp-archive-keyring | ngcp-keyring,
  ngcp-services-pro,
  ${misc:Depends},
 Provides:
@@ -123,8 +123,8 @@ Package: ngcp-ngcp-ce
 Architecture: all
 Depends:
  ngcp-addons-ce,
- ngcp-config-ce,
  ngcp-archive-keyring | ngcp-keyring,
+ ngcp-config-ce,
  ngcp-services-ce,
  ${misc:Depends},
 Provides:
@@ -141,9 +141,9 @@ Package: ngcp-ngcp-carrier
 Architecture: all
 Depends:
  ngcp-addons-pro,
+ ngcp-archive-keyring | ngcp-keyring,
  ngcp-cloudpbx-pro,
  ngcp-config-carrier,
- ngcp-archive-keyring | ngcp-keyring,
  ngcp-services-carrier,
  ${misc:Depends},
 Provides:
