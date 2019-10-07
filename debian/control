@@ -167,6 +167,7 @@ Provides:
 Depends:
  acpi,
  acpi-support-base,
+ apt-utils,
  aptitude,
  bind9-host | host,
  bootlogd,
@@ -237,6 +238,7 @@ Provides:
 Depends:
  acpi,
  acpi-support-base,
+ apt-utils,
  aptitude,
  bind9-host | host,
  bootlogd,
