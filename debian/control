@@ -70,29 +70,6 @@ Description: Metapackage for NGCP configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider CE.
 
-Package: ngcp-config-carrier
-Architecture: all
-Depends:
- ngcp-cfg-schema,
- ngcp-cfg-validate-pro,
- ngcp-db-schema (>= 3.0.0~),
- ngcp-handbook-pro,
- ngcp-ngcpcfg,
- ngcp-ngcpcfg-ha,
- ngcp-ngcpcfg-locker,
- ngcp-support-access | ngcp-support,
- ngcp-templates-pro,
- ${misc:Depends},
-Provides:
- ngcp-config,
-Conflicts:
- ngcp-config,
-Replaces:
- ngcp-config,
-Description: Metapackage for NGCP configuration system
- This metapackage installs the ngcp configuration system for the
- NGCP sip:provider CARRIER.
-
 Package: ngcp-cloudpbx-pro
 Architecture: all
 Depends:
@@ -161,7 +138,7 @@ Depends:
  ngcp-addons-pro,
  ngcp-archive-keyring | ngcp-keyring,
  ngcp-cloudpbx-pro,
- ngcp-config-carrier,
+ ngcp-config-pro,
  ngcp-services-carrier,
  ${misc:Depends},
 Provides:
