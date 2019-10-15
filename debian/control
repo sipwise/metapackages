@@ -137,22 +137,12 @@ Description: Metapackage for Sipwise's NGCP
 
 Package: ngcp-ngcp-carrier
 Architecture: all
+Section: oldlibs
 Depends:
- ngcp-addons-pro,
- ngcp-archive-keyring | ngcp-keyring,
- ngcp-cloudpbx-pro,
- ngcp-config-pro,
- ngcp-services-pro,
- ${misc:Depends},
-Provides:
- ngcp-ngcp,
-Conflicts:
- ngcp-ngcp,
-Replaces:
- ngcp-ngcp,
-Description: Metapackage for Sipwise's NGCP
- This metapackage installs all the packages needed in a NGCP
- sip:provider CARRIER environment.
+ ngcp-ngcp-pro,
+Description: transitional dummy package
+ This package is replaced by ngcp-ngcp-pro. It can be safely removed once
+ code does not depend on ngcp-ngcp-carrier.
 
 Package: ngcp-addons-pro
 Architecture: all
