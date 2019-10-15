@@ -506,7 +506,7 @@ Depends:
  ngcp-csc-ui,
  ngcp-fauditd-pro,
  ngcp-faxserver-pro,
- ngcp-installer-carrier,
+ ngcp-installer-pro,
  ngcp-kamailio,
  ngcp-kamailio-extra-modules,
  ngcp-kamailio-lcrrate-modules,
