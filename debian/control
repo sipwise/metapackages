@@ -58,7 +58,7 @@ Depends:
  ngcp-cfg-schema,
  ngcp-cfg-validate-pro,
  ngcp-db-schema (>= 3.0.0~),
- ngcp-handbook-carrier,
+ ngcp-handbook-pro,
  ngcp-ngcpcfg,
  ngcp-ngcpcfg-ha,
  ngcp-ngcpcfg-locker,
