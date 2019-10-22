@@ -205,7 +205,7 @@ Depends:
  irqbalance,
  ledmon,
  less,
- libngcp-bulkprocessor-perl,
+ libngcp-bulkprocessor-projects-perl,
  locales-all,
  lsb-release,
  lsof,
