@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1baf0dd9_fbb0f871",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2019-10-23T14:59:48Z",
+      "side": 1,
+      "message": "It is NOT available for CE!",
+      "range": {
+        "startLine": 259,
+        "startChar": 0,
+        "endLine": 259,
+        "endChar": 37
+      },
+      "revId": "573fca95f08dbc0b58053cea3a5bfb1b3504a5eb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
