@@ -29,6 +29,8 @@ Replaces:
 Description: Metapackage for NGCP configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider PRO.
+ .
+ XXX: no functional change here.
 
 Package: ngcp-config-ce
 Architecture: all
