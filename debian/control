@@ -7,6 +7,24 @@ Build-Depends:
 Standards-Version: 3.9.8
 Homepage: https://www.sipwise.com/
 
+Package: ngcp-linux-amd64
+Architecture: all
+Depends:
+ linux-image-amd64 (>= 4.17),
+ linux-headers-amd64,
+Description: metapackage for NGCP Linux amd64 kernels
+ This metapackage installs the NGCP kernel for the Linux amd64 architecture
+ and the matching headers to be able to build kernel modules.
+
+Package: ngcp-linux-cloud-amd64
+Architecture: all
+Depends:
+ linux-image-cloud-amd64 (>= 4.17),
+ linux-headers-cloud-amd64,
+Description: metapackage for NGCP Linux cloud amd64 kernels
+ This metapackage installs the NGCP kernel for the Linux cloud amd64
+ architecture and the matching headers to be able to build kernel modules.
+
 Package: ngcp-config-pro
 Architecture: all
 Depends:
@@ -188,7 +206,6 @@ Depends:
  ledmon,
  less,
  libngcp-bulkprocessor-perl,
- linux-image-amd64 (>= 4.17),
  locales-all,
  lsb-release,
  lsof,
@@ -196,6 +213,7 @@ Depends:
  nano,
  ngcp-inventory-pro,
  ngcp-klish-config,
+ ngcp-linux-amd64 | ngcp-linux-cloud-amd64,
  ngcp-sudo-plugin-pro,
  ngrep-sip,
  openipmi,
@@ -257,7 +275,6 @@ Depends:
  irqbalance,
  less,
  libngcp-bulkprocessor-perl,
- linux-image-amd64 (>= 4.17),
  locales-all,
  lsb-release,
  lsof,
@@ -265,6 +282,7 @@ Depends:
  nano,
  ngcp-deployment-scripts,
  ngcp-klish-config,
+ ngcp-linux-amd64 | ngcp-linux-cloud-amd64,
  ngrep-sip,
  pciutils,
  perl-doc,
@@ -319,8 +337,6 @@ Depends:
  liblz4-tool,
  libngcp-rating-inew-perl,
  libpam-systemd,
- linux-headers-amd64,
- linux-image-amd64,
  logrotate,
  lvm2,
  mariadb-client,
@@ -352,6 +368,7 @@ Depends:
  ngcp-kamailio-websocket-modules,
  ngcp-kamailio-xml-modules,
  ngcp-license-client,
+ ngcp-linux-amd64 | ngcp-linux-cloud-amd64,
  ngcp-lnpd-pro,
  ngcp-logfs-pro,
  ngcp-mediator,
@@ -417,8 +434,6 @@ Depends:
  libconfig-inifiles-perl,
  liblz4-tool,
  libpam-systemd,
- linux-headers-amd64,
- linux-image-amd64,
  logrotate,
  lvm2,
  mariadb-client,
@@ -444,6 +459,7 @@ Depends:
  ngcp-kamailio-websocket-modules,
  ngcp-kamailio-xml-modules,
  ngcp-license-client,
+ ngcp-linux-amd64 | ngcp-linux-cloud-amd64,
  ngcp-mediator,
  ngcp-panel,
  ngcp-prompts-ce,
@@ -510,8 +526,6 @@ Depends:
  liblz4-tool,
  libngcp-rating-inew-perl,
  libpam-systemd,
- linux-headers-amd64,
- linux-image-amd64,
  logrotate,
  lvm2,
  mariadb-client,
@@ -543,6 +557,7 @@ Depends:
  ngcp-kamailio-websocket-modules,
  ngcp-kamailio-xml-modules,
  ngcp-license-client,
+ ngcp-linux-amd64 | ngcp-linux-cloud-amd64,
  ngcp-lnpd-pro,
  ngcp-logfs-pro,
  ngcp-mediator,
