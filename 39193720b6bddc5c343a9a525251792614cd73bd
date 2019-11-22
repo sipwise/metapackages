@@ -46,6 +46,30 @@
       "revId": "39193720b6bddc5c343a9a525251792614cd73bd",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ede868e1_b7d14ede",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2019-11-22T11:37:50Z",
+      "side": 1,
+      "message": "It will slowsdown piuparts for templates 100% times and it is very popular repo , a lot of reviews and builds :-(\n\nPlease-please-please no...",
+      "parentUuid": "b6ddc1d9_9a63da64",
+      "range": {
+        "startLine": 343,
+        "startChar": 0,
+        "endLine": 354,
+        "endChar": 27
+      },
+      "revId": "39193720b6bddc5c343a9a525251792614cd73bd",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
