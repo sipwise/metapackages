@@ -16,6 +16,24 @@
       "revId": "57bae7392890fe093203dc78d0964f6ba5271f78",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c74aeb9a_b0c84f6b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-11-22T15:28:58Z",
+      "side": 1,
+      "message": "harhar, I actually stopped at this when writing, but quickly approved as the right choice. :/",
+      "parentUuid": "825a7968_1314df7e",
+      "revId": "57bae7392890fe093203dc78d0964f6ba5271f78",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
     }
   ]
 }
