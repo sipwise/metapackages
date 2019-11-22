@@ -22,6 +22,30 @@
       "revId": "39193720b6bddc5c343a9a525251792614cd73bd",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b6ddc1d9_9a63da64",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2019-11-22T11:06:55Z",
+      "side": 1,
+      "message": "From my POV it should be in ngcp-templates-* because is there were we define what module we need. I would move that there. I think I already said this in the past.",
+      "parentUuid": "2f84281a_b9ec372c",
+      "range": {
+        "startLine": 343,
+        "startChar": 0,
+        "endLine": 354,
+        "endChar": 27
+      },
+      "revId": "39193720b6bddc5c343a9a525251792614cd73bd",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
