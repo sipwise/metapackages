@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e6f2021c_1e109c80",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-11-22T15:08:30Z",
+      "side": 1,
+      "message": "Please consider providing an explanation of the situation we\u0027re trying to solve in the commit message similar to what I wrote in the devops jabber channel, so it\u0027s clear what problem we\u0027re actually trying to solve here",
+      "revId": "3c4d6751b593877b935266564c60aef68dc4dbe6",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bcc9881b_49389146",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-11-22T15:08:30Z",
+      "side": 1,
+      "message": "s/install/installs/",
+      "revId": "3c4d6751b593877b935266564c60aef68dc4dbe6",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "100fe109_2399a588",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-11-22T15:08:30Z",
+      "side": 1,
+      "message": "s/install/installs/",
+      "revId": "3c4d6751b593877b935266564c60aef68dc4dbe6",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d14cee2_cdbe07c5",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-11-22T15:08:30Z",
+      "side": 1,
+      "message": "also mention the \"cloud\" thingy in long description here?",
+      "revId": "3c4d6751b593877b935266564c60aef68dc4dbe6",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
+    }
+  ]
+}
