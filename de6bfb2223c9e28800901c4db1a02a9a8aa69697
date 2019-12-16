@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a3191aa7_484e3fce",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-16T14:14:36Z",
+      "side": 0,
+      "message": "Do we want to switch this one into a transitional package instead that just depends on the ngcp-ngcp-pro for a somewhat smoother upgrade path?",
+      "revId": "de6bfb2223c9e28800901c4db1a02a9a8aa69697",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
