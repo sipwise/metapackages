@@ -22,6 +22,30 @@
       "revId": "24150a5059f420a92333da2463ad757301eadbb7",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0d728df0_a5d0553e",
+        "filename": "debian/control",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-16T14:18:04Z",
+      "side": 1,
+      "message": "Yes, we need t C-P-R with the old package.",
+      "parentUuid": "9d3fdda2_b5273845",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 13
+      },
+      "revId": "24150a5059f420a92333da2463ad757301eadbb7",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }

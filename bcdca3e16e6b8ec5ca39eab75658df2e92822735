@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e63ff90c_f2587af2",
+        "filename": "debian/control",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-16T14:18:04Z",
+      "side": 0,
+      "message": "Same as other, transitional package instead?",
+      "revId": "bcdca3e16e6b8ec5ca39eab75658df2e92822735",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
