@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b1cfa221_612b7616",
+        "filename": "debian/control",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2019-12-16T14:11:01Z",
+      "side": 1,
+      "message": "now it is identical to ngcp-config-pro",
+      "range": {
+        "startLine": 73,
+        "startChar": 9,
+        "endLine": 73,
+        "endChar": 28
+      },
+      "revId": "bcdca3e16e6b8ec5ca39eab75658df2e92822735",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
