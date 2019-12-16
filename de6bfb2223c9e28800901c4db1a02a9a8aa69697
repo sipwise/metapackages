@@ -33,6 +33,24 @@
       "revId": "de6bfb2223c9e28800901c4db1a02a9a8aa69697",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7ceb3861_ecd47b47",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-16T17:10:44Z",
+      "side": 0,
+      "message": "Check how we did this for bulk-processor for example.",
+      "parentUuid": "a3191aa7_484e3fce",
+      "revId": "de6bfb2223c9e28800901c4db1a02a9a8aa69697",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
