@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "72ce8b52_91f03149",
+        "filename": "debian/control",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-16T17:12:59Z",
+      "side": 1,
+      "message": "I\u0027m not sure whether this is in reaction to my comment about a transitionally dummy package. But this does not look correct to me? Instead I\u0027d turn the ngcp-config-carrier into a package that just depends on ngcp-config-pro, place it under oldlibs, and mention this is a transitional package, like in the bulk-processor transition.",
+      "revId": "c7fb90d038f91427ea8407ef943cebd123fb70cd",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
