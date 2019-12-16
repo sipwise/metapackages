@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "ea9bd68e_62d1cb40",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2019-12-16T14:16:46Z",
+      "side": 0,
+      "message": "this is a hardest step, I would submit it separately from all other reviews in this thread. As a lot of places need a cleanup here... and MAYBE we will have to keep it, but just create empty transitional package  ngcp-ngcp-carrier, so system-tests, etc will properly show Carrier until we invent better marker.",
+      "revId": "de6bfb2223c9e28800901c4db1a02a9a8aa69697",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a3191aa7_484e3fce",
         "filename": "debian/control",
         "patchSetId": 2
