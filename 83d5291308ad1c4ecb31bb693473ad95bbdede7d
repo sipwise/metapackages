@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b39feced_3c2d9075",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 481,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-16T14:16:42Z",
+      "side": 0,
+      "message": "The same as with the other one. Do we perhaps want instead to create a transitional package here to try to get smoother upgrade paths?",
+      "revId": "83d5291308ad1c4ecb31bb693473ad95bbdede7d",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}

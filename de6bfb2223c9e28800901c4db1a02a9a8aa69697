@@ -22,6 +22,30 @@
       "revId": "de6bfb2223c9e28800901c4db1a02a9a8aa69697",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a6019c4d_fde95f01",
+        "filename": "debian/control",
+        "patchSetId": 2
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-16T14:16:42Z",
+      "side": 1,
+      "message": "Yep.",
+      "parentUuid": "e35f3dfd_f3cebe41",
+      "range": {
+        "startLine": 144,
+        "startChar": 0,
+        "endLine": 149,
+        "endChar": 11
+      },
+      "revId": "de6bfb2223c9e28800901c4db1a02a9a8aa69697",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
