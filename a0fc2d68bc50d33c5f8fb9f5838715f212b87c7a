@@ -34,6 +34,24 @@
       "revId": "a0fc2d68bc50d33c5f8fb9f5838715f212b87c7a",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "03bf6cc3_54ba6178",
+        "filename": "debian/control",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2019-12-18T15:24:07Z",
+      "side": 1,
+      "message": "My $0.05 here,\n\nIMHO it should follow Provides/Conflicts/Replaces approach like was done for hardbook/ngcp-config-carrier in previous merge today. Guillem, Isn\u0027t it?\n\nNo need for \"ngcp-services-pro | ngcp-services-carrier\" at all.",
+      "parentUuid": "9ae447e4_c0f8044c",
+      "revId": "a0fc2d68bc50d33c5f8fb9f5838715f212b87c7a",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
