@@ -16,6 +16,24 @@
       "revId": "a0fc2d68bc50d33c5f8fb9f5838715f212b87c7a",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ae447e4_c0f8044c",
+        "filename": "debian/control",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2019-12-18T15:16:59Z",
+      "side": 1,
+      "message": "\u003e This seems wrong, we should add a versioned dependency here on the -pro one, otherwise we might end up pulling the carrier one which is not yet ready for pro?\n\nFor clarity, this means something like this?\n\n  ngcp-services-pro (\u003e\u003e 8.2.0.0) | ngcp-services-carrier,\n\nI didn\u0027t review in depth the other related changes, but it looks to me as if the dependency here it should continue to be only:\n\n  ngcp-services-pro,\n\nand then, if anything wants to be done to make the transition smoother, to have the packages like \"ngcp-$whatever-pro\" to have \"Provides: ngcp-$whatever-carrier\".\n\nI mean, I think that the most straightforward thing that we can do is -pro packages should take over -carrier ones by using \"Provides\".  But again, I defer to the opinion of those of you who have reviewed more in-depth.",
+      "parentUuid": "e26f3921_f027924a",
+      "revId": "a0fc2d68bc50d33c5f8fb9f5838715f212b87c7a",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
