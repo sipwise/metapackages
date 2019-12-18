@@ -1,0 +1,9 @@
+Verified+1: Jenkins Jenkins
+Code-Review+2: Oleksandr Lutai <alutay@sipwise.com>
+Code-Review+2: Guillem Jover <gjover@sipwise.com>
+Code-Review+1: Michael Prokop <mprokop@sipwise.com>
+Submitted-by: Mykola Malkov <mmalkov@sipwise.com>
+Submitted-at: Wed, 18 Dec 2019 13:53:30 +0100
+Reviewed-on: http://gerrit.mgm.sipwise.com/c/metapackages/+/34229
+Project: metapackages
+Branch: refs/heads/master
