@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50c89264_54d16df0",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-19T15:23:02Z",
+      "side": 1,
+      "message": "These still need to mention ngcp-ngcp-carrier here. At least Replaces. You might want to check how the upgrade goes with Conflicts too. That\u0027s supposed to work, but maybe its too rough on apt.",
+      "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    }
+  ]
+}
