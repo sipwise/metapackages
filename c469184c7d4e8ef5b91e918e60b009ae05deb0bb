@@ -34,6 +34,70 @@
       "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bb0668d4_a7bb8ba4",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2019-12-19T15:35:20Z",
+      "side": 1,
+      "message": "IMHO all three must be here.\n\nAlso Depends: ngcp-ngcp-pro,   must be removed below.",
+      "parentUuid": "0f9fc57b_bd2f9dc3",
+      "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d7a57e9c_3a43e9de",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2019-12-19T15:35:20Z",
+      "side": 1,
+      "message": "Does it means ngcp-ngcp-pro will be installed in I install ngcp-ngcp-carrier? I believe this is not what we want.\nWe need either ngcp-ngcp-pro OR ngcp-ngcp-carrier. Right?",
+      "range": {
+        "startLine": 141,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 15
+      },
+      "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8c41e34_de501f88",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2019-12-19T15:35:20Z",
+      "side": 1,
+      "message": "Uff... is OR will be... OK.",
+      "range": {
+        "startLine": 144,
+        "startChar": 14,
+        "endLine": 144,
+        "endChar": 16
+      },
+      "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
