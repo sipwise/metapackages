@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "3143a5a8_c2a2f047",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-19T16:10:19Z",
+      "side": 1,
+      "message": "Ah, right sorry, had forgotten about that, in that case yes your current approach is the correct one.",
+      "parentUuid": "97f9bf2e_83ddf3b7",
+      "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d7a57e9c_3a43e9de",
         "filename": "debian/control",
         "patchSetId": 6
