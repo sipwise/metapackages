@@ -16,6 +16,24 @@
       "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0f9fc57b_bd2f9dc3",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-19T15:24:03Z",
+      "side": 1,
+      "message": "Actually, given that this is a metapackage, Replaces would make sense only combined with Conflicts.",
+      "parentUuid": "50c89264_54d16df0",
+      "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
