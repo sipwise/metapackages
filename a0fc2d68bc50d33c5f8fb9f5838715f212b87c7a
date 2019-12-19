@@ -52,6 +52,24 @@
       "revId": "a0fc2d68bc50d33c5f8fb9f5838715f212b87c7a",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa8aa703_5fada9cc",
+        "filename": "debian/control",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2019-12-19T13:53:44Z",
+      "side": 1,
+      "message": "Sorry that I was unclear. What I mean is that all these «-pro | -carrier» deps seem wrong. They should be «-pro (\u003e\u003e first-version-after-the-merge)». The version can be completely skipped if we stop building the -carrier packages (no transitional dummy packages involved).\n\nOtherwise on an upgrade w/o transitional packages we will end up with -carrier disappearing (in the new release), so no upgrade for that one, but the version will keep being satisfied. With a transitional package, that might actually be fine, even though it keeps around a dependency on an unnecessary package.",
+      "parentUuid": "03bf6cc3_54ba6178",
+      "revId": "a0fc2d68bc50d33c5f8fb9f5838715f212b87c7a",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
