@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "53efcd01_0fd5e801",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2019-12-19T15:42:16Z",
+      "side": 1,
+      "message": "I thought the main point is to get ngcp-ngcp-carrier installed. if we are talking about ngcp-ngcp-carrier or ngcp-ngcp-pro I see no way to do it right now. In this case we have to suspend this review until code doesn\u0027t depend on ngcp-ngcp-carrier package and just replace it with Provides/Conflicts/Replaces",
+      "parentUuid": "d7a57e9c_3a43e9de",
+      "range": {
+        "startLine": 141,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 15
+      },
+      "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b8c41e34_de501f88",
         "filename": "debian/control",
         "patchSetId": 6
