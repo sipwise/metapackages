@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "97f9bf2e_83ddf3b7",
+        "filename": "debian/control",
+        "patchSetId": 6
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2019-12-19T15:37:11Z",
+      "side": 1,
+      "message": "The goal is to get the following:\n\n1. ngcp-ngcp-carrier package is installed. So any code which checks it works well.\n\n2. ngcp-ngcp-pro is installed with all the deps which are actual ones.\n\n3. ngcp-ngcp-carrier has the same list of deps but without copy/paste.\n\nWith this PS I guess it works - after \u0027apt install ngcp-ngcp-carrier\u0027 all the required packages are installed including ngcp-ngcp-carrier. But I\u0027m not sure about next \u0027autoclean\u0027 and whole upgrade procedure.",
+      "parentUuid": "0f9fc57b_bd2f9dc3",
+      "revId": "c469184c7d4e8ef5b91e918e60b009ae05deb0bb",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d7a57e9c_3a43e9de",
         "filename": "debian/control",
         "patchSetId": 6
