@@ -1,3 +1,20 @@
+ngcp-metapackages (8.2.1.0+0~mr8.2.1.0) unstable; urgency=medium
+
+  [ Victor Seva ]
+  * [a8b72a0] TT#36285 add ngcp-kamailio-systemd-modules
+
+  [ Mykola Malkov ]
+  * [bcdca3e] TT#34758 Use handbook-pro for Carrier
+  * [b31c87f] TT#34758 Remove ngcp-config-carrier package
+  * [a3c07fa] TT#34758 Use ngcp-installer-pro for Carrier
+  * [40a21e0] TT#34758 Use ngcp-service-pro for Carrier
+
+  [ Guillem Jover ]
+  * [e24aacb] TT#72351 Install ngcp-system-tests by default
+  * [5824dfd] TT#72351 Add rename to addons metapackages
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 27 Jan 2020 12:21:54 +0100
+
 ngcp-metapackages (8.2.0.0+0~mr8.2.0.0) unstable; urgency=medium
 
   [ Guillem Jover ]
