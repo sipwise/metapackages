@@ -1,3 +1,11 @@
+ngcp-metapackages (7.5.3.1+0~mr7.5.3.1) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [10ef90c] TT#70750 Add support for Linux cloud kernels
+  * [310cd52] TT#63655 Switch to depend on libngcp-bulkprocessor-projects-perl on PRO
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 10 Feb 2020 16:34:30 +0100
+
 ngcp-metapackages (7.5.3.0+0~mr7.5.3.0) unstable; urgency=medium
 
   [ Alexander Lutay ]
