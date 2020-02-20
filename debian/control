@@ -191,6 +191,7 @@ Depends:
  lsof,
  man-db,
  nano,
+ ngcp-intel-i40e-dkms,
  ngcp-inventory-pro,
  ngcp-klish-config,
  ngcp-linux-amd64 | ngcp-linux-cloud-amd64,
