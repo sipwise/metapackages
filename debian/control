@@ -142,6 +142,7 @@ Depends:
  ngcp-archive-keyring | ngcp-keyring,
  ngcp-cloudpbx-pro,
  ngcp-config-pro,
+ ngcp-intel-i40e-dkms,
  ngcp-services-pro,
  ${misc:Depends},
 Provides:
