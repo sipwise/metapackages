@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "927f33ee_53041af3",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-02-24T09:49:53Z",
+      "side": 1,
+      "message": "FTR: we seemed to have ngcp-intel-i40e-dkms as part of the ngcp-nth-* packages in the past.\nAren\u0027t PRO and carrier running on the same hardware (architecture)? As in: we really don\u0027t need i40e-dkms on PRO systems?",
+      "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
+    }
+  ]
+}
