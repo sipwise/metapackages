@@ -34,6 +34,24 @@
       "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f55a5d77_4c13f24f",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1000018
+      },
+      "writtenOn": "2020-02-24T13:12:49Z",
+      "side": 1,
+      "message": "Hi our pro right now is a Lenovo SR250:\nhttps://lenovopress.com/lp0963-lenovo-thinksystem-sr250-server-e2100\nBut unfortunately, a network adapter is Intel i350 which is not e40i based as carrier system has.",
+      "parentUuid": "418ea5b9_cf56c150",
+      "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
     }
   ]
 }
