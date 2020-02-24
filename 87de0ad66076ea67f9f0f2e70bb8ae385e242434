@@ -16,6 +16,24 @@
       "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "418ea5b9_cf56c150",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2020-02-24T12:59:59Z",
+      "side": 1,
+      "message": "AFAIK we are shipping Lenovo for PRO as well nowadays.\nASked Vova in jabber to check and answer ticket here.\n\nIMHO PRO and carrier should be identical from packages point of view.",
+      "parentUuid": "927f33ee_53041af3",
+      "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
     }
   ]
 }
