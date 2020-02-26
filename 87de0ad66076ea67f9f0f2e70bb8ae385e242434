@@ -52,6 +52,24 @@
       "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a1441b70_7b4686b9",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2020-02-26T11:03:41Z",
+      "side": 1,
+      "message": "\u003e Hi our pro right now is a Lenovo SR250:\n\u003e https://lenovopress.com/lp0963-lenovo-thinksystem-sr250-server-e2100\n\u003e But unfortunately, a network adapter is Intel i350 which is not e40i based as carrier system has.\n\nI can easily add it to Pro and Carrier, as Alex wants, and maybe in the future the hardware that we have in Pro will also use this driver, who knows.\n\nI didn\u0027t do it by default because it takes a while to build the module, and it will slow down every kernel upgrade IIRC, so having it in Pro if not needed is not exactly a cost-free or low-overhead operation.",
+      "parentUuid": "f55a5d77_4c13f24f",
+      "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": true
     }
   ]
 }
