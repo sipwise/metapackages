@@ -70,6 +70,24 @@
       "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
       "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f93fbe8_71269a23",
+        "filename": "debian/control",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2020-02-26T14:16:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a1441b70_7b4686b9",
+      "revId": "87de0ad66076ea67f9f0f2e70bb8ae385e242434",
+      "serverId": "85315e57-5f03-49c3-83f8-201ae2313a75",
+      "unresolved": false
     }
   ]
 }
