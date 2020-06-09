@@ -10,8 +10,8 @@ Homepage: https://www.sipwise.com/
 Package: ngcp-linux-amd64
 Architecture: all
 Depends:
- linux-image-amd64 (>= 4.17),
  linux-headers-amd64,
+ linux-image-amd64 (>= 4.17),
 Description: metapackage for NGCP Linux amd64 kernels
  This metapackage installs the NGCP kernel for the Linux amd64 architecture
  and the matching headers to be able to build kernel modules.
@@ -19,8 +19,8 @@ Description: metapackage for NGCP Linux amd64 kernels
 Package: ngcp-linux-cloud-amd64
 Architecture: all
 Depends:
- linux-image-cloud-amd64 (>= 4.17),
  linux-headers-cloud-amd64,
+ linux-image-cloud-amd64 (>= 4.17),
 Description: metapackage for NGCP Linux cloud amd64 kernels
  This metapackage installs the NGCP kernel for the Linux cloud amd64
  architecture and the matching headers to be able to build kernel modules.
@@ -324,6 +324,7 @@ Depends:
  mariadb-server,
  monit,
  net-tools,
+ ngcp-admin-ui,
  ngcp-asterisk-voicemail-odbcstorage,
  ngcp-backup-tools-pro,
  ngcp-billing-tools,
@@ -425,6 +426,7 @@ Depends:
  mariadb-client,
  mariadb-server,
  net-tools,
+ ngcp-admin-ui,
  ngcp-asterisk-voicemail-odbcstorage,
  ngcp-billing-tools,
  ngcp-cdr-exporter,
