@@ -40,13 +40,10 @@ Depends:
  ${misc:Depends},
 Provides:
  ngcp-config,
- ngcp-config-carrier,
 Conflicts:
  ngcp-config,
- ngcp-config-carrier,
 Replaces:
  ngcp-config,
- ngcp-config-carrier,
 Description: Metapackage for NGCP configuration system
  This metapackage installs the ngcp configuration system for the
  NGCP sip:provider PRO.
@@ -86,7 +83,7 @@ Depends:
  ngcp-cloudpbx-firmwares-yealink-pro,
  ngcp-sems-modules,
  ngcp-sems-pbx,
- ngcp-templates-pro | ngcp-templates,
+ ngcp-templates-pro,
  ${misc:Depends},
 Provides:
  ngcp-cloudpbx,
@@ -102,7 +99,7 @@ Package: ngcp-ngcp-pro
 Architecture: all
 Depends:
  ngcp-addons-pro,
- ngcp-archive-keyring | ngcp-keyring,
+ ngcp-archive-keyring,
  ngcp-cloudpbx-pro,
  ngcp-config-pro,
  ngcp-services-pro,
@@ -139,7 +136,7 @@ Package: ngcp-ngcp-carrier
 Architecture: all
 Depends:
  ngcp-addons-pro,
- ngcp-archive-keyring | ngcp-keyring,
+ ngcp-archive-keyring,
  ngcp-cloudpbx-pro,
  ngcp-config-pro,
  ngcp-services-pro,
@@ -158,13 +155,10 @@ Package: ngcp-addons-pro
 Architecture: all
 Conflicts:
  ngcp-addons,
- ngcp-nth-pro,
 Replaces:
  ngcp-addons,
- ngcp-nth-pro,
 Provides:
  ngcp-addons,
- ngcp-nth-pro,
 Depends:
  acpi,
  acpi-support-base,
@@ -233,13 +227,10 @@ Package: ngcp-addons-ce
 Architecture: all
 Conflicts:
  ngcp-addons,
- ngcp-nth-ce,
 Replaces:
  ngcp-addons,
- ngcp-nth-ce,
 Provides:
  ngcp-addons,
- ngcp-nth-ce,
 Depends:
  acpi,
  acpi-support-base,
@@ -393,20 +384,17 @@ Depends:
  ${misc:Depends},
 Provides:
  ngcp-services,
- ngcp-services-carrier,
 Conflicts:
  chrony,
  initscripts,
  insserv,
  ngcp-services,
- ngcp-services-carrier,
  startpar,
  systemd-shim,
  sysv-rc,
  sysvinit-core,
 Replaces:
  ngcp-services,
- ngcp-services-carrier,
 Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
  sip:provider PRO.
