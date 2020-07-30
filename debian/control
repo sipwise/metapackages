@@ -157,10 +157,13 @@ Description: Metapackage for Sipwise's NGCP
 Package: ngcp-addons-pro
 Architecture: all
 Conflicts:
+ ngcp-addons,
  ngcp-nth-pro,
 Replaces:
+ ngcp-addons,
  ngcp-nth-pro,
 Provides:
+ ngcp-addons,
  ngcp-nth-pro,
 Depends:
  acpi,
@@ -229,10 +232,13 @@ Description: Metapackage for Add-Ons in NGCP
 Package: ngcp-addons-ce
 Architecture: all
 Conflicts:
+ ngcp-addons,
  ngcp-nth-ce,
 Replaces:
+ ngcp-addons,
  ngcp-nth-ce,
 Provides:
+ ngcp-addons,
  ngcp-nth-ce,
 Depends:
  acpi,
