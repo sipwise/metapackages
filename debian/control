@@ -106,13 +106,16 @@ Depends:
  ${misc:Depends},
 Provides:
  ngcp-ngcp,
+ ngcp-ngcp-carrier,
 Conflicts:
  ngcp-ngcp,
+ ngcp-ngcp-carrier,
 Replaces:
  ngcp-ngcp,
+ ngcp-ngcp-carrier,
 Description: Metapackage for Sipwise's NGCP
  This metapackage installs all the packages needed in a NGCP
- sip:provider PRO environment.
+ sip:provider PRO and Carrier environment.
 
 Package: ngcp-ngcp-ce
 Architecture: all
@@ -131,25 +134,6 @@ Replaces:
 Description: Metapackage for Sipwise's NGCP
  This metapackage installs all the packages needed in a NGCP
  sip:provider CE environment.
-
-Package: ngcp-ngcp-carrier
-Architecture: all
-Depends:
- ngcp-addons-pro,
- ngcp-archive-keyring,
- ngcp-cloudpbx-pro,
- ngcp-config-pro,
- ngcp-services-pro,
- ${misc:Depends},
-Provides:
- ngcp-ngcp,
-Conflicts:
- ngcp-ngcp,
-Replaces:
- ngcp-ngcp,
-Description: Metapackage for Sipwise's NGCP
- This metapackage installs all the packages needed in a NGCP
- sip:provider CARRIER environment.
 
 Package: ngcp-addons-pro
 Architecture: all
