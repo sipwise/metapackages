@@ -1,3 +1,10 @@
+ngcp-metapackages (8.5.3.0+0~mr8.5.3.0) unstable; urgency=medium
+
+  [ Victor Seva ]
+  * [a3e11e9] TT#97300 add lnav package on PRO/CE default installations
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 19 Oct 2020 14:28:15 +0200
+
 ngcp-metapackages (8.5.2.0+0~mr8.5.2.0) unstable; urgency=medium
 
   * New release.
