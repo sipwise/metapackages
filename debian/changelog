@@ -1,3 +1,12 @@
+ngcp-metapackages (9.1.1.0+0~mr9.1.1.0) unstable; urgency=medium
+
+  [ Victor Seva ]
+  * [f865a71] TT#97300 add lnav package on PRO/CE default installations
+  * [1f3e432] TT#97300 add ripgrep package on PRO/CE default installations
+  * [774e7a7] TT#97300 add tmux package on PRO/CE default installations
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 09 Nov 2020 16:24:45 +0100
+
 ngcp-metapackages (9.1.0.0+0~mr9.1.0.0) unstable; urgency=medium
 
   [ Guillem Jover ]
