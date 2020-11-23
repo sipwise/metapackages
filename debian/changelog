@@ -1,3 +1,9 @@
+ngcp-metapackages (9.1.2.0+0~mr9.1.2.0) unstable; urgency=medium
+
+  * New release.
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 23 Nov 2020 12:20:09 +0100
+
 ngcp-metapackages (9.1.1.0+0~mr9.1.1.0) unstable; urgency=medium
 
   [ Victor Seva ]
