@@ -372,6 +372,7 @@ Depends:
  systemd-coredump,
  systemd-sysv,
  systemd-timesyncd | systemd,
+ zstd,
  ${misc:Depends},
 Provides:
  ngcp-services,
@@ -457,6 +458,7 @@ Depends:
  systemd-coredump,
  systemd-sysv,
  systemd-timesyncd | systemd,
+ zstd,
  ${misc:Depends},
 Provides:
  ngcp-services,
