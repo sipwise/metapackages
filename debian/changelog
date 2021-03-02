@@ -1,3 +1,10 @@
+ngcp-metapackages (9.3.2.0+0~mr9.3.2.0) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [1abf829] TT#111254 Install bash-completion by default
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 02 Mar 2021 12:07:16 +0100
+
 ngcp-metapackages (9.3.1.0+0~mr9.3.1.0) unstable; urgency=medium
 
   [ Alexander Lutay ]
