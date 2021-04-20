@@ -1,3 +1,13 @@
+ngcp-metapackages (9.5.0.0+0~mr9.5.0.0) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [7208ef5] TT#111254 Install bash-completion by default
+
+  [ Guillem Jover ]
+  * [3e6b9c9] TT#112302 Move monitoring stack daemons dependencies from ngcp-check-tools
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 20 Apr 2021 11:57:39 +0200
+
 ngcp-metapackages (9.4.0.0+0~mr9.4.0.0) unstable; urgency=medium
 
   [ Alexander Lutay ]
