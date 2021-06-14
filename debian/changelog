@@ -1,3 +1,17 @@
+ngcp-metapackages (9.5.1.0+0~mr9.5.1.0) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [02a112e] TT#16166 Provide dependencies for find-dbgsym-packages usage
+  * [5dd71d1] TT#118659 Add moreutils to ngcp-addons-ce + ngcp-addons-pro
+
+  [ Guillem Jover ]
+  * [83cc6ea] TT#115100 Add ngcp-rest-api to services metapackages
+
+  [ Victor Seva ]
+  * [a764cd0] TT#91051 kamailio: add secsipid module
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 14 Jun 2021 16:36:21 +0200
+
 ngcp-metapackages (9.5.0.0+0~mr9.5.0.0) unstable; urgency=medium
 
   [ Alexander Lutay ]
