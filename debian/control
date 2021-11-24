@@ -323,7 +323,6 @@ Depends:
  ngcp-cdr-exporter,
  ngcp-check-tools,
  ngcp-cleanup-tools-pro,
- ngcp-comx-fileshare-service,
  ngcp-csc-ui,
  ngcp-fauditd-pro,
  ngcp-faxserver-pro,
