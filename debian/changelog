@@ -1,3 +1,17 @@
+ngcp-metapackages (10.5.0.0+0~mr10.5.0.0) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [3a45b88] TT#83362 Include smartmontools in ngcp-services-*
+  * [50aea44] TT#154255 debian: adjust ordering via wrap-and-sort
+
+  [ Guillem Jover ]
+  * [cfbcd3b] TT#160551 Add percona-toolkit to the addons packages
+
+  [ Alexander Lutay ]
+  * [18d2e57] TT#169100 Force dependency on systemd-timesyncd as systemd demoted it in 247.3-7
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 30 Mar 2022 23:59:40 +0200
+
 ngcp-metapackages (10.4.0.0+0~mr10.4.0.0) unstable; urgency=medium
 
   [ Kirill Solomko ]
