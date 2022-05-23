@@ -290,6 +290,7 @@ Depends:
  acpid,
  bsd-mailx | mailx,
  bzip2,
+ coturn,
  crmsh,
  cron,
  dbus,
