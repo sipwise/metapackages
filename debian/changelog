@@ -1,3 +1,10 @@
+ngcp-metapackages (9.5.5.1+0~mr9.5.5.1) unstable; urgency=medium
+
+  [ Alexander Lutay ]
+  * [70d8a96] TT#169100 Force dependency on systemd-timesyncd as systemd demoted it in 247.3-7
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Fri, 03 Jun 2022 18:09:59 +0200
+
 ngcp-metapackages (9.5.5.0+0~mr9.5.5.0) unstable; urgency=medium
 
   * New release.
