@@ -309,7 +309,6 @@ Depends:
  libavcodec-extra,
  libconfig-inifiles-perl,
  liblz4-tool,
- libngcp-rating-inew-perl,
  libpam-systemd,
  logrotate,
  lvm2,
