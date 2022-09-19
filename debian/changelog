@@ -1,3 +1,10 @@
+ngcp-metapackages (10.5.2.1+0~mr10.5.2.1) unstable; urgency=medium
+
+  [ Victor Seva ]
+  * [28ef5a4] TT#185900 add support for opus on asterisk
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 19 Sep 2022 14:36:04 +0200
+
 ngcp-metapackages (10.5.2.0+0~mr10.5.2.0) unstable; urgency=medium
 
   * New release.
