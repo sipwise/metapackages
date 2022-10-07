@@ -310,6 +310,7 @@ Depends:
  ldap-utils,
  libavcodec-extra,
  libconfig-inifiles-perl,
+ libldap-common,
  liblz4-tool,
  libnss-sss,
  libpam-sss,
