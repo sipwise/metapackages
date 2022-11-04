@@ -288,7 +288,7 @@ Architecture: all
 Depends:
  acpid,
  asterisk-g729,
- asterisk-opus,
+ asterisk-opus | asterisk (>= 18.14.0),
  bsd-mailx | mailx,
  bzip2,
  coturn,
@@ -419,7 +419,7 @@ Architecture: all
 Depends:
  acpid,
  asterisk-g729,
- asterisk-opus,
+ asterisk-opus | asterisk (>= 18.14.0),
  bsd-mailx | mailx,
  bzip2,
  cron,
