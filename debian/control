@@ -299,6 +299,7 @@ Depends:
  exim4,
  fence-agents,
  ffproxy,
+ glusterfs-cli | glusterfs-server (<= 9.2-1),
  glusterfs-client,
  glusterfs-server,
  grub-efi | grub-pc,
