@@ -196,6 +196,7 @@ Depends:
  vim,
  vlan,
  wget,
+ yq,
  ${misc:Depends},
 Description: Metapackage for Add-Ons in NGCP
  This metapackage installs several add-on packages that are not necessary as
@@ -269,6 +270,7 @@ Depends:
  vim,
  vlan,
  wget,
+ yq,
  ${misc:Depends},
 Description: Metapackage for Add-Ons in NGCP
  This metapackage installs several add-on packages that are not necessary as
