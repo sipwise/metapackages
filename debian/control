@@ -94,6 +94,7 @@ Depends:
  ngcp-archive-keyring,
  ngcp-cloudpbx-pro,
  ngcp-config-pro,
+ ngcp-kernel-firmware,
  ngcp-services-pro,
  ${misc:Depends},
 Provides:
@@ -115,6 +116,7 @@ Depends:
  ngcp-addons-ce,
  ngcp-archive-keyring | ngcp-keyring,
  ngcp-config-ce,
+ ngcp-kernel-firmware,
  ngcp-services-ce,
  ${misc:Depends},
 Provides:
