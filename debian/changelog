@@ -1,3 +1,10 @@
+ngcp-metapackages (11.5.2.0+0~mr11.5.2.0) unstable; urgency=medium
+
+  [ Mykola Malkov ]
+  * [fff2218] MT#57165 Install ngcp-kernel-firmware by default
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 18 Sep 2023 13:51:01 +0200
+
 ngcp-metapackages (11.5.1.0+0~mr11.5.1.0) unstable; urgency=medium
 
   [ Kirill Solomko ]
