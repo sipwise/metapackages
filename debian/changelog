@@ -1,25 +1,16 @@
-ngcp-metapackages (12.0.3.0+0~mr12.0.3.0) unstable; urgency=medium
+ngcp-metapackages (12.0.0.0+0~mr12.0.0.0) unstable; urgency=medium
 
-  * New release.
-
- -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 30 Oct 2023 17:04:57 +0100
-
-ngcp-metapackages (12.0.2.0+0~mr12.0.2.0) unstable; urgency=medium
+  [ Kirill Solomko ]
+  * [345565e] MT#58041 add ngcp-task-agent to ce,pro deps
 
   [ Mykola Malkov ]
   * [7daf42c] MT#57165 Install ngcp-kernel-firmware by default
 
   [ Guillem Jover ]
   * [1bfac0b] MT#58356 Update packaging for bookworm
+  * [0041b98] MT#57982 Do not install redis-server anymore
 
- -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Sun, 15 Oct 2023 08:23:33 +0200
-
-ngcp-metapackages (12.0.1.0+0~mr12.0.1.0) unstable; urgency=medium
-
-  [ Kirill Solomko ]
-  * [345565e] MT#58041 add ngcp-task-agent to ce,pro deps
-
- -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 30 Aug 2023 18:04:07 +0200
+ -- Mykola Malkov <mmalkov@sipwise.com>  Tue, 07 Nov 2023 16:17:15 +0200
 
 ngcp-metapackages (11.5.0.0+0~mr11.5.0.0) unstable; urgency=medium
 
