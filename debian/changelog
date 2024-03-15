@@ -1,3 +1,11 @@
+ngcp-metapackages (12.3.1.0+0~mr12.3.1.0) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [c5b6c4d] MT#57665 Install FreeSWITCH packages on CE and PRO/Carrier
+  * [5492c75] MT#57665 Install freeswitch-mod-mariadb
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Fri, 15 Mar 2024 08:48:01 +0100
+
 ngcp-metapackages (12.3.0.0+0~mr12.3.0.0) unstable; urgency=medium
 
   * New release.
