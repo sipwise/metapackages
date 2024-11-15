@@ -296,7 +296,7 @@ Depends:
  dbus,
  ethtool,
  exim4,
- fence-agents,
+ fence-agents-common | fence-agents,
  ffproxy,
  freeswitch,
  freeswitch-mod-callcenter,
