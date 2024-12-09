@@ -1,3 +1,16 @@
+ngcp-metapackages (13.2.0.0+0~mr13.2.0.0) unstable; urgency=medium
+
+  [ Victor Seva ]
+  * [74d309d] MT#61443 freeswitch-mod-xml-rpc on CE/PRO
+
+  [ Michael Prokop ]
+  * [c3cb5f8] MT#61302 Ensure to have fence-agents-common available on trixie
+
+  [ Guillem Jover ]
+  * [f50cbd5] MT#61570 Do not install obsolete haveged
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 09 Dec 2024 11:26:31 +0100
+
 ngcp-metapackages (13.1.0.0+0~mr13.1.0.0) unstable; urgency=medium
 
   [ Michael Prokop ]
