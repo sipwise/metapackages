@@ -1,11 +1,9 @@
 Source: ngcp-metapackages
 Section: metapackages
-Priority: optional
 Maintainer: Sipwise Development Team <support@sipwise.com>
-Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Homepage: https://www.sipwise.com/
 
 Package: ngcp-linux-amd64
@@ -39,11 +37,11 @@ Depends:
  ngcp-support-access | ngcp-support,
  ngcp-templates-pro,
  ${misc:Depends},
-Provides:
- ngcp-config,
 Conflicts:
  ngcp-config,
 Replaces:
+ ngcp-config,
+Provides:
  ngcp-config,
 Description: Metapackage for NGCP configuration system
  This metapackage installs the ngcp configuration system for the
@@ -61,11 +59,11 @@ Depends:
  ngcp-support-access | ngcp-support,
  ngcp-templates-ce,
  ${misc:Depends},
-Provides:
- ngcp-config,
 Conflicts:
  ngcp-config,
 Replaces:
+ ngcp-config,
+Provides:
  ngcp-config,
 Description: Metapackage for NGCP configuration system
  This metapackage installs the ngcp configuration system for the
@@ -78,11 +76,11 @@ Depends:
  ngcp-sems-pbx,
  ngcp-templates-pro,
  ${misc:Depends},
-Provides:
- ngcp-cloudpbx,
 Conflicts:
  ngcp-cloudpbx,
 Replaces:
+ ngcp-cloudpbx,
+Provides:
  ngcp-cloudpbx,
 Description: Metapackage for Sipwise's NGCP CloudPBX
  This metapackage installs all the packages needed in a NGCP
@@ -98,13 +96,13 @@ Depends:
  ngcp-kernel-firmware,
  ngcp-services-pro,
  ${misc:Depends},
-Provides:
- ngcp-ngcp,
- ngcp-ngcp-carrier,
 Conflicts:
  ngcp-ngcp,
  ngcp-ngcp-carrier,
 Replaces:
+ ngcp-ngcp,
+ ngcp-ngcp-carrier,
+Provides:
  ngcp-ngcp,
  ngcp-ngcp-carrier,
 Description: Metapackage for Sipwise's NGCP
@@ -120,11 +118,11 @@ Depends:
  ngcp-kernel-firmware,
  ngcp-services-ce,
  ${misc:Depends},
-Provides:
- ngcp-ngcp,
 Conflicts:
  ngcp-ngcp,
 Replaces:
+ ngcp-ngcp,
+Provides:
  ngcp-ngcp,
 Description: Metapackage for Sipwise's NGCP
  This metapackage installs all the packages needed in a NGCP
@@ -132,12 +130,6 @@ Description: Metapackage for Sipwise's NGCP
 
 Package: ngcp-addons-pro
 Architecture: all
-Conflicts:
- ngcp-addons,
-Replaces:
- ngcp-addons,
-Provides:
- ngcp-addons,
 Depends:
  acpi,
  acpi-support-base,
@@ -202,6 +194,12 @@ Depends:
  wget,
  yq,
  ${misc:Depends},
+Conflicts:
+ ngcp-addons,
+Replaces:
+ ngcp-addons,
+Provides:
+ ngcp-addons,
 Description: Metapackage for Add-Ons in NGCP
  This metapackage installs several add-on packages that are not necessary as
  part of normal operation, but which extend the functionality in a NGCP
@@ -213,12 +211,6 @@ Description: Metapackage for Add-Ons in NGCP
 
 Package: ngcp-addons-ce
 Architecture: all
-Conflicts:
- ngcp-addons,
-Replaces:
- ngcp-addons,
-Provides:
- ngcp-addons,
 Depends:
  acpi,
  acpi-support-base,
@@ -277,6 +269,12 @@ Depends:
  wget,
  yq,
  ${misc:Depends},
+Conflicts:
+ ngcp-addons,
+Replaces:
+ ngcp-addons,
+Provides:
+ ngcp-addons,
 Description: Metapackage for Add-Ons in NGCP
  This metapackage installs several add-on packages that are not necessary as
  part of normal operation, but which extend the functionality in a NGCP
@@ -434,8 +432,6 @@ Depends:
  victoria-metrics,
  zstd,
  ${misc:Depends},
-Provides:
- ngcp-services,
 Conflicts:
  chrony,
  initscripts,
@@ -446,6 +442,8 @@ Conflicts:
  sysv-rc,
  sysvinit-core,
 Replaces:
+ ngcp-services,
+Provides:
  ngcp-services,
 Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
@@ -564,8 +562,6 @@ Depends:
  victoria-metrics,
  zstd,
  ${misc:Depends},
-Provides:
- ngcp-services,
 Conflicts:
  chrony,
  initscripts,
@@ -576,6 +572,8 @@ Conflicts:
  sysv-rc,
  sysvinit-core,
 Replaces:
+ ngcp-services,
+Provides:
  ngcp-services,
 Description: Metapackage for NGCP services
  This metapackage installs the required services in a NGCP
