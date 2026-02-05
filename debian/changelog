@@ -1,3 +1,12 @@
+ngcp-metapackages (14.2.0.0+0~mr14.2.0.0) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [0c80f14] MT#63479 Do not install ngcp-prosody-modules anymore
+  * [7a3b62e] MT#63479 Add an explicit dependency on ssl-cert
+  * [cb7bf23] MT#62899 Update packaging for Debian trixie
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Thu, 05 Feb 2026 10:22:34 +0100
+
 ngcp-metapackages (14.1.0.0+0~mr14.1.0.0) unstable; urgency=medium
 
   * New release.
