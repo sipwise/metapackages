@@ -1,3 +1,10 @@
+ngcp-metapackages (26.0.1.3+0~mr26.0.1.3) unstable; urgency=medium
+
+  [ Richard Fuchs ]
+  * [50f2427] MT#64570 add FS bcg729 module
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 26 May 2026 14:46:28 +0200
+
 ngcp-metapackages (26.0.1.2+0~mr26.0.1.2) unstable; urgency=medium
 
   * New release.
