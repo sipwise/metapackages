@@ -408,7 +408,6 @@ Depends:
  ntpsec,
  pacemaker,
  prometheus,
- prometheus-haproxy-exporter,
  prometheus-mysqld-exporter,
  prometheus-nginx-exporter,
  prometheus-node-exporter,
