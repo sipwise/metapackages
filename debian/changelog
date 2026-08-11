@@ -1,3 +1,15 @@
+ngcp-metapackages (26.2.1.0+0~mr26.2.1.0) unstable; urgency=medium
+
+  [ Guillem Jover ]
+  * [ba88767] MT#65440 Obsolete KeyDB implementation
+  * [4c9e690] MT#64994 Add rsyslog-openssl to support TLS/DTLS remote forwarding
+  * [6616280] MT#65307 Add ngcp-management-ui to ngcp-services-*
+
+  [ Marco Capetta ]
+  * [1094b9d] MT#65632 Install CSC handbook by default
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Tue, 11 Aug 2026 14:19:34 +0200
+
 ngcp-metapackages (26.2.0.0+0~mr26.2.0.0) unstable; urgency=medium
 
   [ Richard Fuchs ]
