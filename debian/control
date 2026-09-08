@@ -533,7 +533,6 @@ Depends:
  ngcp-license-client,
  ngcp-linux-amd64 | ngcp-linux-cloud-amd64,
  ngcp-logic-engine,
- ngcp-management-ui,
  ngcp-mediator,
  ngcp-panel,
  ngcp-prompts-ce,
