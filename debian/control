@@ -296,6 +296,7 @@ Depends:
  asterisk-opus | asterisk (>= 18.14.0),
  bsd-mailx | mailx,
  bzip2,
+ corosync-qdevice,
  coturn,
  crmsh,
  cron,
