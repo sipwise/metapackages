@@ -386,7 +386,6 @@ Depends:
  ngcp-lnpd-pro,
  ngcp-logfs-pro,
  ngcp-logic-engine,
- ngcp-management-ui,
  ngcp-mediator,
  ngcp-monitoring-tools,
  ngcp-panel,
