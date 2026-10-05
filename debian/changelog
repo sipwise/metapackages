@@ -1,3 +1,16 @@
+ngcp-metapackages (26.3.1.0+0~mr26.3.1.0) unstable; urgency=medium
+
+  [ Michael Prokop ]
+  * [82ffea8] MT#64736 Add nocache package to ngcp-addons-{ce,pro}
+    Thanks to Volodymyr Fedorov for the suggestion
+  * [bc71f18] MT#57712 Stop depending on irqbalance
+  * [dc34bb8] MT#63385 Drop ifrename from ngcp-addons-{ce,pro}
+
+  [ Jose Su ]
+  * [9b5ad9a] MT#65920 Limit ngcp-management-ui repo for PRO/CARRIER only
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 05 Oct 2026 12:34:29 +0200
+
 ngcp-metapackages (26.3.0.0+0~mr26.3.0.0) unstable; urgency=medium
 
   [ Guillem Jover ]
