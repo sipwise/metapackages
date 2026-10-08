@@ -426,6 +426,7 @@ Depends:
  snmptrapd,
  ssh,
  ssl-cert,
+ sssd-ad,
  sssd-dbus,
  sssd-ldap,
  sssd-tools,
