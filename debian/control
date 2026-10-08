@@ -133,10 +133,12 @@ Description: Metapackage for Sipwise's NGCP
 Package: ngcp-addons-pro
 Architecture: all
 Depends:
+ acl,
  acpi,
  acpi-support-base,
  apt-utils,
  aptitude,
+ attr,
  bash-completion,
  bind9-host | host,
  bridge-utils,
@@ -213,10 +215,12 @@ Description: Metapackage for Add-Ons in NGCP
 Package: ngcp-addons-ce
 Architecture: all
 Depends:
+ acl,
  acpi,
  acpi-support-base,
  apt-utils,
  aptitude,
+ attr,
  bash-completion,
  bind9-host | host,
  bridge-utils,
