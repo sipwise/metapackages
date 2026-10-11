@@ -302,7 +302,7 @@ Depends:
  dbus,
  ethtool,
  exim4,
- fence-agents-common | fence-agents,
+ fence-agents-common,
  freeswitch,
  freeswitch-mod-bcg729,
  freeswitch-mod-callcenter,
